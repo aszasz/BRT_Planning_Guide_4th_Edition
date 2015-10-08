@@ -1,4 +1,11 @@
+# Intersections and traffic signals
+
+
+
+ 
+ 
  on 3rd Edition
+
 
  Chapter 9
  9.1 Evaluating the intersection
@@ -10,6 +17,9 @@
 
  9.1 Evaluating
 
+    9.1.1 Intersection audits
+
+    9.1.2 Impacts of signal dealy
 
     eq. 9.1: Total signal delay
     
@@ -24,6 +34,9 @@
     Time_signal-queue = (X_signal - x)/(1- X_signal) / Freq_max
 
     (what is x? x = Freq_actual/Freq_max? )
+
+
+
 
     eq. 9.4: Signal saturation for the bus lane:
 

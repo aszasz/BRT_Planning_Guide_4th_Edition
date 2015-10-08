@@ -1,6 +1,6 @@
 # BRT Planning Guide 4th Edition
 
-The guide is currently is in its final revisions, with intention to be released in the beggining of 2016.
+The guide is currently is in its final revisions, with intention to be released in the begining of 2016.
 
 Pre-release chapters can be found on [ITDP's go public page](https://go.itdp.org/display/public/Final+BRT+PG), on MS-Office ".doc" format, and linked  in the [Table of Contents](#TOC)
 
@@ -55,8 +55,6 @@ VOLUME III COMMUNICATIONS & ENGAGEMENT
 10. PUBLIC PARTICIPATION
 
 11. MARKETING & Customer Service
-
- 
 
 VOLUME IV BUSINESS PLAN
 
