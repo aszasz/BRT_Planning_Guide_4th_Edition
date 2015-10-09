@@ -1,6 +1,6 @@
 # BRT Planning Guide 4th Edition
 
-The guide is currently is in its final revisions, with intention to be released in the begining of 2016.
+The guide is currently is in its final revisions, with intention to be released in the beginning of 2016.
 
 Pre-release chapters can be found on [ITDP's go public page](https://go.itdp.org/display/public/Final+BRT+PG), on MS-Office ".doc" format, and linked  in the [Table of Contents](#TOC)
 
@@ -15,7 +15,7 @@ Based on [this experience](http://haxe.org/documentation/introduction/), that ac
 At this moment, this is just pasting one chapter from doc (Chapter 24th, that I was hired to review in ".doc" format) and marking it down...
 ... to later try to generate a nice pdf and/or html format from it with [TeX](https://en.wikipedia.org/wiki/TeX) for fine printing format (or LaTeX for not-so-fine format).
 
-If this test succeeds than, we may convert (or write a conversor) for other chapters and any given time, one may freeze this repository and work on a fine print with TeX or other tool.
+If this test succeeds than, we may convert (or write a converter) for other chapters and any given time, one may freeze this repository and work on a fine print with TeX or other tool.
 
 Documents still can be written in MS-Word or Open Office Writer to make use of spell checking, but need to be saved as plain text ('.txt').
 

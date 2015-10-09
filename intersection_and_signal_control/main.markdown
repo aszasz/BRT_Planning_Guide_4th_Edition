@@ -47,15 +47,19 @@ ass
 
 ## Basic Concepts
 
+######PCU
+
+A passenger-car unit, or pcu is a reference used to bring different vehicle types to a common denominator. The conversion factor from a certain type of vehicle to a passenger car unit depends of application intended after the conversion, being eventually calibrated for an specific use in an specific situation (for example if stress upon the pavement or congestion potential is considered, if such is in urban environment or in a highway, in a ramp or in plain terrain).
+
+In any case, a motorcycle for example tends to have an equivalent of less than one vehicle, and a mini-bus is equivalent to more than one vehicle, the larger and heavier the vehicle, higher the equivalence is.
+
 Traffic engineering borrow concepts from fluid mechanics and uses "flow" as a measure traffic intensity.
 Flow can be expressed by the number of vehicles crossing a transversal section (like a stop line) during a certain time interval.
 Flow is usually represented by letter q in equations, but we will avoid that here and use the full word instead.
 
 It should be noted the use the word "volume" to express the same idea is generally accepted even it is conceptually wrong; volume should refer to total number of vehicles in the same way litres refers to volume and litres/second refers to flow in hydraulics. The term is specially common in the expression "volume/capacity ratio".
 
-Capacity, by its turn is defined as the maximum flow a road can handle. As mentioned in Chapter 8, capacity and speed are related concepts and the maximum flow does not happens when speeds are maximum. Due a composition of the space a driver must
-
-
+Capacity, by its turn is defined as the maximum flow a road can handle. As mentioned in Chapter 8, capacity and speed are related concepts and the maximum flow does not happens when speeds are maximum. Due a composition of the space a driver
 (Headway
 
 Density)
