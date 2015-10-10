@@ -35,9 +35,9 @@ and can refer to an unidirectional T-shaped or Y-shaped confluences;
 the conflicts there gets clear when there is no space to accommodate the two incoming
 flows on the exiting stream in a congested situation.
 
-Conversely a channelled Y-shaped junction may not be an intersection.
+![high volume in an Y-shaped intersection](img/crowded-Y-junction.gif  "a crowded Y junction is an intersection")
 
-![high volume in an Y-shaped intersection](img/crowded-Y_junction.gif  "a crowded Y junction is an intersection")
+Conversely a channelled Y-shaped junction may not be an intersection.
 
 ![channelled Y-shaped intersection](img/chanelled-Y-junction.gif "a chanelled Y junction is not an intersection" )
 
