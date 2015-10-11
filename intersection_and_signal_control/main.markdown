@@ -22,6 +22,8 @@ Besides the above, this chapter also discusses the treatment of public transport
 
 ## Introduction
 
+### About intersections
+
 Intersection is the area where two or more roads encounter each other. 
 The use of the word in Traffic Engineering technical environment implies in "roads for vehicles" and "at the same level",
 but very often the expressions "at-grade intersections" or "single grade intersections" are used to confirm the concept;
@@ -60,16 +62,48 @@ Ideally a separated-grade traffic solution eliminates intersections, but in prac
 
 ![separated-grade solutions with remaining intersections ](img/sep-grade-solution.png "Separated-grade solutions may not eliminate intersections")
 
+BRT systems are generally built on corridors where mixed traffic congestion is already a problem, or where congestion is likely to occur in the near future, otherwise there would be no benefit of building a segregated busway.  The worse the congestion appears, the greater the benefit of the exclusive busway (Figure congested-intersection.jpg) If a BRT system makes public transport services better but mixed traffic worse, it will be less politically successful than if it makes public transport better and also improves mixed traffic flow.  BRT system planners therefore generally try to minimise adverse impacts on mixed traffic.
+
+![separated-grade solutions with remaining intersections ](img/congested-intersection.jpg "The introduction of BRT and design changes to poorly controlled and congested intersections often leads to efficiency improvements for both public transport vehicles and mixed traffic.  Photo by Lloyd Wright.")
+
+
+### Approach to intersection design
+
+Even intersections alone are usually less critical than stations,   they represent a critical point along any BRT corridor (Figure 24.1). A poorly designed intersection or a poorly timed signal phase can substantially reduce system capacity and speed, specially by hindering stations. Finding solutions to optimizing intersection performance can do much to improve system efficiency. Generally, the three main objectives of intersection design along a BRT corridor are to:
+
+1. Minimize delay for BRT vehicles;
+2. Provide safe and convenient crossings for pedestrians;
+3. Minimize delay for mixed traffic.
 
 Once BRT vehicles may ride in mixed traffic and accessibility is paramount to BRT projects
 
+![pedestrians-crossing-corridor](img/pedestrians-crossing-corridor.jpg "Intersection design affects the BRT system’s efficiency, pedestrian safety and access, and flows of mixed traffic vehicles. Photo by Lloyd Wright.")
+
+It is generally not advisable to use a standard intersection configuration throughout a BRT corridor. Rather, it is best to design the intersection for the specific conditions at the given location. The impact of a planned BRT system on overall intersection performance is often a significant consideration when deciding on a service plan for the BRT system, the location of the stations, and the design of the stations.
+
+BRT system planners have tended to approach intersections in the following manner: 
+
+- Simplify the BRT system’s routing structure and rationalize major and minor intersections along the routes chosen;
+- Identify existing bottlenecks and resolve using standard engineering practice;
+- Restrict as many mixed-traffic turning movements on the BRT corridors as possible;
+- Optimize the location of the station relative to adjacent intersections;
+- Optimize the signal phasing; 
+- In low-frequency BRT corridors, consider signal priority for public transport vehicles.
+
+![guangzhou-major-intersection-photo](img/guangzhou-major-intersection-photo.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Photo by Karl Fjellstrom")
+
+![guangzhou-major-intersection-design](img/guangzhou-major-intersection-desing.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Intersection design by ITDP and GMEDRI.)
+
+Every decision and solution proposed during the intersection design process should be technically supported by the elaboration of a comprehensive traffic study, where classified and directional flow counts are carried out at every active intersection (signalized or not) along the corridor being designed. This is necessary to diagnose the current performance of each intersection and forecast a future scenario incorporating the operational changes a BRT corridor might bring. 
+
 ## Basic Concepts
+
 
 We present here only the concepts needed to understanding the equations that are included in this chapter, the reader may further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow.
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
 
-###### Speed
+### Speed
 
 For application with the concepts outlined in this chapter, speed, to which we use the letter V from the synonymous velocity, is the average traffic speed of all vehicles in a segment. It would be measured by the mean time all vehicles crossing the segment divided by the segment extension. Under our modelling intents (that is capacity evaluation) it can be imagined that all vehicles are moving in that speed.
 
@@ -77,20 +111,20 @@ Still matching the broader concept of speed -- the ratio of motion expressed in 
 
 V_segment = D_segment / Time_segment  <-->  Time_segment = D_segment / V_segment
 
-###### pcu
+### pcu
 
 A passenger-car unit, or pcu is a reference used to bring different vehicle types to a common denominator. The conversion factor from a certain type of vehicle to a passenger car unit depends of application intended after the conversion, being eventually calibrated for an specific use in an specific situation (for example if stress upon the pavement or congestion potential is considered, if such is in urban environment or in a highway, in a ramp or in plain terrain).
 
 In any case, a motorcycle for example tends to have an equivalent of less than one vehicle, and a mini-bus is equivalent to more than one vehicle, the larger and heavier the vehicle, higher the equivalence is.
 
-###### Flow 
+### Flow 
 
 Traffic engineering borrow concepts from fluid mechanics and uses "flow rate" as a measure traffic intensity.
 From that definition, the word "rate" is commonly dropped and "flow" alone becomes treated as physical quantity expressed by the number of vehicles crossing a transversal section (or cross-section, like a stop line) during a certain time interval. Flow is usually represented by letter q in equations, but we will avoid that here and use the full word instead.
 
 It should be noted the use the word "volume" to express the same idea is accepted even it is conceptually even more far from the original definition (fluid mechanics original comparative term would be "volume flow rate" even "mass flow rate" is more appropriated reference as the same number of vehicles can be compressed); volume should refer to total number of vehicles in the same way litres refers to volume and litres/second refers to flow in hydraulics. The term is specially common in the expression "volume/capacity ratio", which makes particular sense.
 
-###### Capacity and Saturation 
+### Capacity and Saturation 
 
 The capacity (flow rate) of a segment is given by the lower capacity of a section within it, the term "bottleneck" for the lower-capacity-section express this concept quite clearly.
 
@@ -111,15 +145,12 @@ Saturation (flow rate), therefore, is the capacity of a section that is not unde
 A practical rule, even distorting a bit the concept of ideal conditions is that: for urban environments, the basic saturation of a lane is 1800 pcu/hour. For the purpose of capacity measuring an 18-metres-articulated bus is equivalent to 2.5 car-passengers-unit. So in a busway, the basic saturation per lane is 720 articulated-bus/hour.
 
 
-
-
-
-###### Traffic sign times
+### Traffic sign times
 
 In this chapter, cycle time alone refers to a traffic light cycle time.
 
 
-###### Intersection capacity
+### Intersection capacity
 
 Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection will be measured as the total number of (equivalent) vehicles that crossed it (meaning 
 
