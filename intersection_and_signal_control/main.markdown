@@ -92,7 +92,7 @@ BRT system planners have tended to approach intersections in the following manne
 
 ![guangzhou-major-intersection-photo](img/guangzhou-major-intersection-photo.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Photo by Karl Fjellstrom")
 
-![guangzhou-major-intersection-design](img/guangzhou-major-intersection-desing.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Intersection design by ITDP and GMEDRI.)
+![guangzhou-major-intersection-design](img/guangzhou-major-intersection-design.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Intersection design by ITDP and GMEDRI.")
 
 Every decision and solution proposed during the intersection design process should be technically supported by the elaboration of a comprehensive traffic study, where classified and directional flow counts are carried out at every active intersection (signalized or not) along the corridor being designed. This is necessary to diagnose the current performance of each intersection and forecast a future scenario incorporating the operational changes a BRT corridor might bring. 
 
@@ -148,6 +148,9 @@ A practical rule, even distorting a bit the concept of ideal conditions is that:
 ### Traffic sign times
 
 In this chapter, cycle time alone refers to a traffic light cycle time.
+
+![traffic-lights-diagram](traffic-light-stages.png "flow and queue formation during traffic light phases")
+
 
 
 ### Intersection capacity
