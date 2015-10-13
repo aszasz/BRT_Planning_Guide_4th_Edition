@@ -149,7 +149,7 @@ A practical rule, even distorting a bit the concept of ideal conditions is that:
 
 In this chapter, cycle time alone refers to a traffic light cycle time.
 
-![traffic-lights-diagram](traffic-light-stages.png "flow and queue formation during traffic light phases")
+![traffic-lights-diagram](img/traffic-light-stages.png "flow and queue formation during traffic light phases")
 
 
 
