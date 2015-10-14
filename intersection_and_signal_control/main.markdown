@@ -103,6 +103,17 @@ We present here only the concepts needed to understanding the equations that are
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
 
+### i-turn and o-turn
+
+For this chapter we excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We choose to adopt the i-turn and o-turn. We chosen this cryptic words instead of more explanatory expressions like "against-opposite-flow-exit-turn" so it can be short in the text; and we choose it against shorter and less explanatory expressions as "inside-turn" or "central-turn" to force the reader look for this concepts here, instead of assuming a less clear meaning or be left in doubt.
+
+
+*i-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict the BRT vehicles or bicycles going straight in the same way as in opposite way.
+
+*o-turn*: a vehicle movement to exit the current traffic stream direction that normally does not cross any vehicle flow. This movement conflicts with people on the side walk in both ways and if the road abridges curb-side busway or a curbside bike-lane, there is conflict with that traffic as well.
+
+*u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction it is current flow. Depending on the width of the medium this movement can be less conflicting than the i-turn or more conflicting as the speed has to be lower. This movement is sometimes moved away from the intersection where other movements are allowed, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a i turn from a perpendicular street would (figure u-turn-only-intersection).
+
 ### Speed
 
 For application with the concepts outlined in this chapter, speed, to which we use the letter V from the synonymous velocity, is the average traffic speed of all vehicles in a segment. It would be measured by the mean time all vehicles crossing the segment divided by the segment extension. Under our modelling intents (that is capacity evaluation) it can be imagined that all vehicles are moving in that speed.
@@ -144,20 +155,62 @@ Saturation (flow rate), therefore, is the capacity of a section that is not unde
 
 A practical rule, even distorting a bit the concept of ideal conditions is that: for urban environments, the basic saturation of a lane is 1800 pcu/hour. For the purpose of capacity measuring an 18-metres-articulated bus is equivalent to 2.5 car-passengers-unit. So in a busway, the basic saturation per lane is 720 articulated-bus/hour.
 
+### Continuity
 
-### Traffic sign times
+Although no direct formula application about continuity is used in this chapter, one basic equation of an intersection is that all the flow into the intersection has to exit the intersection.
 
-In this chapter, cycle time alone refers to a traffic light cycle time.
+### Traffic signal and traffic signal times
+
+Traffic lights are a very common intersection management tool in business district areas where the BRT corridor design is likely to face the more challenging problems. Traffic lights controllers can be coordinated and actuated (use detection) by more or less complex technology and algorithms, a lot of research and development have been made in the last 30 years, but its use is relatively limited. The concepts presented in this chapter are useful to understand BRT design requirements to program traffic lights, be it on simpler controllers or as policy delimiters to more complex systems.
+
+Traffic lights eliminate some of the negotiations between vehicles on arrival, by determining which movements may proceed at a given moment. Traffic lights may allow conflicting movements, usually not all of them intense; pedestrian crossing the transversal street is commonly one of them. By reducing negotiations, traffic light prevents that all vehicles approaching the intersection reduce their speeds, and the time each vehicle spends on the intersection itself and increasing the throughput and safety.
+
+
+###### Phase
+
+One set of movements that are allowed to occur at the same time is called a signal phase. It should be noted that some movements are allowed during several phases;in many countries, allowing o-turns at all times is the standard. Some writers, ourselves eventually included, may use expressions like "allowing a particular turn in the beginning of  phase two" when technically it should be "adding a short phase before phase 2 where particular turn will be allowed". 
+
+###### Effective green time (T_green)
+
+The phase duration (or length) refers to its "effective green" time, which is the time vehicles doing the movement considered are effectively moving, which may start a little after the green light is given and end in the middle of yellow lights (where such is used), or in the first moments of red (clearance interval). For this chapter, where queueing and intersection capacity is evaluated, green time means "effective green" time.
+
+###### Cycle time (T_cycle)
+
+Excluding situations where special phases are activated by detectors, the traffic signals on an intersection repeats the order of the phases successively in cycles. The cycle time can be measured as the time between the green light is given to a movement till the next time it is given to that movement again (after it has changed to red once). In this chapter, "cycle time" alone refers to a traffic light cycle time (route cycle times are not discussed).
+
+###### Red time (T_red)
+
+For the interest of intersection capacity and queueing evaluation, red time means cycle time minus (effective) green time
+
+###### Traffic light plans
+
+In the same way as intersections in general, the higher the number of turning movements in a intersection with traffic lights, higher is the difficult to serve them all. Some movements can happen simultaneously, some cannot.
+
+The optimal phase times in a signalized intersection is such that the cycle time is as brief as possible without forming queues. The problem to be dealt with is that every phase change there is a considerable lost time between the end of the effective green of a phase and the start of the next that depends both of the signal programming, enforcement policy, and driver behaviour. Longer the lost times results in safer the intersections.
+
+But because travel demand patterns change along the day, the signal timing plans should too. 
+
+
+
+
 
 ![traffic-lights-diagram](img/traffic-light-stages.png "flow and queue formation during traffic light phases")
 
+Traffic signals programming shall change along the day
 
+### Delay
+
+Delay is the additional travel time, if not explicit, the base reference is the travel time without any conflicts, in an ideal situation where the passenger, pedestrian or driver is the only user of the road (no other drivers, pedestrians users or traffic lights).
 
 ### Intersection capacity
 
-Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection will be measured as the total number of (equivalent) vehicles that crossed it (meaning 
+In the right perspective for this chapter analysis, intersection capacity refers to the entrance section (the stop line) of a road segment under study.
+
+Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection should be measured as the total number of (equivalent) vehicles that crossed it not caring for the movements. But in this chapter the analysis refers to the section 
 
 
-Similarly to most of other design decisions that affect infrastructure needs, this is made considering the peak conditions, and to represent the peak we both use and measure the busiest hour of the day (as a reminder: we survey data with smaller intervals than on hour, so a given measure of busiest hour might have happened from 7:15 AM to 8:15 AM for example).
+Similarly to most of other design decisions that affect infrastructure needs, intersection design, should be made considering the peak conditions, but unlikely station infrastructure and intersection design, traffic time timing that minimizes travel time in on 
+
+and to represent the peak we both use and measure the busiest hour of the day (as a reminder: we survey data with smaller intervals than on hour, so a given measure of busiest hour might have happened from 7:15 AM to 8:15 AM for example).
 
 
