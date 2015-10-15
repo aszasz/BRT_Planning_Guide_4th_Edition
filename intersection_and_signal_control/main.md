@@ -17,9 +17,9 @@
 
  9.1 Evaluating
 
-    9.1.1 Intersection audits
+9.1.1 Intersection audits
 
-    9.1.2 Impacts of signal dealy
+9.1.2 Impacts of signal dealy
 
     eq. 9.1: Total signal delay
     

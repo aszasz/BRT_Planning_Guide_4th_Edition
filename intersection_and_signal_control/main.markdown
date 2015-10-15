@@ -14,11 +14,11 @@ No intersection treatments	| 0
 
 ### Chapter overview
 
-The objective of this chapter is to equip the reader with the best practice tools required to design the layout and operation of intersections along the proposed BRT corridors. Intersections are points where BRT vehicles can incur in significant delay and points where the BRT project has the most perceived impact on mixed traffic and walking.
+The objective of this chapter is to equip the reader with the best practice tools required to design the layout and operation of intersections along the proposed BRT corridors. Intersections can cause significant delay in BRT operations by hindering stations and are the points where the BRT project has the most perceived impact on mixed traffic and walking.
 
 An important strategy to improve the performance of intersections to better accommodate public transport and other vehicles is to restrict general-traffic turning movements at intersections. The BRT Standard awards up to 6 points for good handling of BRT movements through intersections, with the most points given to systems which prohibit all turns across the busway. 
 
-Besides the above, this chapter also discusses the treatment of public transport vehicle turning movements, which are desirable, but equally harms intersections performance and the placement of stations relative to intersections along the corridor. Traffic-signal technology to provide public transport vehicles with priority and techniques to provide safety to pedestrians and cyclists are discussed too.
+Besides the above, this chapter also discusses the placement of stations relative to intersections along the corridor and the treatment of public transport vehicle turning movements, which are desirable, but equally harms intersections performance.  Traffic-signal technology to provide public transport vehicles with priority and techniques to provide safety to pedestrians and cyclists are discussed too.
 
 ## Introduction
 
@@ -62,33 +62,30 @@ Ideally a separated-grade traffic solution eliminates intersections, but in prac
 
 ![separated-grade solutions with remaining intersections ](img/sep-grade-solution.png "Separated-grade solutions may not eliminate intersections")
 
+### Approach to intersection design
+
 BRT systems are generally built on corridors where mixed traffic congestion is already a problem, or where congestion is likely to occur in the near future, otherwise there would be no benefit of building a segregated busway.  The worse the congestion appears, the greater the benefit of the exclusive busway (Figure congested-intersection.jpg) If a BRT system makes public transport services better but mixed traffic worse, it will be less politically successful than if it makes public transport better and also improves mixed traffic flow.  BRT system planners therefore generally try to minimise adverse impacts on mixed traffic.
 
 ![separated-grade solutions with remaining intersections ](img/congested-intersection.jpg "The introduction of BRT and design changes to poorly controlled and congested intersections often leads to efficiency improvements for both public transport vehicles and mixed traffic.  Photo by Lloyd Wright.")
 
-
-### Approach to intersection design
-
 Even intersections alone are usually less critical than stations,   they represent a critical point along any BRT corridor (Figure 24.1). A poorly designed intersection or a poorly timed signal phase can substantially reduce system capacity and speed, specially by hindering stations. Finding solutions to optimizing intersection performance can do much to improve system efficiency. Generally, the three main objectives of intersection design along a BRT corridor are to:
 
-1. Minimize delay for BRT vehicles;
-2. Provide safe and convenient crossings for pedestrians;
+1. Provide safe and convenient crossings for pedestrians;
+2. Minimize delay for BRT vehicles;
 3. Minimize delay for mixed traffic.
 
-Once BRT vehicles may ride in mixed traffic and accessibility is paramount to BRT projects
+Walking trips and walking part of trips collect travel time improvements from these objectives, but it should be noticed that, even pedestrians safety and accessibility have the highest priority and some methods -- specially for station access and location  -- take into account pedestrian times to analyse alternatives, the approach discussed here still do not equalize pedestrians by inputting delays into the process. Current procedure mostly try to "fit" demand needs into the available space so pedestrians can do all crossings safely, buslane queues are not long enough to block stations and car desired are still possible, without worsening congestion. Keep in mind that if public and private transport users' times were equalized, every street with one bus carrying 50 passengers each two minutes would have an exclusive bus lane.
 
 ![pedestrians-crossing-corridor](img/pedestrians-crossing-corridor.jpg "Intersection design affects the BRT system’s efficiency, pedestrian safety and access, and flows of mixed traffic vehicles. Photo by Lloyd Wright.")
 
 It is generally not advisable to use a standard intersection configuration throughout a BRT corridor. Rather, it is best to design the intersection for the specific conditions at the given location. The impact of a planned BRT system on overall intersection performance is often a significant consideration when deciding on a service plan for the BRT system, the location of the stations, and the design of the stations.
 
-BRT system planners have tended to approach intersections in the following manner: 
+BRT system planners have used the following tools to rationalize intersections: 
 
-- Simplify the BRT system’s routing structure and rationalize major and minor intersections along the routes chosen;
-- Identify existing bottlenecks and resolve using standard engineering practice;
+- Simplify the BRT system’s routing structure to optimize turning movements into the corridor;
 - Restrict as many mixed-traffic turning movements on the BRT corridors as possible;
 - Optimize the location of the station relative to adjacent intersections;
-- Optimize the signal phasing; 
-- In low-frequency BRT corridors, consider signal priority for public transport vehicles.
+- Optimize the signal phasing and consider signal priority for public transport vehicles.
 
 ![guangzhou-major-intersection-photo](img/guangzhou-major-intersection-photo.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Photo by Karl Fjellstrom")
 
@@ -98,8 +95,7 @@ Every decision and solution proposed during the intersection design process shou
 
 ## Basic Concepts
 
-
-We present here only the concepts needed to understanding the equations that are included in this chapter, the reader may further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow.
+The basic concepts we present here are mostly related to understanding the equations related to delay and queues sizes in signalized intersections, without intention to be a complete reference about it. For basic concepts the reader may want to further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow. We provide further references for traffic signals in the bibliography
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
 
@@ -112,7 +108,10 @@ For this chapter we excluded the expressions right-turn and left-turn as they ha
 
 *o-turn*: a vehicle movement to exit the current traffic stream direction that normally does not cross any vehicle flow. This movement conflicts with people on the side walk in both ways and if the road abridges curb-side busway or a curbside bike-lane, there is conflict with that traffic as well.
 
-*u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction it is current flow. Depending on the width of the medium this movement can be less conflicting than the i-turn or more conflicting as the speed has to be lower. This movement is sometimes moved away from the intersection where other movements are allowed, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a i turn from a perpendicular street would (figure u-turn-only-intersection).
+*u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction it is current flow. Depending on the width of the medium this movement can be less conflicting than the i-turn or more conflicting as the speed has to be lower. This movement is sometimes moved away from the intersection where other movements are allowed, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a i turn from a perpendicular street would.
+
+![turns-example-right-hand](img/right-side-driving-turns.png "Example of i-turn \(green car\), o-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for right driving way as in China, US, Brazil and Continental Europe")
+![turns-example-left-hand](img/left-side-driving-turns.png "Example of i-turn \(green car\), o-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for left driving way as in India, Indonesia, South-Africa, Tanzania, Australia and UK")
 
 ### Speed
 
@@ -182,17 +181,13 @@ Excluding situations where special phases are activated by detectors, the traffi
 
 For the interest of intersection capacity and queueing evaluation, red time means cycle time minus (effective) green time
 
-###### Traffic light plans
+###### Lost time and traffic light plans
 
-In the same way as intersections in general, the higher the number of turning movements in a intersection with traffic lights, higher is the difficult to serve them all. Some movements can happen simultaneously, some cannot.
+In the same way as intersections in general, the higher the number of turning movements in a intersection with traffic lights, higher is the difficult to serve them all. Some movements can happen simultaneously, some cannot. Reducing the number of phases implies that the number of lanes of the approaches to allowed movements on any phase will be higher and the intersection will have an overall higher throughput ([see section](restricting-turns)) 
 
-The optimal phase times in a signalized intersection is such that the cycle time is as brief as possible without forming queues. The problem to be dealt with is that every phase change there is a considerable lost time between the end of the effective green of a phase and the start of the next that depends both of the signal programming, enforcement policy, and driver behaviour. Longer the lost times results in safer the intersections.
+The optimal phase times in a signalized intersection is such that the cycle time is as brief as possible without forming queues. The problem to be dealt with is that every phase change there is a considerable *lost time* between the end of the effective green of a phase and the start of the next. Lost times depends both of the signal programming, enforcement policy, and driver behaviour and the longer the lost times results in safer the intersections. This is an additional reason to restrict the number of phases. 
 
-But because travel demand patterns change along the day, the signal timing plans should too. 
-
-
-
-
+Unlikely infrastructure, that must be sized based on the peak use and eventually become underused in other times of the day. Traffic signal timing plans for peak moments would lead to unnecessary delays at other moments of the day. Traffic light plans, should change along the day as demand changes; one extreme application example is shutting down (yellow blinking) a signal late night and early morning.
 
 ![traffic-lights-diagram](img/traffic-light-stages.png "flow and queue formation during traffic light phases")
 
