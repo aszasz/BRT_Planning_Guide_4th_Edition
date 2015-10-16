@@ -14,7 +14,7 @@ No intersection treatments	| 0
 
 ### Chapter overview
 
-The objective of this chapter is to equip the reader with the best practice tools required to design the layout and operation of intersections along the proposed BRT corridors. Intersections can cause significant delay in BRT operations by hindering stations and are the points where the BRT project has the most perceived impact on mixed traffic and walking.
+The objective of this chapter is to equip the reader with the best practice tools required to design and evaluate the layout and operation of intersections along the proposed BRT corridors. Intersections can cause significant delay in BRT operations by hindering stations and are the points where the BRT project has the most perceived impact on mixed traffic and walking.
 
 An important strategy to improve the performance of intersections to better accommodate public transport and other vehicles is to restrict general-traffic turning movements at intersections. The BRT Standard awards up to 6 points for good handling of BRT movements through intersections, with the most points given to systems which prohibit all turns across the busway. 
 
@@ -99,14 +99,13 @@ The basic concepts we present here are mostly related to understanding the equat
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
 
-### i-turn and o-turn
+### cross-traffic-turn and kerb-side-turn
 
-For this chapter we excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We choose to adopt the i-turn and o-turn. We chosen this cryptic words instead of more explanatory expressions like "against-opposite-flow-exit-turn" so it can be short in the text; and we choose it against shorter and less explanatory expressions as "inside-turn" or "central-turn" to force the reader look for this concepts here, instead of assuming a less clear meaning or be left in doubt.
+For this chapter we excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We choose to adopt cross-traffic and kerb-side-turn instead.
 
+*cross-traffic-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict the BRT vehicles or bicycles going straight in the same way as in opposite way.
 
-*i-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict the BRT vehicles or bicycles going straight in the same way as in opposite way.
-
-*o-turn*: a vehicle movement to exit the current traffic stream direction that normally does not cross any vehicle flow. This movement conflicts with people on the side walk in both ways and if the road abridges curb-side busway or a curbside bike-lane, there is conflict with that traffic as well.
+*kerb-side-turn*: a vehicle movement to exit the current traffic stream direction that normally does not cross any vehicle flow. This movement conflicts with people on the side walk in both ways and if the road abridges curb-side busway or a curbside bike-lane, there is conflict with that traffic as well.
 
 *u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction it is current flow. Depending on the width of the medium this movement can be less conflicting than the i-turn or more conflicting as the speed has to be lower. This movement is sometimes moved away from the intersection where other movements are allowed, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a i turn from a perpendicular street would.
 
@@ -134,7 +133,7 @@ From that definition, the word "rate" is commonly dropped and "flow" alone becom
 
 It should be noted the use the word "volume" to express the same idea is accepted even it is conceptually even more far from the original definition (fluid mechanics original comparative term would be "volume flow rate" even "mass flow rate" is more appropriated reference as the same number of vehicles can be compressed); volume should refer to total number of vehicles in the same way litres refers to volume and litres/second refers to flow in hydraulics. The term is specially common in the expression "volume/capacity ratio", which makes particular sense.
 
-### Capacity and Saturation 
+### Capacity and Saturation  
 
 The capacity (flow rate) of a segment is given by the lower capacity of a section within it, the term "bottleneck" for the lower-capacity-section express this concept quite clearly.
 
@@ -210,6 +209,184 @@ and to represent the peak we both use and measure the busiest hour of the day (a
 
 ## Station location relative to the intersection
 
+“The engineer's first problem in any design situation is to discover what the problem really is.”
+	-	Anonymous
+
+Intersection and station design should minimize the added travel time of the all the customers. The station location in relation to the intersection will affect BRT system flow and speed, pedestrian travel times, and the right-of-way needed for the BRT system. Because conditions vary from intersection to intersection, it is generally advisable to find an optimal solution for each intersection rather than to presume a single solution will always be optimal. The greater amount of information the planning team has available regarding movements and demand, specially pedestrians destinations, the easier it will be to evaluate alternatives, finding an optimal solution for all modes of transport for the existing restrictions.
+
+### Station location possibilities
+
+The following station locations are possible: 
+
+- At the intersection:
+    
+    - For side aligned stations, station can be either nearside or far side, i.e. before or after the intersection in each direction;
+    - For median stations, if not split, station will be near side in one direction and far side in the other;
+
+- Away from the intersection;
+    
+    - near the intersection;
+    - far from the intersection (or mid-block);
+
+- Under or over the intersection (will be discussed in \sectionnumber(Grade Separation)).
+
+###### At intersection
+
+The normal justification for putting the bus stop at the intersection is that it reduces walking times for passengers with destinations or transferring on the crossing street. 
+
+Unless the red time is really short and station saturation (discussed on Chapter 7) is bellow 20 seconds, the resulting saturation of the conjunct intersection + station (i.e. the BRT vehicle will occupy the area with two functions: queue-box waiting for green light and boarding area) will be greater than one and lead to congestion that will end only after the peak (figure \numfig SaoPaulo-spillback). Such a situation clearly will not be compensated by reducing passengers walking times, not even to passengers that will alight on that station and certainly not to all passengers that must only cross that intersection. 
+
+Additionally, such justification is often based in presumptions and rarely based on data, only micro-level destination maps based on surveys can effectively quantify walking time benefits of station location relative to the intersection. Furthermore, large number of transferring passengers should be addressed when route service planning is designed.
+
+In the rare case the station must be located at the intersection, there is an emerging consensus that before the intersection location is preferable, in split platform configurations, if the BRT lane is near the median.
+
+![SaoPaulo-spillback](img/FariaLima.jpg "Buses waiting for traffic light after boarding and alighting is completed block station in São Paulo, today this is station is moved back. Photos by Arthur Szász")
+
+###### Away from the intersection
+
+As highlighted above and as discussed in the remainder of this section, there should be some space between the intersection and the station as it:
+- provides the possibility of take away mixed-traffic space without change road capacity for the section
+- prevents that bus queues at the intersection from hindering the station
+
+We further divide the possibility of location in relation to the intersection in "near it" and "far from it" (or "mid-block"). The aspect to be taken into consideration for this dichotomy is the passenger access to the station.
+
+Mid-block-stations will require access infrastructure not shared nor closely related with the intersection pedestrian crossings. In the typical environment discussed here,i.e., a station located between mixed-traffic signalized intersections, signalized at-grade options are the likely optimal solution to access and we are introducing
+
+
+
+
+*Stations should in general be around one hundred meters from intersections.* as will be discussed in the remainder of the section.
+
+### Minimum mixed-traffic number of lanes away from the intersection that does not affect segment capacity
+
+Usually the mixed-traffic bottleneck is the intersection, where capacity is fifty to thirty percent  (proportional to the green fraction of each approach) of mid-block capacity. So if BRT stations are far from intersections, the general-traffic road capacity can be reduced in its surroundings without any significant impact on the capacity and performance on the segment as a whole. This means that mixed-traffic lanes can be removed, and  its space given to the BRT station,  thus enabling the widening  required for BRT at stations to accommodate passing lanes, and hence provide high capacity at stations without impacting mixed-traffic capacity atall (Figure Soul-wide-station).
+
+For example, at the bus stop, if bus frequencies are high and an overtaking lane is needed at each station, the extra width required will be around 12 metres.  If the station is located at the intersection, these 12 metres will be difficult to supply while also providing 6 metres turn lanes for mixed traffic.  Separating these functions will allow the same right of way to be used for the bus station at mid-block, and for left and right turn signals at the intersection. Figure Delhi-station-layout shows an application of this concept within a proposal for the Delhi BRT system. 
+
+![Seoul-wide-station](img/Seoul-wide-station "A mid-block station location in Seoul allows greater right-of-way width for the station area.  Photo courtesy of the City of Seoul.")
+
+![Delhi-station-layout](img/Delhi-station-layout.jpg "In this proposed road layout for Delhi, the mid-block BRT stations are given additional right-of-way. So at the intersections, right-of-way for mixed traffic vehicles is maximised.  Image courtesy of ITDP.")
+
+
+
+
+Once capacity in a given control section (CapFlow) is expressed by:
+
+![Equation: Capacity](equations/eq-cap-flow)
+
+CapFlow = saturationflowperlane \* NLanes \* Time_green/Time_cycle
+
+where:
+CapFlow:Capacity of the evaluated section of control, usually in pcu/hour;
+flowperlane_saturation: saturation flow of one lane (in "ideal conditions", around 1800 in urban areas pcu/hour);
+Time_green / Time_cycle: relative (effective) green time;
+NLanes: total  number of available lanes;
+
+One can evaluate the possibility of narrowing mixed-traffic road away from intersection without affect the capacity of the segment, by assuring that capacity away from intersection (where relative green time can be considered 1 or 100%) is greater than capacity in the intersection; 
+
+FlowCap_away >= FlowCap_intersection
+
+saturationflowperlane \* NLanes_away \* 1.0 >= saturationflowperlane \* NLanes_intersection \* Time_green/ Time_cycle
+
+NLanes_away >=  NLanes_intersection * Time_green/ Time_cycle
+
+Examples:
+
+- if near intersection mixed traffic has 3 lanes (NLanes_away=3), and relative green time is 60% (Time_green/ Time_cycle = 0.6), then far from intersection (Nlanes_away) can be 2 lanes without affecting the segment performance:
+
+NLanes_away >=  3 * 0.6 = 1.8
+
+- if near intersection mixed traffic has 2 lanes (NLanes_away=2), and relative green time is 50% (Time_green/ Time_cycle = 0.6), then far from intersection (Nlanes_away) can be only one lane without affecting the segment performace:
+
+NLanes_away >=  2 * 0.5 = 1.0
+
+
+### Minimum Recommended Distance between the BRT Station and the Intersection from mixed-traffic perspective
+
+NOTICE: THIS DISTANCE IS FOR THE DESIGN OF STATIONS THAT TAKES AWAY MIXED-TRAFFIC LANES, NARROWING THE AVAILABLE SPACE FOR CARS AWAY FROM THE INTERSECTION ASSURING THAT MIXED-TRAFFIC CAPACITY DOES NOT GET AFFECTED!
+
+Away from the signalized intersection means far enough to guarantee that the capacity flow in the intersection can last all the green phase. This is equivalent to assure that the queueing space  with the same number of lanes of the intersection approach has enough capacity to hold all vehicles that can cross the intersection in the duration of the green phase.
+
+This means the distance from intersection (Dist_station-intersection) has to be longer than the space between to queueing vehicles times the number of vehicles that will cross the retention line in one lane.
+
+Considering that a saturation flow per lane (saturationflowperlane) of 1800 pcu/hour is equivalent to one vehicle each two seconds (across the intersection in one lane) and the distance between (the front of) two vehicles (length_pcu) is 5 meters, this means that for each second of the green phase the queue will be 2.5 meters short.
+
+Queue discharge rate = flow_saturation/lenght_pcu
+
+Another way to think about this is that the “speed of the shock-wave” starting at the retention line after the traffic-signal opens is 2.5 metres per second, i.e., the second car behind (5 meters behind) will start to move 2 seconds after the first, the third car behind (10 meters from the retention line) will move after 4 seconds and so on...
+
+Velocity_discharge-shock-wave = flow_saturation/lenght_pcu
+
+Therefore the distance between station and intersection (Dist_station-intersection) has to be equal or greater than the distance the shock-wave can move during the duration green phase (T-gree); representing the speed of shock-wave by Vel_shock-wave, this can be expressed as:
+
+Dist_station-intersection >= V_shock-wave * Time_green
+
+Using meters and seconds for the measures we have:
+
+Dist_station-intersection[in metres] >= 2.5 * Time_green[in seconds]
+
+Examples:
+
+If green time is 40 seconds, the station must be at least 100 meters from the intersection, equal the length of queue discharged during the green time 
+
+Dist_station-intersection[in metres] >= 2.5 * 40 = 100
+
+If green time is 90 seconds, the station must be at least 225 meters from the intersection, equal the length of queue discharged during the green time 
+
+Dist_station-intersection[in metres] >= 2.5 * 90 = 225
+
+
+![dbs-diagram](img/dbs-diagram " Diagram of the distance between the station and the signalized intersection (Dist_station-intersection shown as Dbs). Diagram courtesy of ITDP.") 
+
+### Minimum Recommended Distance between the BRT Station and the Intersection from BRT perspective
+
+Another compelling reason for separating the station location and the intersection is that it minimizes the risk that BRT vehicles will be backed up at the station, which will inhibit the functioning of the intersection and the functioning of the station. If these two potential bottlenecks are co-located, the risk of mutual interference between the station and the intersection increases. Consequently, it is advised to include a safety buffer in the station design for those stations to be located near a signalized intersection. This additional length will temporarily hold buses that: (1) in case of a blockage have cleared the station but are forced to queue up at the intersection until the conflict is resolved, or (2) have cleared the station during the red phase and have to wait for the green cycle (Figures \fignum station-spillback and \fignum intersection-spillback).This buffer should also be around one hundred meters, as the following equations show.
+
+This problem is still serious in “open” BRT systems without clearly designated stopping bays, as bus queueing can be longer than the platform. Besides that, such systems chaotic boarding process not only creates stress for the customer but it also increases boarding times (Figure \fignum Taipei-spillback).
+
+![intersection-spillback](img/intersection-spillback-3ed9.43.png "For the direction of the BRT system that stops at the station before the intersection, there is a risk that vehicles will be delayed due to the signal phase. Diagram courtesy of ITDP.")
+
+![station-spillback](img/station-spillback-3ed9.44.png "For the direction of the BRT system that stops after the intersection, there is a risk that vehicles create a back-up into the intersection and block traffic. Diagram courtesy of ITDP.")
+
+![Taipei-spillback](img/taipei-spillback.jpg "For the direction of the BRT system that stops after the intersection, there is a risk that vehicles create a back-up into the intersection and block traffic. Diagram courtesy of ITDP.")
+
+
+The buffer size (Dist_station-intersection) should be the space required by queuing BRT vehicles. 
+
+Dist_station-intersection >= N_bus * Length_bus
+
+where:
+
+Length_bus: Average length of lane space consumed by the queuing BRT vehicles; adding two values:
+ - Length of the BRT vehicle and 
+ - Length of space between BRT vehicles when stopped (usually assumed to be 1 metre)
+
+N_bus: Likely number to queue during the red phase (T_red) of traffic signal, discussed bellow.
+
+Assuming BRT vehicle frequencies (Freq_bus) are bellow 50% from the BRT lane saturation flow (SaturationFlow_bus) -- that is practically always, as this represents 360 articulated buses per hour, that would carry more than 40 thousand passengers per hour per direction -- N_bus, which is equivalent to the height of the upper graphic in figure \fignum traffic-lights-diagram, can be determined by
+
+N_bus = T_red * Freq_bus / (1 - Freq_Bus / SaturationFlow_bus) 
+
+Example utilising typical data of an average city in India:
+
+T_red = 50 seconds (or 50/3600 hours to use consistent units = 1/72 hour);
+Freq_bus = 200 articulated-buses /  hour (equivalent to 1 bus each 18 seconds);
+SaturationFlow_bus = 720 articulated buses / hour (one lane, equivalent to 1 bus each 5 seconds)
+Length_bus = 19.5 metres (18.5 metres  + 1 metre)
+
+N_bus = 50/3600 * 200 / (1 – ( 200/720 )) = 3.8 buses
+
+Because one cannot actually operate 3.8 buses, N_bus must be rounded to the nearest integer, so it is equal to 4.
+
+Dist_station-intersection >= N_bus * Length_bus
+Dist_station-intersection >= 4 * 19.5
+Dist_station-intersection >= 78 metres
+
+Thus, the minimum recommended distanced between the BRT station and the intersection would be 78 meters.
+
+BRT systems currently in operation prove that  mixed traffic misbehaviour are a relevant source of operation disruptions throughout the public transport system. Traffic spillbacks are commonly seen in heavily congested intersections blocking perpendicular movements along the BRT corridor, so it may be proper to analyse the tolerance, space needed is proportional to red time. 
+
+
 
 ## Evaluating intersections
 
@@ -245,7 +422,7 @@ A mixed traffic lane can generally handle 1,800 vehicles per hour.  This quantit
 Box 9.4 provides a sample calculation of the required spacing between two intersections.
 
 
-
+<a name="grade-separation"> </a>
 ## Grade Separation
 
 “Look at all the buses now that want exact change, exact change. I figure if I give them exact change, they should take me exactly where I want to go.”
@@ -274,7 +451,7 @@ When BRT lane is grade separated, hindering the station is not a concern, but ef
 
 In most instances, grade-separation will imply placing the stations away from the tunnel or overpass.  This siting restriction will add walking time for customers travelling between the station and the intersection, which crossing street is likely to abridge key destinations.  The Quito Central Norte line uses grade separation quite effectively with tunnels whisking BRT vehicles through congested intersection locations.  However, the tunnels also imply that at important destinations, such as the Plaza de las Américas (Plaza of the Americas), the closest station is a considerable distance away (Figure quito-under-roundabout-bad-station-location).  Thus, for the likely high number of customers from/to this busy area, the time savings from the grade-separation can be essentially lost due to the longer walk.
 
-![quito-under-roundabout-bad-station-location](img/quito-under-roundabout-bad-station-location "In the case of Quito’s Central Norte line, the presence of an BRT underpass has meant that the closest station to a key destination, the Plaza of Américas commercial centre, is several hundred metres away.  Photo by Lloyd Wright.")
+![quito-under-roundabout-bad-station-location](img/quito-under-roundabout-bad-station-location.jpg "In the case of Quito’s Central Norte line, the presence of an BRT underpass has meant that the closest station to a key destination, the Plaza of Américas commercial centre, is several hundred metres away.  Photo by Lloyd Wright.")
 
 As an alternative to obtain intersection efficiency (with time savings that serve all passengers through the section) at the cost of convenient station location (that serves local-specific passengers), it is possible to place the station beneath or above the intersection. Many underground metro stations utilise station siting in this manner.  The Metro Center station of the Washington Metro exits directly into the basement floors of commercial shops.  In such cases, though, accessing ground-level shops and offices will require a grade transfer for customers, implying either stairs, escalators, and/or elevators.
 Both the Brisbane and Ottawa BRT systems site stations at the tunnel level.  In Brisbane, the station is just before the tunnel and thus provides good customer access to local destinations (Figure Brisbane-station-before-tunnel).  In Ottawa, the station connects directly to a commercial shopping centre (Figure Ottawa-station-inside-tunnel).  Further, in the case of Ottawa, the tunnel station nicely protects customers from the harsh winter temperatures. Quito also has achieved great success with its Villa Flora station that goes beneath a heavily-trafficked roundabout on Maldonado Avenue (Figure quito-under-roundabout-good-station-location). 
@@ -283,17 +460,17 @@ Both the Brisbane and Ottawa BRT systems site stations at the tunnel level.  In 
 
 ![Ottawa-station-inside-tunnel](img/ottawa-station.jpg "A station placed inside the tunnel in Ottawa provide access and weather protection. Photo by Lloyd Wright.")
 
-![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location "BRT Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth")
+![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location.jpg "BRT Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth")
 
 Effective pedestrian access as well as visually neutral solutions can be designed. For TransMilenio Phase II’s “Avenida Boyacá” station along the Avenida Suba Corridor, the adopted solution was to locate the station above Avenida Boyacá, level with the flyover. Pedestrians access the platform via an elevator from a small pedestrian plaza where fares are collected. This solution allowed for the strategic location of this station, which will make future transfer points on the projected Av. Boyacá closer from each other. Ultimately, the implementation of solutions of this sort will depend on budgetary constraints.
 
-![TransMil-oyacaSt-double-deck-view](TransMil-BoyacaSt-double-deck.png "TransMilenio's Boyacá Station is uppon the flyover on Suba Corridor, allowing access from Avenida Boyacá bellow it. Image from Google Street View")
+![TransMil-BoyacaSt-double-deck-view](img/TransMil-BoyacaSt-double-deck.png "TransMilenio's Boyacá Station is uppon the flyover on Suba Corridor, allowing access from Avenida Boyacá bellow it. Image from Google Street View")
 
-![TransMil-BoyacaSt-pan-view](TransMil-BoyacaSt-pan.png "Seen from the fly-over on Suba Corridor, TransMilenio's Boyacá Station seems a regular large station with underground access. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan.png "Seen from the fly-over on Suba Corridor, TransMilenio's Boyacá Station seems a regular large station with underground access. Image from Google Street View")
 
-![TransMil-BoyacaSt-pan-view](TransMil-BoyacaSt-pan-flyover.png "TransMilenio's Boyacá Station uppon flyover is an example of addapting BRT to existing grade separation. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan-flyover.png "TransMilenio's Boyacá Station uppon flyover is an example of addapting BRT to existing grade separation. Image from Google Street View")
 
-![TransMil-BoyacaSt-pan-view](TransMil-BoyacaSt-entrance.png "TransMilenio's Boyacá Station entrance bellow flyover is thru a small pedestrian plaza along Avenida Boyacá. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-entrance.png "TransMilenio's Boyacá Station entrance bellow flyover is thru a small pedestrian plaza along Avenida Boyacá. Image from Google Street View")
 
 
 ### Restricting turning movements together with grade-separation
@@ -342,23 +519,18 @@ Bogotá utilises grade separation both to provide dedicated turning infrastructu
 
 ![NQS-80th-roundabout-photo.jpg](img/NQS-80th-TransM-roundabout-photo.jpg "An exclusive roundabout facilitate exclusive turning movements for BRT vehicles between two ways of NQS corridor and Calle 80 corridor. Photo courtesy of Eduardo Plata and Por el País que Queremos (PPQ).")
 
-![NQS-80th-roundabout-topview.jpg](img/NQS-80th-TransM-roundabout-top.jpg "At the major intersection of TransMilenio’s Calle 80  corridor and NQS corridor, a set of underpasses and an overpass link to the exclusive BRT roundabout. Image from Google Earth.")
+![NQS-80th-roundabout-topview.jpg](img/NQS-80th-TransM-roundabout-topview.jpg "At the major intersection of TransMilenio’s Calle 80  corridor and NQS corridor, a set of underpasses and an overpass link to the exclusive BRT roundabout. Image from Google Earth.")
 
 ![construction-superlative-TransM-roundabout.jpg](img/construction-superlative-TransM-roundabout.jpg "Exclusive BRT third-floor roundabout is an unpreceeded work-of-art to guarantee free-flow movements to TransMilenio operation. Photo by courtesy of Instituto de Desarollo Urbano de Bogotá")
 
 ![superlative-TransM-roundabout.jpg](img/superlative-TransM-roundabout.jpg "TransMilenio operation superlative interchange was carefully planned from operational and aesthetical point of view. Image by courtesy of Instituto de Desarollo Urbano de Bogotá")
 
-Figure 9.34 At the major intersection of TransMilenio’s Calle 80 (80th Street) corridor and NQS corridor, a set of underpasses, a roundabout, and an overpass helps facilitate exclusive turning movements for BRT vehicles.  Photo courtesy of Eduardo Plata and Por el País que Queremos (PPQ).
-
-Other view in Chapter 24
-
-Images from the third floor roundabout in NQS with Cale 6a
 
 ### BRT through roundabouts with grade separated solution
 
 Construct a busway underpass that goes below the roundabout and avoids all conflicts with mixed traffic -- and thus promoting time savings for both BRT and mixed traffic -- is also a possibility, as the examples from Quito with good and bad station locations shows (Figure quito-under-roundabout-bad-station-location and Figure quito-under-roundabout-good-station).
 
-![villa-flora-roundabout](img/vila-flora-roundabout.png "BRT avoids Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth")
+![villa-flora-roundabout](img/vila-flora-quito-top.png "Quito's BRT avoids Vila Flora roundabout traffic with underpasses. Image from Google Earth")
 
 A fly-over is also a possibility, but the design of an aesthetically acceptable solution is very challenging. With the exception of the superlative third floor roundabout of Bogotá mentioned in the previous section, there is no other project we have heard of.
 
