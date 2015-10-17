@@ -152,13 +152,13 @@ Based on extensive observations, capacity models then define a way to forecast a
 
 Saturation is commonly written as S in equations, but here we use "SaturationFlow" or "SatFlow" to avoid confusion with saturation level,usually "X" that represents the relation between demand and capacity for a given infrastructure element as an intersection or a station.
 
-![equation-saturation-model-definition](img/eq-mod-sat-flow "SaturationFlow = basicsaturationflowperlane * NLanes * (f_geometry * f_traffic * f_parking * f_truning * f...) ")
+![equation-saturation-model-definition](img/eq-mod-sat-flow.png "SaturationFlow = basicsaturationflowperlane * NLanes * (f_geometry * f_traffic * f_parking * f_truning * f...) ")
 
 Saturation (flow rate), therefore, is the capacity of a section that is **not** under the influence of traffic light; for section that approach the traffic light, saturation is the capacity assuming a constant green, which would equal to the flow observed during the queueing discharge. For this reason saturation maybe called discharge (flow rate). When working in an specific location, saturation of sections can be measured, so the resulting product of all this factors is known.
 
 A practical rule, even distorting a bit the concept of ideal conditions is that: for urban environments, the observed saturation of a lane is 1800 pcu/hour. For the purpose of capacity measuring an 18-metres-articulated bus is equivalent to 2.5 car-passengers-unit. So in a busway, the saturation per lane is 720 articulated-bus/hour.
 
-![equation-saturation-definition](img/eq-sat-flow "SatFlow = CapFlow_awayfromintersection = saturationflowperlane * NLanes ") 
+![equation-saturation-definition](img/eq-sat-flow.png "SatFlow = CapFlow_awayfromintersection = saturationflowperlane * NLanes ") 
 
 
 ###### Continuity
@@ -211,29 +211,30 @@ But in the right perspective for this chapter analysis, intersection capacity re
 
 The proportion of time that the flow to a given approach can cross the intersection.
 
-![equation-relative-green-definition](img/eq-rel-green "K_green = {T_green} over {T_cycle} ")
+![equation-relative-green-definition](img/eq-rel-green.png "K_green = {T_green} over {T_cycle} ")
 
 ###### Relative red (K_red)
 
 The proportion of time that traffic is hold in a given approach.
 
-![equation-relative-red-definition](img/eq-rel-red "K_red = {T_red} over {T_cycle}")
+![equation-relative-red-definition](img/eq-rel-red.png "K_red = {T_red} over {T_cycle}")
 
  By the relation of this definition and that of red time, <img src="img/eq-red+green.png" alt="T_red = T_cycle - T_green" height="16">, we can conclude that <img src="img/eq-kred+kgreen.png" alt="K_red+K_green =1 " height="32"> and therefore:
 
-![equation-relative-red-definition-to-relative-green](img/eq-rel-red-rel-green.png "K_red = 1 - K_green")
-![equation-relative-green-definition-to-relative-red](img/eq-rel-green-rel-red.png "K_green = 1 - K_red")
+![equation-relative-red-definition-to-relative-green](img/eq-kred-kgreen.png "K_red = 1 - K_green")
+
+![equation-relative-green-definition-to-relative-red](img/eq-kgreen-kred.png "K_green = 1 - K_red")
 
 
 ###### Capacity at signalized intersection approach
 
 It is simply the saturation flow of the approach times the proportion of time it is in operation. Unless stated otherwise, intersection capacity refers to this.
 
-![equation-intersection-capacity-definition](img/eq-cap-inter-flow "CapFlow_intersection = saturationflowperlane * NLanes * K_green ")
+![equation-intersection-capacity-definition](img/eq-cap-inter-flow.png "CapFlow_intersection = saturationflowperlane * NLanes * K_green ")
 
 The capacity away from the intersection can be considered by this definition, if one assumes that K_green is equal to one, i.e., an uninterrupted flow.
 
-![equation-capacity-definition](img/eq-cap-flow "CapFlow = saturationflowperlane * NLanes * K_green ")
+![equation-capacity-definition](img/eq-cap-flow.png "CapFlow = saturationflowperlane * NLanes * K_green ")
 
 
 
