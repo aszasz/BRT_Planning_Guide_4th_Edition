@@ -10,7 +10,7 @@ No turns prohibited across the busway but signal priority at most or all interse
 No turns prohibited across the busway but some intersections have signal priority | 1 
 No intersection treatments	| 0							
 
-            
+*A bland smile is like a green light at an intersection, it feels good when you get one, but you forget it the moment you're past it.* -Douglas Coupland, novelist, 1961--            
 
 ### Chapter overview
 
@@ -24,25 +24,17 @@ Besides the above, this chapter also discusses the placement of stations relativ
 
 ### About intersections
 
-Intersection is the area where two or more roads encounter each other. 
-The use of the word in Traffic Engineering technical environment implies in "roads for vehicles" and "at the same level",
-but very often the expressions "at-grade intersections" or "single grade intersections" are used to confirm the concept;
-for fly-overs and underpasses the term used is "interchange" or still "separated-grade interchange".
-When more than one mode is involved, the common traffic engineers wording is "crossing", 
-and one of the road is assumed to be a "carriageway", as in  "pedestrian crossing"; recently the term "multimodal intersection" has been applied.  
+Intersection is the area where two or more roads encounter each other. The use of the word in Traffic Engineering technical environment implies in "roads for vehicles" and "at the same level", but very often the expressions "at-grade intersections" or "single grade intersections" are used to confirm the concept; for fly-overs and underpasses the term used is "interchange" or still "separated-grade interchange". When more than one mode is involved, the common traffic engineers' wording is "crossing" -- one of the roads is assumed to be a "carriageway" -- as in  "pedestrian crossing"; recently the term "multimodal intersection" has been applied.  
 
-By this definition, intersection implies in conflicts for vehicles to use the same space,
-and can refer to an unidirectional T-shaped or Y-shaped confluence area;
-the conflicts there gets clear when there is no space to accommodate the two incoming
-flows on the exiting stream in a congested situation.
+By this definition, intersection implies in conflicts for vehicles to use the same space,and can refer to an unidirectional T-shaped or Y-shaped confluence area; the conflicts there gets clear when there is no space to accommodate the two incoming flows on the exiting stream in a congested situation.
 
-![high volume in an Y-shaped intersection](img/crowded-Y-junction.png  "a Y junction that is an intersection")
+![high volume in an Y-shaped intersection](img/crowded-Y-junction.png  "a Y junction that is an intersection.")
 
 Conversely a channelled Y-shaped junction may not be an intersection.
 
-![channelled Y-shaped intersection](img/chanelled-Y-junction.png "a chanelled Y junction that is not an intersection" )
+![channelled Y-shaped intersection](img/chanelled-Y-junction.png "a chanelled Y junction that is not an intersection.")
 
-Considering the majority of cases of two or more roads meetings where there are many possible turning movements -- not all conflicting, intersections can be seen as several adjacent intersections as well. 
+Considering the majority of cases of two or more roads meetings where there are many possible turning movements -- not all conflicting, intersections can be seen as several adjacent intersections as well; i.e., an intersection is a larger conflict area that is composed of smaller conflict areas (=smaller intersections).
 
 Once footpaths (or "roads for people") are more important to accessibility in populated areas, carriageways are usually constructed between footpaths. When two carriageways encounter, several walkways crossings are adjacent. So, a multimodal intersection encompasses a larger area where people conflict to use the same space. For clearance, let us remember that drivers and passengers are people.
 
@@ -52,29 +44,29 @@ If the frequency of vehicles arrivals at the intersection -- pedestrians and veh
 
 If over the years the vehicle frequencies along the day rise to the point where queues happen often and last long or the time required to pedestrians to cross safely becomes too long is the moment to intervene.
 
-An intervention is justified by the comparing the present value of costs for its implementation, maintenance and operation against the value of its benefits, of which the most easier to establish are the time savings assuming a safe operation and does directly related to it (as fuel consumption and pollution).
+An intervention is justified by the comparing the present value of costs for its implementation, maintenance and operation against the present value of its benefits, of which the most easier to establish are the time savings assuming a safe operation and the costs directly related to it (as fuel consumption and pollution).
 
-Interventions start with zebras and yielding signs. Channelling the vehicles and creating refuge islands is a manner to clearly divide an intersection in the several smaller intersection components, improving traffic safety and reducing the overall delay; roundabouts or mini-roundabouts are ways to channel vehicles as well. Above a certain point, traffic lights are required and they may grow in really complex ways in order to accommodate all conflicts; then traffic diversion and restricting direct movements come at play... until the grade separation becomes necessary.
+Interventions start with zebras and yielding signs. Channelling the vehicles and creating refuge islands is a manner to clearly divide an intersection in several smaller intersection components, improving traffic safety and reducing the overall delay; roundabouts or mini-roundabouts are ways to channel vehicles as well. Above a certain point, traffic lights are required and they may grow in really complex ways to accommodate all conflicts; then traffic diversion and restricting direct movements come at play... until the grade separation becomes necessary.
 
 Ideally a separated-grade traffic solution eliminates intersections, but in practice, due to space restrictions, intersections eventually remain.
 
-![separated-grade solutions eliminate intersections](img/sep-grade-no-conflict.png "Separated-grade solutions may eliminate intersections")
+![separated-grade solutions eliminate intersections](img/sep-grade-no-conflict.png "Separated-grade solutions may eliminate intersections.")
 
-![separated-grade solutions with remaining intersections ](img/sep-grade-solution.png "Separated-grade solutions may not eliminate intersections")
+![separated-grade solutions with remaining intersections ](img/sep-grade-solution.png "Separated-grade solutions may not eliminate intersections.")
 
 ### Approach to intersection design
 
-BRT systems are generally built on corridors where mixed traffic congestion is already a problem, or where congestion is likely to occur in the near future, otherwise there would be no benefit of building a segregated busway.  The worse the congestion appears, the greater the benefit of the exclusive busway (Figure congested-intersection.jpg) If a BRT system makes public transport services better but mixed traffic worse, it will be less politically successful than if it makes public transport better and also improves mixed traffic flow.  BRT system planners therefore generally try to minimise adverse impacts on mixed traffic.
+BRT systems are generally built on corridors where mixed traffic congestion is already a problem, or where congestion is likely to occur in the near future, otherwise there would be no benefit in building a segregated busway.  The worse the congestion appears, the greater the benefit of the exclusive busway (Figure congested-intersection.jpg) If a BRT system makes public transport services better but mixed traffic worse, it will be less politically successful than if it makes public transport better and also improves mixed traffic flow.  BRT system planners therefore generally try to minimise adverse impacts on mixed traffic.
 
 ![congested-intersection ](img/congested-intersection.jpg "The introduction of BRT and design changes to poorly controlled and congested intersections often leads to efficiency improvements for both public transport vehicles and mixed traffic.  Photo by Lloyd Wright.")
 
-Even intersections alone are usually less critical than stations,   they represent a critical point along any BRT corridor (figure \fignum congested-intersection ). A poorly designed intersection or a poorly timed signal phase can substantially reduce system capacity and speed, specially by hindering stations. Finding solutions to optimizing intersection performance can do much to improve system efficiency. Generally, the three main objectives of intersection design along a BRT corridor are to:
+Even intersections alone are usually less critical than stations, they represent a critical point along any BRT corridor. A poorly designed intersection or a poorly timed signal phase can substantially reduce system capacity and speed, specially by hindering stations. Finding solutions to optimizing intersection performance can do much to improve system efficiency. Generally, the three main objectives of intersection design along a BRT corridor are to:
 
 1. Provide safe and convenient crossings for pedestrians;
 2. Minimize delay for BRT vehicles;
 3. Minimize delay for mixed traffic.
 
-Walking trips and walking part of trips collect travel time improvements from these objectives, but it should be noticed that, even pedestrians safety and accessibility have the highest priority and some methods -- specially for station access and location  -- take into account pedestrian times to analyse alternatives, the approach discussed here still do not equalize pedestrians by inputting delays into the process. Current procedure mostly try to "fit" demand needs into the available space so pedestrians can do all crossings safely, buslane queues are not long enough to block stations and car desired movements are still possible, without worsening congestion. Keep in mind that if public and private transport users' times were equalized, every street with one bus carrying 50 passengers each two minutes would have an exclusive bus lane.
+Walking trips and walking part of trips collect travel time improvements from these objectives, but it should be noticed that, even pedestrians safety and accessibility have the highest priority and some methods -- specially for station access and location  -- take into account pedestrian times to analyse alternatives, the approach discussed here still do not equalize pedestrians by inputting delays into the process. Current procedures mostly try to "fit" demand needs into the available space so pedestrians can do all crossings safely, buslane queues are not long enough to block stations and car desired movements are still possible, without worsening congestion. Keep in mind that if public and private transport users' times were equalized, every street with one bus carrying 50 passengers each two minutes would have an exclusive bus lane.
 
 ![pedestrians-crossing-corridor](img/pedestrians-crossing-corridor.jpg "Intersection design affects the BRT system’s efficiency, pedestrian safety and access, and flows of mixed traffic vehicles. Photo by Lloyd Wright.")
 
@@ -83,25 +75,28 @@ It is generally not advisable to use a standard intersection configuration throu
 BRT system planners have used the following tools to rationalize intersections: 
 
 - Simplify the BRT system’s routing structure to optimize turning movements into the corridor;
+- Optimize the number of intersections along the corridor;
 - Restrict as many mixed-traffic turning movements on the BRT corridors as possible;
 - Optimize the location of the station relative to adjacent intersections;
 - Optimize the signal phasing and consider signal priority for public transport vehicles.
 
-![guangzhou-major-intersection-photo](img/guangzhou-major-intersection-photo.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Photo by Karl Fjellstrom")
+![guangzhou-major-intersection-photo](img/guangzhou-major-intersection-photo.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn cross traffic, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Photo by Karl Fjellstrom")
 
-![guangzhou-major-intersection-design](img/guangzhou-major-intersection-design.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn left, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Intersection design by ITDP and GMEDRI.")
+![guangzhou-major-intersection-design](img/guangzhou-major-intersection-design.jpg "Typical major intersection on a BRT corridor in Guangzhou, China. Note at this intersection of the BRT corridor with Chibei Avenue, the station is located away from the intersection, and in order to turn cross traffic, the two-phase intersection requires a u-turn in the perpendicular road. Before the BRT, this four-phase intersection was a major traffic-congestion point. Intersection design by ITDP and GMEDRI.")
 
-Every decision and solution proposed during the intersection design process should be technically supported by the elaboration of a comprehensive traffic study, where classified and directional flow counts are carried out at every active intersection (signalized or not) along the corridor being designed. This is necessary to diagnose the current performance of each intersection and forecast a future scenario incorporating the operational changes a BRT corridor might bring. 
+Every decision and solution proposed during the intersection design process should be technically supported by the elaboration of a comprehensive traffic study, where classified and directional flow counts for cars and pedestrians are carried out at every active intersection (signalized or not) along the corridor being designed. This is necessary to diagnose the current performance of each intersection and forecast a future scenario incorporating the operational changes a BRT corridor might bring. 
 
 ## Basic Concepts
 
-The basic concepts we present here are mostly related to understanding the equations related to delay and queues sizes in signalized intersections, without intention to be a complete reference about it. For basic concepts the reader may want to further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow. We provide further references for traffic signals in the bibliography
+The basic concepts we present here are mostly related to understanding the equations related to delay and queues sizes in signalized intersections, without intention to be a complete reference about it. For basic concepts the reader may want to further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow. We provide further references for traffic signals in the bibliography.
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
 
-### cross-traffic-turn and kerb-side-turn
+### General concepts
 
-For this chapter we excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We choose to adopt cross-traffic and kerb-side-turn instead.
+###### cross-traffic-turn and kerb-side-turn
+
+For this chapter we have excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We have chosen to adopt cross-traffic and kerb-side-turn instead.
 
 *cross-traffic-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict the BRT vehicles or bicycles going straight in the same way as in opposite way.
 
@@ -112,28 +107,36 @@ For this chapter we excluded the expressions right-turn and left-turn as they ha
 ![turns-example-right-hand](img/right-side-driving-turns.png "Example of cross-traffic-turn \(green car\), kerb-side-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for right driving way as in China, US, Brazil and Continental Europe")
 ![turns-example-left-hand](img/left-side-driving-turns.png "Example of cross-traffic-turn \(green car\), kerb-side-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for left driving way as in India, Indonesia, South-Africa, Tanzania, Australia and UK")
 
-### Speed
+###### Speed
 
 For application with the concepts outlined in this chapter, speed, to which we use the letter V from the synonymous velocity, is the average traffic speed of all vehicles in a segment. It would be measured by the mean time all vehicles crossing the segment divided by the segment extension. Under our modelling intents (that is capacity evaluation) it can be imagined that all vehicles are moving in that speed.
 
 Still matching the broader concept of speed -- the ratio of motion expressed in distance per unit of time -- it is useful to remember that given a segment length (D_segment, for distance), knowing the speed (V_segment) is equivalent of knowing the travel time (Time_segment) through the segment and vice-versa, as the equivalent equations show:
 
-V_segment = D_segment / Time_segment  <-->  Time_segment = D_segment / V_segment
+![Equation: Speed](img/eq-speed-definition.png "V_segment = {D_segment} over {Time_segment}  dlarrow  Time_segment = {D_segment} over {V_segment}") 
 
-### pcu
+###### Delay
+
+Delay is the additional travel time, if not explicit, the base reference is the travel time without any conflicts, in an ideal situation where the passenger, pedestrian or driver is the only user of the road (no other drivers, pedestrians users or traffic lights).
+
+###### pcu
 
 A passenger-car unit, or pcu is a reference used to bring different vehicle types to a common denominator. The conversion factor from a certain type of vehicle to a passenger car unit depends of application intended after the conversion, being eventually calibrated for an specific use in an specific situation (for example if stress upon the pavement or congestion potential is considered, if such is in urban environment or in a highway, in a ramp or in plain terrain).
 
 In any case, a motorcycle for example tends to have an equivalent of less than one vehicle, and a mini-bus is equivalent to more than one vehicle, the larger and heavier the vehicle, higher the equivalence is.
 
-### Flow 
+###### Flow 
 
 Traffic engineering borrow concepts from fluid mechanics and uses "flow rate" as a measure traffic intensity.
 From that definition, the word "rate" is commonly dropped and "flow" alone becomes treated as physical quantity expressed by the number of vehicles crossing a transversal section (or cross-section, like a stop line) during a certain time interval. Flow is usually represented by letter q in equations, but we will avoid that here and use the full word instead.
 
 It should be noted the use the word "volume" to express the same idea is accepted even it is conceptually even more far from the original definition (fluid mechanics original comparative term would be "volume flow rate" even "mass flow rate" is more appropriated reference as the same number of vehicles can be compressed); volume should refer to total number of vehicles in the same way litres refers to volume and litres/second refers to flow in hydraulics. The term is specially common in the expression "volume/capacity ratio", which makes particular sense.
 
-### Capacity and Saturation  
+![eq-vehicle-flow](img/eq-flow-definition.png "Flow_vehicles = {Number_vehicles} over {Time}") 
+
+Flow can also be expressed for pedestrians, bicycles or even passengers
+
+###### Capacity and Saturation  
 
 The capacity (flow rate) of a segment is given by the lower capacity of a section within it, the term "bottleneck" for the lower-capacity-section express this concept quite clearly.
 
@@ -143,17 +146,22 @@ Capacity can be easily and objectively measured, but some of the influential fac
 
 The simpler models commonly don't fit exactly to theories either and are usually adjusted by experimental evidence. These resort to the concept of **basic saturation**.
 
-Basic saturation (flow rate) is the capacity for a section of a given standard ideal carriageway, divided by number of lanes of that given standard carriage way.
+Basic saturation (flow rate) is the capacity for a section of a given standard ideal carriageway, divided by number of lanes of that given standard carriage way, it is commonly expressed by "s0"
+Capacity and speed are inter-dependent and the maximum flow does not happens when speeds are maximum. This happens due to the fact that the distance a driver maintains from the vehicle in front of it raises more than proportionally than the speed increase. The speed maximum capacity occurs in a section of unconstrained road is between 60 and 80 kph (km/hour).  
+Based on extensive observations, capacity models then define a way to forecast a **saturation flow** multiplying the basic saturation flow by adjustment factors to account for various non-ideal geometric, traffic, and environmental conditions of a given section, such as number of lanes, lane width, heavy vehicles, grade, parking facilities, bus blockage, area type, turning traffic along the segment, radius of turnings, pedestrian crossing traffic, but not considering traffic lights.
 
-Capacity and speed are inter-dependent and the maximum flow does not happens when speeds are maximum. This happens due to the fact that the distance a driver maintains from the vehicle in front of it raises more than proportionally than the speed increase. The speed maximum capacity occurs in a section of unconstrained road is between 60 and 80 kph (km/hour).
+Saturation is commonly written as S in equations, but here we use "SaturationFlow" or "SatFlow" to avoid confusion with saturation level,usually "X" that represents the relation between demand and capacity for a given infrastructure element as an intersection or a station.
 
-Capacity models then define a way to forecast a **saturation flow** multiplying the basic saturation flow by adjustment factors to account for various non-ideal geometric, traffic, and environmental conditions of a given section, such as number of lanes, lane width, heavy vehicles, grade, parking facilities, bus blockage, area type, turning traffic along the segment, radius of turnings, pedestrian crossing traffic, but not considering traffic lights.
+![equation-saturation-model-definition](img/eq-mod-sat-flow "SaturationFlow = basicsaturationflowperlane * NLanes * (f_geometry * f_traffic * f_parking * f_truning * f...) ")
 
-Saturation (flow rate), therefore, is the capacity of a section that is not under the influence of traffic light; for section that approach the traffic light, saturation is the capacity assuming a constant green, which would equal to the flow observed during the queueing discharge. For this reason saturation maybe called discharge (flow rate).
+Saturation (flow rate), therefore, is the capacity of a section that is **not** under the influence of traffic light; for section that approach the traffic light, saturation is the capacity assuming a constant green, which would equal to the flow observed during the queueing discharge. For this reason saturation maybe called discharge (flow rate). When working in an specific location, saturation of sections can be measured, so the resulting product of all this factors is known.
 
-A practical rule, even distorting a bit the concept of ideal conditions is that: for urban environments, the basic saturation of a lane is 1800 pcu/hour. For the purpose of capacity measuring an 18-metres-articulated bus is equivalent to 2.5 car-passengers-unit. So in a busway, the basic saturation per lane is 720 articulated-bus/hour.
+A practical rule, even distorting a bit the concept of ideal conditions is that: for urban environments, the observed saturation of a lane is 1800 pcu/hour. For the purpose of capacity measuring an 18-metres-articulated bus is equivalent to 2.5 car-passengers-unit. So in a busway, the saturation per lane is 720 articulated-bus/hour.
 
-### Continuity
+![equation-saturation-definition](img/eq-sat-flow "SatFlow = CapFlow_awayfromintersection = saturationflowperlane * NLanes ") 
+
+
+###### Continuity
 
 Although no direct formula application about continuity is used in this chapter, one basic equation of an intersection is that all the flow into the intersection has to exit the intersection.
 
@@ -162,7 +170,6 @@ Although no direct formula application about continuity is used in this chapter,
 Traffic lights are a very common intersection management tool in business district areas where the BRT corridor design is likely to face the more challenging problems. Traffic lights controllers can be coordinated and actuated (use detection) by more or less complex technology and algorithms, a lot of research and development have been made in the last 30 years, but its use is relatively limited. The concepts presented in this chapter are useful to understand BRT design requirements to program traffic lights, be it on simpler controllers or as policy delimiters to more complex systems.
 
 Traffic lights eliminate some of the negotiations between vehicles on arrival, by determining which movements may proceed at a given moment. Traffic lights may allow conflicting movements, usually not all of them intense; pedestrian crossing the transversal street is commonly one of them. By reducing negotiations, traffic light prevents that all vehicles approaching the intersection reduce their speeds, and the time each vehicle spends on the intersection itself and increasing the throughput and safety.
-
 
 ###### Phase
 
@@ -174,7 +181,7 @@ The phase duration (or length) refers to its "effective green" time, which is th
 
 ###### Cycle time (T_cycle)
 
-Excluding situations where special phases are activated by detectors, the traffic signals on an intersection repeats the order of the phases successively in cycles. The cycle time can be measured as the time between the green light is given to a movement till the next time it is given to that movement again (after it has changed to red once). In this chapter, "cycle time" alone refers to a traffic light cycle time (route cycle times are not discussed).
+Excluding situations where special phases are activated by detectors, the traffic signals on an intersection repeats the order of the phases successively in cycles. The cycle time can be measured as the time between the green light is given to a movement till the next time it is given to that movement again (after it has changed to red once). In this chapter, "cycle time" alone refers to a traffic light cycle time (route cycle times are not discussed). ###### Red time (T_red)
 
 ###### Red time (T_red)
 
@@ -188,23 +195,47 @@ The optimal phase times in a signalized intersection is such that the cycle time
 
 Unlikely infrastructure, that must be sized based on the peak use and eventually become underused in other times of the day. Traffic signal timing plans for peak moments would lead to unnecessary delays at other moments of the day. Traffic light plans, should change along the day as demand changes; one extreme application example is shutting down (yellow blinking) a signal late night and early morning.
 
-![traffic-lights-diagram](img/traffic-light-stages.png "flow and queue formation during traffic light phases")
+![traffic-lights-diagram](img/traffic-light-stages.png "For each approach, during effective green, flow starts at saturation until queue dissolves, off effective green time there is queue formation, lost time happens when neither approach has flow.")
 
-Traffic signals programming shall change along the day
+Traffic signals programming shall change along the day, so green, red and cycle times must change based on different programmings for the time of the day (week and season too) and, where available, based on traffic detection applied to parameters in the programming for that moment. Se when we discuss these features as fixed, we must understand it as the limiting parameters for the traffic controller that allow adaptive changes based on detection.
 
-### Delay
-
-Delay is the additional travel time, if not explicit, the base reference is the travel time without any conflicts, in an ideal situation where the passenger, pedestrian or driver is the only user of the road (no other drivers, pedestrians users or traffic lights).
+We look to design infrastructure associated with traffic light plan to the peak-hours of the day for each flow, if there is enough capacity at this moments, certainly will be in others, although traffic signal programs need to be different to minimize travel times. To represent the peak we both use and measure the busiest hour of the day for the given flow (as a reminder: we survey data with smaller intervals than on hour, so a given measure of busiest hour might have happened from 7:15 AM to 8:15 AM for example).
 
 ### Intersection capacity
 
-In the right perspective for this chapter analysis, intersection capacity refers to the entrance section (the stop line) of a road segment under study.
+Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection should be measured as the total number of (equivalent) vehicles that crossed it adding up all the movements.
 
-Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection should be measured as the total number of (equivalent) vehicles that crossed it not caring for the movements.
+But in the right perspective for this chapter analysis, intersection capacity refers to the entrance section (the approach or stop line) of a road segment under study. Furthermore, we are particularly interested in signalized intersections, assuming that the corridor where the BRT is placed has preference at smaller unsignalized intersections that don't cause meaningful delay to mixed-traffic or to BRT.
 
-We look to design infrastructure associated with traffic light plan to the peak-hours of the day for each flow, if there is enough capacity at this moments, certainly will be in others, although traffic signal programs need to be different to minimize travel times.
+###### Relative green (K_green)
 
-To represent the peak we both use and measure the busiest hour of the day for the given flow (as a reminder: we survey data with smaller intervals than on hour, so a given measure of busiest hour might have happened from 7:15 AM to 8:15 AM for example).
+The proportion of time that the flow to a given approach can cross the intersection.
+
+![equation-relative-green-definition](img/eq-rel-green "K_green = {T_green} over {T_cycle} ")
+
+###### Relative red (K_red)
+
+The proportion of time that traffic is hold in a given approach.
+
+![equation-relative-red-definition](img/eq-rel-red "K_red = {T_red} over {T_cycle}")
+
+ By the relation of this definition and that of red time, <img src="img/eq-red+green.png" alt="T_red = T_cycle - T_green" height="16">, we can conclude that <img src="img/eq-kred+kgreen.png" alt="K_red+K_green =1 " height="32"> and therefore:
+
+![equation-relative-red-definition-to-relative-green](img/eq-rel-red-rel-green.png "K_red = 1 - K_green")
+![equation-relative-green-definition-to-relative-red](img/eq-rel-green-rel-red.png "K_green = 1 - K_red")
+
+
+###### Capacity at signalized intersection approach
+
+It is simply the saturation flow of the approach times the proportion of time it is in operation. Unless stated otherwise, intersection capacity refers to this.
+
+![equation-intersection-capacity-definition](img/eq-cap-inter-flow "CapFlow_intersection = saturationflowperlane * NLanes * K_green ")
+
+The capacity away from the intersection can be considered by this definition, if one assumes that K_green is equal to one, i.e., an uninterrupted flow.
+
+![equation-capacity-definition](img/eq-cap-flow "CapFlow = saturationflowperlane * NLanes * K_green ")
+
+
 
 ## Station location relative to the intersection
 
@@ -227,7 +258,7 @@ The following station locations are possible:
     - near the intersection;
     - far from the intersection (or mid-block);
 
-- Under or over the intersection (will be discussed in \sectionnumber(Grade Separation)).
+- Under or over the intersection.
 
 ###### At intersection
 
@@ -243,18 +274,28 @@ In the rare case the station must be located at the intersection, there is an em
 
 ###### Away from the intersection
 
+
+**Stations should in general be around one hundred meters from intersections.** 
+
 As highlighted above and as discussed in the remainder of this section, there should be some space between the intersection and the station as it:
 - provides the possibility of take away mixed-traffic space without change road capacity for the section
 - prevents that bus queues at the intersection from hindering the station
 
 We further divide the possibility of location in relation to the intersection in "near it" and "far from it" (or "mid-block"). The aspect to be taken into consideration for this dichotomy is the passenger access to the station.
 
-Mid-block-stations will require access infrastructure not shared nor closely related with the intersection pedestrian crossings. In the typical environment discussed here,i.e., a station located between mixed-traffic signalized intersections, signalized at-grade options are the likely optimal solution to access and we are introducing
+Mid-block-stations will require access infrastructure not shared nor closely related with the intersection pedestrian crossings. In the typical environment discussed here,i.e., a station located between mixed-traffic signalized intersections, signalized at-grade options is the likely ideal solution. But such solution introduces a new intersection (considering the multimodal definition of it) that needs to be taken into account when evaluating capacity both of the station and of mixes traffic.
+
+We should remember that a crossing for access will be required to curb-side mid-block stations as well.
 
 
 
+![Delhi-station-layout](img/Delhi-station-layout-3ed9.46.png "In this proposed road layout for Delhi, the mid-block BRT stations are given additional right-of-way.and several access points. At the intersections, right-of-way for mixed traffic vehicles is maximised.  Image courtesy of ITDP.")
 
-*Stations should in general be around one hundred meters from intersections.* as will be discussed in the remainder of the section.
+###### Above or bellow the intersection
+
+This alternative is discussed at the section \sectionnumber(Grade Separation), where other aspects of graded-separated solutions are presented.
+
+
 
 ### Minimum mixed-traffic number of lanes away from the intersection that does not affect segment capacity
 
@@ -264,28 +305,24 @@ For example, at the bus stop, if bus frequencies are high and an overtaking lane
 
 ![Seoul-wide-station](img/Seoul-wide-station.jpg "A mid-block station location in Seoul allows greater right-of-way width for the station area.  Photo courtesy of the City of Seoul.")
 
-![Delhi-station-layout](img/Delhi-station-layout-3ed9.46.png "In this proposed road layout for Delhi, the mid-block BRT stations are given additional right-of-way. So at the intersections, right-of-way for mixed traffic vehicles is maximised.  Image courtesy of ITDP.")
-
 
 
 
 Once capacity in a given control section (CapFlow) is expressed by:
 
-![Equation: Capacity](equations/eq-cap-flow)
-
-CapFlow = saturationflowperlane \* NLanes \* Time_green/Time_cycle
+![equation-capacity-definition](img/eq-cap-flow "CapFlow = saturationflowperlane * NLanes * Time_green/Time_cycle")
 
 where:
 CapFlow:Capacity of the evaluated section of control, usually in pcu/hour;
 flowperlane_saturation: saturation flow of one lane (in "ideal conditions", around 1800 in urban areas pcu/hour);
-Time_green / Time_cycle: relative (effective) green time;
+Time_green / Time_cycle: relative (effective) green time, that we may also call K_green
 NLanes: total  number of available lanes;
 
 One can evaluate the possibility of narrowing mixed-traffic road away from intersection without affect the capacity of the segment, by assuring that capacity away from intersection (where relative green time can be considered 1 or 100%) is greater than capacity in the intersection; 
 
 FlowCap_away >= FlowCap_intersection
 
-saturationflowperlane \* NLanes_away \* 1.0 >= saturationflowperlane \* NLanes_intersection \* Time_green/ Time_cycle
+saturationflowperlane * NLanes_away * 1.0 >= saturationflowperlane * NLanes_intersection * Time_green-away/ Time_cycle-away
 
 NLanes_away >=  NLanes_intersection * Time_green/ Time_cycle
 
@@ -298,6 +335,10 @@ NLanes_away >=  3 * 0.6 = 1.8
 - if near intersection mixed traffic has 2 lanes (NLanes_away=2), and relative green time is 50% (Time_green/ Time_cycle = 0.6), then far from intersection (Nlanes_away) can be only one lane without affecting the segment performace:
 
 NLanes_away >=  2 * 0.5 = 1.0
+
+- If we are planning a mid-block station with signalized crossing access, the green time for traffic mid-block over the cycle time has to be included in the equation:
+
+NLanes_away >= NLanes_intersection * 
 
 
 ### Minimum Recommended Distance between the BRT Station and the Intersection from mixed-traffic perspective
