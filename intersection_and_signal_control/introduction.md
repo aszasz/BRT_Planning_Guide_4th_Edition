@@ -80,7 +80,7 @@ Discharge flow rate: saturationflowperlane = 720 articulated-bus/hour/lane
 
 Signal delay as function of red light
 
-| Red light time  (seconds) | Green light time  (seconds) | Average signal delay (TF) (seconds) | Random queuing delay (TQs) (seconds) | Total signal delay (TS) (seconds) | Demand to signal capacity | level (XSignal)
+| Red light time  (seconds) | Green light time  (seconds) | Average signal delay (TF) (seconds) | Random queuing delay (TQs) (seconds) | Total signal delay (TS) (seconds) | Demand to signal capacity level (XSignal)
 |-----------|------------|----------------|-----------------|----------------|------------
 | 0  | 80 | 0.00  | 0.00   | 0.00   | 0.28
 | 10 | 70 | 0.87  | 0.00   | 0.87   | 0.32
