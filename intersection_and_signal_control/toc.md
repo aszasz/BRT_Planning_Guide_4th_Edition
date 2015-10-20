@@ -20,24 +20,26 @@ An important strategy to improve the performance of intersections to better acco
 
 Besides the above, this chapter also discusses the placement of stations relative to intersections along the corridor and the treatment of public transport vehicle turning movements, which are desirable, but equally harms intersections performance.  Traffic-signal technology to provide public transport vehicles with priority and techniques to provide safety to pedestrians and cyclists are discussed too.
 
-<a name="toc"> </a>
-##[Introduction](introduction.md)
+Definitions that permeate the whole chapter are laid out in the first section, the second section sets the general approach to intersection problem solving and the next sections discuss different tools to improve intersections efficiency.
 
-##[Concepts](concepts.md)
+<a name="toc"> </a>
+##[Basic Concepts](basic-concepts.md)
+
+##[Approach to intersection design](introduction.md)
 
 ##[Traffic signal priority](signal-priority.md)
 
 ##[Station location relative to intersection](station-location.md)
 
-##[Corridor audit](audit.md)
-
 ##[Restricting mixed-traffic turns](restrict-turn.md)
 
 ##[Allowing BRT turns](brt-turn.md)
 
-##[BRT through roundabouts](roundabout.md)
+##[Merging with mixed traffic](merge.md)
 
-##[Pedestrians and cyclists](NMT.md)
+##[BRT lanes at roundabouts](roundabout.md)
+
+##[Pedestrians and cyclists integration](NMT.md)
 
 ##[Grade separation](grade-separation.md)
 

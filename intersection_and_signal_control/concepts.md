@@ -1,12 +1,46 @@
 #[Intersections and traffic signals](toc.md#toc)
 
+"Saying there appears to be some clotting is like saying there's a traffic jam ahead. Is it a ten-car pile up, or just a really slow bus in the center lane? And if it is a bus, is that bus thrombotic or embolic? I think I pushed the metaphor too far."- House,MD
+
 ## Basic Concepts
 
-The basic concepts we present here are mostly related to understanding the equations related to delay and queues sizes in signalized intersections, without intention to be a complete reference about it. For basic concepts the reader may want to further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow. We provide further references for traffic signals in the bibliography.
+### About intersections
+
+Intersection is the area where two or more roads encounter each other. The use of the word in Traffic Engineering technical environment implies in "roads for vehicles" and "at the same level", but very often the expressions "at-grade intersections" or "single grade intersections" are used to confirm the concept; for fly-overs and underpasses the term used is "interchange" or still "separated-grade interchange". When more than one mode is involved, the common traffic engineers' wording is "crossing" -- one of the roads is assumed to be a "carriageway" -- as in  "pedestrian crossing"; recently the term "multimodal intersection" has been applied.  
+
+By this definition, intersection implies in conflicts for vehicles to use the same space,and can refer to an unidirectional T-shaped or Y-shaped confluence area; the conflicts there gets clear when there is no space to accommodate the two incoming flows on the exiting stream in a congested situation.
+
+![high volume in an Y-shaped intersection](img/crowded-Y-junction.png  "a Y junction that is an intersection.")
+
+Conversely a channelled Y-shaped junction may not be an intersection.
+
+![channelled Y-shaped intersection](img/chanelled-Y-junction.png "a chanelled Y junction that is not an intersection.")
+
+Considering the majority of cases of two or more roads meetings where there are many possible turning movements -- not all conflicting, intersections can be seen as several adjacent intersections as well; i.e., an intersection is a larger conflict area that is composed of smaller conflict areas (=smaller intersections).
+
+Once footpaths (or "roads for people") are more important to accessibility in populated areas, carriageways are usually constructed between footpaths. When two carriageways encounter, several walkways crossings are adjacent. So, a multimodal intersection encompasses a larger area where people conflict to use the same space. For clearance, let us remember that drivers and passengers are people.
+
+The higher the number of conflicts in an intersection or in a crossing, higher is the time people will need to cross it safely.
+
+If the frequency of vehicles arrivals at the intersection -- pedestrians and vehicles at a crossing -- is low, eventual passage negotiating is enough to maintain safety without compromising travel time.
+
+If over the years the vehicle frequencies along the day rise to the point where queues happen often and last long or the time required to pedestrians to cross safely becomes too long is the moment to intervene.
+
+An intervention is justified by the comparing the present value of costs for its implementation, maintenance and operation against the present value of its benefits, of which the most easier to establish are the time savings assuming a safe operation and the costs directly related to it (as fuel consumption and pollution).
+
+Interventions start with zebras and yielding signs. Channelling the vehicles and creating refuge islands is a manner to clearly divide an intersection in several smaller intersection components, improving traffic safety and reducing the overall delay; roundabouts or mini-roundabouts are ways to channel vehicles as well. Above a certain point, traffic lights are required and they may grow in really complex ways to accommodate all conflicts; then traffic diversion and restricting direct movements come at play... until the grade separation becomes necessary.
+
+Ideally a separated-grade traffic solution eliminates intersections, but in practice, due to space restrictions, intersections eventually remain.
+
+![separated-grade solutions eliminate intersections](img/sep-grade-no-conflict.png "Separated-grade solutions may eliminate intersections.")
+
+![separated-grade solutions with remaining intersections ](img/sep-grade-solution.png "Separated-grade solutions may not eliminate intersections.")
+
+### General Concepts
+
+The concepts we present here are mostly related to understanding the equations related to delay and queues sizes in signalized intersections, without intention to be a complete reference about it. For basic concepts the reader may want to further investigate the concepts of traffic density and traffic headway, and how they relate with traffic average speed and traffic flow. We provide further references for traffic signals in the bibliography.
 
 Before that, we emphasize that when applying formulas, attention should be given to units and units conversions, as the appropriate dimension to perceive phase times in traffic lights or the time to walk or ride a few blocks is seconds while we better perceive speeds in kilometres or miles per hour. It is useful to remember that 1 hour is the same as 3600 seconds and one mile is approximately 1.6 kilometres and 1 kilometre is approximately 0.6 miles.
-
-### General concepts
 
 ###### cross-traffic-turn and kerb-side-turn
 
@@ -186,55 +220,30 @@ Demand to signal capacity level is particularly relevant for the calculation of 
 ###### Signal Delay (T_signal)
 
 The calculation use the assumptions that arrivals are random and departure headways are uniform, which is applicable only for under-saturated conditions and predict infinite delay when arrival flows approach capacity. This is realistic for design purposes, as we intend to promote under-saturated conditions. 
+
 Signal delay is composed by two terms:
 - the first term (T_queue) is the delay due to a uniform rate of vehicle arrivals and departures at the signal.
 - the second term (T_random) is the random delay term, which accounts for the effect of random arrivals. But if demand to signal capacity level is bellow 50% than it should be ignored.
 
 ![equation-signal-delay-definition](img/eq-tsignal-definition.png "T_signal = T_queue + T_random")
 
+The first term is deductible as the area bellow the queueing in figure \fignum(traffic-light-diagram) over the number of vehicles during a cycle (DemandFlow * T_cycle).
+
 ![equation-queue-delay-definition](img/eq-tqueue-definition.png "T_queue = {T_red ^ 2} over {2 * T_cycle * (1 - X)}")
 
-![equation-random-delay-definition](img/eq-x-definition.png "X = {{XSignal - 0.5 } over { 1 - XSignal } } *{ 1 over SatFlow }")
+Now, the extra delay in queuing, caused by the non-regularity of arrivals in the traffic light (T_random) is a function of the demand-to-signal-capacity level (Xsignal) and a regularity of buses arrival coeficient (Kreg).
 
-This formula is a slight variation of the model proposed by Webster in 1958, with a formula slightly more simple than originally proposed but with a smoother transition when the random delay becomes relevant than the practical modification most commonly applied. 
+If the signal saturation (Xsignal) is low the randomness of arrivals will not generate extra time in queueing formation. As the signal saturation increases, the impact on extra time due the expected randomness of arrivals becomes bigger than the increments. If the signal saturation is bigger than 1 (there are more buses willing to use the lane than what the traffic light can handle) there will be severe busway congestion (congestion would happen even if there was no randomness of arrival at all). So, the extra queueing delay due randomness is calculated by: 
 
-### Traffic signal priority
+<!--[equation-random-delay-definition](img/eq-x-definition.png "T_random = {{XSignal - K_reg } over { 1 - XSignal } } *{ 1 over SatFlow }")> </!-->
 
-Signal priority for BRT vehicles is the adjustment of traffic signals to give priority to a corridor with a BRT system over a corridor without one, and to give priority to the BRT system over mixed traffic within the same corridor. Once equipment and techniques were developed to do this in a responsive way after the detection of BRT vehicles approaching an intersection, the expression "active signal priority" became the way to indicate this advance. Since then "passive signal priority" is used to let clear that such detection technology is not being applied.
+If Xsignal ≤ Kreg 		, then 	T_random = 0	;
+If Kreg ≤ Xsignal < 1 	, then 	<img src="img/eq-x-definition.png" alt="T_random = {{XSignal - K_reg } over { 1 - XSignal } } *{ 1 over SatFlow }" height="32"> 	;
+If Xsignal ≥ 1 		, then 	there would be severe congestion (T_random -> ∞).
 
-#### Passive signal priority
+Where, besides the already defined variables we have:
+Kreg = regularity factor, it is a number related with the chance a bus has to arrive within the signal cycle he is expected: it would be equal one, if there was total regularity on the buses arrivals, it would be 0.5, if half of the buses arrive more than one signal cycle later than what they are expected; 0.5 is the used value to represent aleatory arrivals.
 
-Together with signal phase simplification, passive signal priority is material for proper BRT intersection design and the two techniques are complementary and must be considered jointly for implementation.
-
-Prioritisation is primarily achieved by extending the relative green time for the BRT corridor over the crossing streets that do not have public transport. This action reduces the travel time of all the traffic stream (both BRT and mixed-traffic) on the corridor at the expense of the travel time on the crossings. 
-
-As already mentioned: without special consideration for BRT, the optimal phase times in a signalized intersection is such that the cycle time is as brief as possible without growing queues. When giving priority to BRT on extreme this guideline would change to give as much green time as possible to the BRT corridor without growing queues. The longest green signal phase would depend of the flow of mixed traffic on the crossing street. The ideal way to balance the traffic light though is to consider the average wait time by each flow, including pedestrians multiplied by the number of people in each flow. 
-
-In applying traffic signal priority to a BRT corridor, is usual that cycle time become as low as 60 seconds and do not rise above 120 seconds, except at major intersections or during peak hours in order to allow larger relative green time for the BRT corridor; the relative green time faced by the BRT system should be extended above 50 percent, if possible. It is typical for the BRT green time to be 30 seconds in a 60 second cycle or 40 to 60 seconds in a 120 second cycle.
-
-Synchronisation of green signal phases between intersections (or "green wave") is not common with BRT systems because BRT travel times are not regular being subject to variable dwell time at stations (specially when multiple route services use the same corridor or frequencies are high). If BRT vehicle speeds are reasonably predictable or controlled it is be possible to coordinate traffic lights in a BRT corridor. This practice is used in Ottawa (Levinson et al., 2003b).
-
-#### Active signal priority
-
-Active, or real time priority techniques, change the actual traffic signal phasing when a BRT vehicle is observed to be approaching the intersection (Figure 9.55).
-
-The normal vehicle identification mechanism is to have a transponder detect the BRT vehicle prior to its arrival at the stop line.  If the BRT vehicle is detected during the green phase, and the green phase is nearing the yellow phase, the green phase is extended.  If the detection occurs during the red or the yellow interval, the green time is recalled in advance of normal time.   Some general guidelines for applying phase extension or phase shortening include:
-
-- The minimum side street green time is set based on the amount of time pedestrians need to cross the road;
-- The amount of green signal extension or advance should be up to a specific set maximum;
-- The BRT corridor green is not generally both advanced and extended in the same cycle. 
-
-The green times are likely to be most easily extended at intersections with light cross traffic.  
-
-![active-priority-scheme](img/active-priority-delay-green.png "Using active priority, green time for the BRT corridor is extended when a BRT vehicle is detected approaching the intersection.")
-
-![active-priority-scheme](img/active-priority-short-red.png "Active priority can reduce red time for the BRT corridor when  BRT vehicle is detected approaching the intersection.")
-
-The importance of active traffic signal priority on BRT vehicle speeds tends to be greatest in systems with fairly low bus volumes, particularly with bus headways longer than five minutes where intersections are frequent and might be a relevant measure for increasing system speeds. In such instances, signal priority may reduce signal delay by between 10 percent and 20 percent. In this context, it is often easier to give buses signal priority at intersections without major disruption of mixed traffic flows.
-
-When BRT vehicle headways are less than 2.5 minutes, it is generally difficult to implement active signal priority at all: the non-BRT traffic direction would essentially be in a state of a permanent red phase. However, even with BRT vehicles high frequencies, active priority to the BRT running on less important cross streets can yield benefits between  4 to 10 percent of the delay in traffic signals.  While this savings is not as significant as some other priority measures as restricting mixed-traffic turns, it can be a justifiable expenditure contributing to efficiency gains, once vehicle detection, signalling equipment, and priority software have become more common and the costs are becoming increasingly affordable.
-
-At an even higher level of sophistication, the priority phasing can be based on observed traffic levels for both the BRT vehicles and the general traffic. A special weighting can be given to BRT vehicles or to the BRT corridor. In traffic systems where flows are quite irregular, real time control which adjust signal times to observed traffic levels can yield benefits.  In such real time systems, phase changing is usually based on a trade-off between the benefits and costs faced by the green and red approaches and for the general principle of shortening red times, a fully actuated system based on total vehicle movements which also includes BRT vehicles is probably more important than BRT-specific detection.
-
+This formula is a slight variation of the model proposed by Webster in 1958, slightly more simple than originally proposed but with a smoother transition when the random delay becomes relevant than the practical modification most commonly applied. 
 
 

@@ -1,12 +1,6 @@
-#[Intersections and traffic signals](toc.md#toc)
+The capacity of the intersection is generally a function of the amount of green time per lane.  The amount of green time per lane is generally a function of the number of signal phases.  Saturation can increase up to 300 percent by increasing an intersection from two or three phases to four phases. 
 
-## Evaluating intersections
-
-### Corridor audits
 ### Reducing intersections
-### Traffic sign impacts on BRT
-
-### Correction factor for station saturation at traffic-light
 
 Sometimes, intersections are too close together in order to optimise the station location relative to the intersection.  In such instances, an assessment has to be made in terms of how important the station location is for boarding and alighting passengers.  If it is an important location, the time savings benefits for pedestrians of locating a station close to this destination must be weighed against the likelihood time lost within the BRT system due to interference between the station and the intersection.   If there are no important destinations in that location, it is better not to locate a station there.  
 
@@ -31,6 +25,5 @@ Tg2 = Green signal time per phase cycle at intersection 2
 A mixed traffic lane can generally handle 1,800 vehicles per hour.  This quantity translates to two vehicles per second (3,600 seconds in an hour).  When vehicles are stopped at a stop light, the average amount of space they take up is 6 metres; this space includes the vehicle and some space between vehicles.  This average vehicle distance means that for each second of time, 3 metres of vehicle-equivalents can be moved through the intersection.  
 
 Box 9.4 provides a sample calculation of the required spacing between two intersections.
-
 
 

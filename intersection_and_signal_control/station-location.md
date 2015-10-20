@@ -5,7 +5,9 @@
 *“The engineer's first problem in any design situation is to discover what the problem really is.”*
 	-	Anonymous
 
-Intersection and station design should minimize the added travel time of the all the customers. The station location in relation to the intersection will affect BRT system flow and speed  and the right-of-way needed for the BRT system. Pedestrian travel times, which seems to be the more obvious reason for determining station location are far less relevant than it seems at first. Because conditions vary from intersection to intersection, it is generally advisable to find an optimal solution for each intersection rather than to presume a single solution will always be optimal. The greater amount of information the planning team has available regarding demand, the easier it will be to evaluate alternatives, finding an optimal solution under the existing restrictions.
+Intersection and station design should minimize the added travel time of the all the customers. The station location in relation to the intersection will affect BRT system flow and speed  and the right-of-way needed for the BRT system. Pedestrian travel times, which seems to be the more obvious reason for determining station location are far less relevant than it appears at first.
+
+Because conditions vary from intersection to intersection, it is generally advisable to find an optimal solution for each intersection rather than to presume a single solution will always be optimal. The greater amount of information the planning team has available regarding demand, the easier it will be to evaluate alternatives, finding an optimal solution under the existing restrictions.
 
 ### Station location possibilities
 
@@ -188,4 +190,60 @@ As mentioned in the introduction to this section, the willingness to place a sta
 The previous paragraph made clear, in high density areas to optimise station location with high precision requires labour intensive, site-specific survey and analysis of the origins and destinations, taking into consideration a pedestrian path network encompassing an area within radius of 1,000 metres or more from the possible extremes where the station can be placed, as well as several different street crossings as well as the placement of other stations. That is detailing the simulation model to the level that every block face is a centroid, if not every address. 
 
 Our limited experience on such endeavors on central areas has shown that moving a station within a range of two hundred metres has no noticeable effect. But It should be remembered that **changing the number of stations within a given corridor extension have significant impact on overall travel time**; that is equivalent to determine the average distance between the stations as discussed in Chapter 7 and requires a much lesser detailed survey and analysis.
+
+### Correction factor for station saturation at traffic-light
+
+Chapter 7 discussed at length the **level of saturation of the station, the proportion of time that BRT vehicles are blocking the station**, mid-block-stations in special are likely to be access by at-grade crossings right in front of it. It is generally advisable to investigate the degree to which this intersection increases the saturation of the station.
+
+Roughly, the combination of the station’s normal saturation (to which we will refer as X_station) and the additional saturation caused by traffic signal interference will tell one the degree of busway saturation.  As a general rule, it is best to design the station with a saturation level of under 0.4 at the station, meaning that the station is only occupied 40 percent of the time.
+
+A correction factor that estimates what would be the new level of saturation of the station if the traffic light is positioned right in front of it (X_is0) can be expressed in function of:
+- Signal cycle time (T_cycle);
+- Signal red time for the BRT approach (T_red);
+- Average stop time per bus in the station composed by dwell, boarding and alighting times (T_station)
+
+###### Correction for a long red phase (T_station < T_red)
+
+Where the relation between T_red and T_station is the most important.The concern about interference is most acute when the bus stopping time (TB) is short and the red phase (TR) is longer, or of similar magnitude.  Interference is only of limited concern if the red phase is very short.
+
+In this case, calculating the saturation of the station when faced with interference from the traffic signal, the following formula can be used:  
+
+![X-Correction-for-long-red](x-corr-long-red "X_is0 = X_station * {T_cycle} over {( T_cycle - T_red + (0.5*TB))}")
+
+
+###### Correction with a short red phase (T_station >= T_red)
+
+If the red signal phase is very short relative to the boarding and alighting time, then even if the signal changes to red just as boarding and alighting has been completed, it will be a short time before the light is green again.  Thus, there is less concern about interference between the station and the intersection. 
+
+![X-Correction-for-long-red](x-corr-long-red "X_is0 = X_station * {T_cycle} over {( {T_cycle - T_red ^ 2} over { 2 * T_station})}") 
+
+###### Examples
+
+**1.Calculating station to intersection interference with a long red phase**
+
+X_is0 = X_station * {T_cycle} over {( T_cycle - T_red + (0.5 * TB))}
+
+X_station = 0.35
+T_cycle = 700 seconds 
+T_red = 500 seconds 
+T_station = 10 seconds
+
+X_is0 = 0.35 * 700 seconds / ( 700 seconds – 500 seconds + 0.5 * 10 seconds )
+      = 1.195	
+
+In this hypothetical example the station would operate on just the 200 seconds of green, but not on the 500 seconds of red, because just some seconds after the red phase begins the bus will finish boarding, but it will obstruct access to the bus stop during the entire 500 seconds of red. Thus, at a value of 1.195 the high saturation leads to considerable congestion of the busway.
+
+**2.Calculating station to intersection interference with a short red phase**
+
+X_is0 = X_station * {T_cycle} over {( {T_cycle - T_red ^ 2} over { 2 * T_station})}
+
+TR = 15 seconds of red phase
+TB = 40 seconds of vehicle stopping time
+TC = 30 seconds full signal phase
+x = .35 
+
+Xsb0 = .35 * 30 / ( 30 - 152 / ( 2 * 40 ) )
+       = 0.386
+
+In this case, because the red phase is quite short, there is fairly minimal risk that the traffic signal will disrupt the functioning of the bus stop, so saturation increases only marginally, from 0.35 to 0.386. 
 
