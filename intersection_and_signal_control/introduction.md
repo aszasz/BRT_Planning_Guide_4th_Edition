@@ -45,15 +45,15 @@ As a first step to intersection design, BRT system planners should carefully rev
 - Improperly designed and channelised intersections;
 - Badly placed bus stops or unregulated stopping of public transport vehicles.
 
-Quite often a new BRT system can lead to a reduction of the number of lanes available to mixed traffic.  While ideally the removal of a large number of buses from the mixed traffic lanes will avoid worsening congestion in the mixed traffic lanes, this is not always possible, and mixed traffic saturation may increase
+Quite often a new BRT system can lead to a reduction of the number of lanes available to mixed traffic.  While ideally the removal of a large number of buses from the mixed traffic lanes will avoid worsening congestion in the mixed traffic lanes, this is not always possible, and mixed traffic saturation level may increase
 
-Figure \fignum corridor-saturation illustrates the vehicular demand saturation level along a planned BRT corridor and what could be expected if one lane is removed. 
+Figure \fignum(corridor-saturation) illustrates the vehicular demand saturation level along a planned BRT corridor and what could be expected if one lane is removed. 
 
 ![corridor-saturation](img/corridor-sat-3ed9.3.png "Current demand saturation level for mixed traffic can be expected to off-set with the transference of one lane to the planned BRT system.")
 
 The most serious bottlenecks -- points A , B and E -- are signalised intersections. Point C might be a bridge or tunnel where, for example, lanes are reduced from 3 to 2, increasing saturation by 50 percent. Point D might be a popular destination like a shopping mall where an extra volume of vehicles enters the road, increasing saturation.  It might also be a popular bus interchange, a street market, or an area with regulated on-street parking area. 
 
-If no measures to mitigate the lane removal due to the BRT implementation, congestion restricted to point B, will  occur at A, B, C and E. These points now require more careful attention.
+If no measures to mitigate the lane removal due to the BRT implementation are made, congestion restricted to point B, will  occur at A, B, C and E. These points now require more careful attention.
 
 ### Solution approach
 
@@ -107,6 +107,7 @@ Signal delay as function of red light
 
 Thus, if there are 200 articulated buses per hour in a single lane and there is an 80 second traffic signal cycle with up to a red phase of 35 seconds, there is no difference between total signal delay and average signal delay.  In this case there is no additional delay resulting from the randomness bus queues at the stop light.   However, if there is more than 35 seconds of red time, the random queuing of buses at the traffic light begins to add additional delay.
 
-Intersection delay is largely a function of red time as a share of total signal time.  If demand-to-signal-capacity level is greater than 0.65, random delay becomes significant, and the project design should be changed to give a higher proportion of green time, and/or a second BRT lane on the approach to the intersection should be considered.
+In summary, intersection delay is largely a function of red time as a share of total signal time.  If demand-to-signal-capacity level is greater than 0.65, random delay becomes significant, and the project design should be changed to give a higher proportion of green time, and/or a second BRT lane on the approach to the intersection should be considered (figure \fignum(bogota-single-to-double)).
 
+![guangzhou-double-to-single](img/guangzhou-single-to-double.jpg "Single to double lanes just before the intersection in Bogotá to assure proper capacity. Photo by Oscar Edmundo Diaz, GSD+).")
 

@@ -2,8 +2,7 @@
 
 ## Station location relative to the intersection
 
-*“The engineer's first problem in any design situation is to discover what the problem really is.”*
-	-	Anonymous
+*“The engineer's first problem in any design situation is to discover what the problem really is.”* - Anonymous
 
 Intersection and station design should minimize the added travel time of the all the customers. The station location in relation to the intersection will affect BRT system flow and speed  and the right-of-way needed for the BRT system. Pedestrian travel times, which seems to be the more obvious reason for determining station location are far less relevant than it appears at first.
 
@@ -45,6 +44,10 @@ In the rare case the station must be located at the intersection, there is an em
 As highlighted above and as discussed in the remainder of this section, there should be some space between the intersection and the station as it:
 - provides the possibility of take away mixed-traffic space without change road capacity for the section
 - prevents that bus queues at the intersection from hindering the station
+- leave width at the intersection for increase mixed-traffic capacity and turns (figure \fignum(guangzhou-single-to-double)).
+
+![guangzhou-double-to-single](img/guangzhou-single-to-double.jpg "Double to single  BRT lane transition before intersection, in Guangzhou, China. Photo by Karl Fjellstrom.")
+
 
 We further divide the possibility of location in relation to the intersection in "near it" and "far from it" (or "mid-block"). The aspect to be taken into consideration for this dichotomy is the passenger access to the station.
 
@@ -63,7 +66,7 @@ This alternative is discussed at the section \sectionnumber(Grade Separation), w
 
 ### Minimum mixed-traffic number of lanes away from the intersection that does not affect segment capacity
 
-Usually the mixed-traffic bottleneck is the intersection, where capacity is fifty to thirty percent  (proportional to the green fraction of each approach) of mid-block capacity. So if BRT stations are far from intersections, the general-traffic road capacity can be reduced in its surroundings without any significant impact on the capacity and performance on the segment as a whole. This means that mixed-traffic lanes can be removed, and  its space given to the BRT station,  thus enabling the widening  required for BRT at stations to accommodate passing lanes, and hence provide high capacity at stations without impacting mixed-traffic capacity atall (Figure Soul-wide-station).
+Usually the mixed-traffic bottleneck is the intersection, where capacity is fifty to thirty percent  (proportional to the green fraction of each approach) of mid-block capacity. So if BRT stations are far from intersections, the general-traffic road capacity can be reduced in its surroundings without any significant impact on the capacity and performance on the segment as a whole. This means that mixed-traffic lanes can be removed, and  its space given to the BRT station,  thus enabling the widening  required for BRT at stations to accommodate passing lanes, and hence provide high capacity at stations without impacting mixed-traffic capacity at all (Figure Seoul-wide-station).
 
 For example, at the bus stop, if bus frequencies are high and an overtaking lane is needed at each station, the extra width required will be around 12 metres.  If the station is located at the intersection, these 12 metres will be difficult to supply while also providing 6 metres turn lanes for mixed traffic.  Separating these functions will allow the same right of way to be used for the bus station at mid-block, and for left and right turn signals at the intersection. Figure Delhi-station-layout shows an application of this concept within a proposal for the Delhi BRT system. 
 

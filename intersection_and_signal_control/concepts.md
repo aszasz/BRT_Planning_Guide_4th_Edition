@@ -1,14 +1,14 @@
 #[Intersections and traffic signals](toc.md#toc)
 
-"Saying there appears to be some clotting is like saying there's a traffic jam ahead. Is it a ten-car pile up, or just a really slow bus in the center lane? And if it is a bus, is that bus thrombotic or embolic? I think I pushed the metaphor too far."- House,MD
-
 ## Basic Concepts
+
+"Saying there appears to be some clotting is like saying there's a traffic jam ahead. Is it a ten-car pile up, or just a really slow bus in the center lane? And if it is a bus, is that bus thrombotic or embolic? I think I pushed the metaphor too far."- House,MD
 
 ### About intersections
 
 Intersection is the area where two or more roads encounter each other. The use of the word in Traffic Engineering technical environment implies in "roads for vehicles" and "at the same level", but very often the expressions "at-grade intersections" or "single grade intersections" are used to confirm the concept; for fly-overs and underpasses the term used is "interchange" or still "separated-grade interchange". When more than one mode is involved, the common traffic engineers' wording is "crossing" -- one of the roads is assumed to be a "carriageway" -- as in  "pedestrian crossing"; recently the term "multimodal intersection" has been applied.  
 
-By this definition, intersection implies in conflicts for vehicles to use the same space,and can refer to an unidirectional T-shaped or Y-shaped confluence area; the conflicts there gets clear when there is no space to accommodate the two incoming flows on the exiting stream in a congested situation.
+By this definition, intersection implies in conflicts for vehicles to use the same space, and can refer to an unidirectional T-shaped or Y-shaped confluence area; the conflicts there gets clear when there is no space to accommodate the two incoming flows on the exiting stream in a congested situation.
 
 ![high volume in an Y-shaped intersection](img/crowded-Y-junction.png  "a Y junction that is an intersection.")
 
@@ -46,11 +46,11 @@ Before that, we emphasize that when applying formulas, attention should be given
 
 For this chapter we have excluded the expressions right-turn and left-turn as they have different meanings in different hand-way systems. We have chosen to adopt cross-traffic and kerb-side-turn instead.
 
-*cross-traffic-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict the BRT vehicles or bicycles going straight in the same way as in opposite way.
+*cross-traffic-turn*: a vehicle movement to exit the current traffic stream direction that requires crossing the flow in the opposite way. If a busway or a bike lane is present near the medium, there is also conflict with BRT vehicles or bicycles going straight in the same way as in opposite way.
 
 *kerb-side-turn*: a vehicle movement to exit the current traffic stream direction that normally does not cross any vehicle flow. This movement conflicts with people on the side walk in both ways and if the road abridges curb-side busway or a curbside bike-lane, there is conflict with that traffic as well.
 
-*u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction it is current flow. Depending on the width of the medium this movement can be less conflicting than the cross-traffic-turn or more conflicting as the speed has to be lower. This movement is sometimes moved away from the intersection where other movements are allowed, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a cross-traffic-turn from a perpendicular street would.
+*u-turn* (this is the usual concept, included here only for completeness, as this is not always obvious for non-native speakers): a vehicle movement to join  the traffic stream in the opposite way of the direction of its current flow. Depending on the width of the medium this movement can be less conflicting than the cross-traffic-turn or more conflicting as the speed has to be lower. For this reason, u-turns are sometime prohibited at existing intersections and promoted away from the intersection, creating another intersection exclusively for it. Due to road geometry restriction or other considerations, this movement eventually is channelized to start from a waiting area from the curb-side of the road, in which case it will conflict with both flows in the same way a cross-traffic-turn from a perpendicular street would.
 
 ![turns-example-right-hand](img/right-side-driving-turns.png "Example of cross-traffic-turn \(green car\), kerb-side-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for right driving way as in China, US, Brazil and Continental Europe")
 ![turns-example-left-hand](img/left-side-driving-turns.png "Example of cross-traffic-turn \(green car\), kerb-side-turn\(blue car\), u-turn without space \(red car\), u-turn with space \(pink car\) for left driving way as in India, Indonesia, South-Africa, Tanzania, Australia and UK")
@@ -94,8 +94,10 @@ Capacity can be easily and objectively measured, but some of the influential fac
 
 The simpler models commonly don't fit exactly to theories either and are usually adjusted by experimental evidence. These resort to the concept of **basic saturation flow**.
 
-Basic saturation (flow rate) is the capacity for a section of a given standard ideal carriageway, divided by number of lanes of that given standard carriage way, it is commonly expressed by "s0"
+Basic saturation (flow rate) is the capacity for a section of a given standard ideal carriageway, divided by number of lanes of that given standard carriage way, it is commonly expressed by "s0".
+
 Capacity and speed are inter-dependent and the maximum flow does not happens when speeds are maximum. This happens due to the fact that the distance a driver maintains from the vehicle in front of it raises more than proportionally than the speed increase. The speed maximum capacity occurs in a section of unconstrained road is between 60 and 80 kph (km/hour).  
+
 Based on extensive observations, capacity models then define a way to forecast a **saturation flow** multiplying the basic saturation flow by adjustment factors to account for various non-ideal geometric, traffic, and environmental conditions of a given section, such as number of lanes, lane width, heavy vehicles, grade, parking facilities, bus blockage, area type, turning traffic along the segment, radius of turnings, pedestrian crossing traffic, but not considering traffic lights.
 
 Saturation is commonly written as S in equations, but here we use "SaturationFlow" or "SatFlow" to avoid confusion with demand saturation level, usually "X" that represents the relation between demand and capacity for a given infrastructure element as an intersection or a station.
@@ -161,17 +163,40 @@ Traffic signals programming shall change along the day, so green, red and cycle 
 
 We look to design infrastructure associated with traffic light plan to the peak-hours of the day for each flow, if there is enough capacity at this moments, certainly will be in others, although traffic signal programs need to be different to minimize travel times. To represent the peak we both use and measure the busiest hour of the day for the given flow (as a reminder: we survey data with smaller intervals than on hour, so a given measure of busiest hour might have happened from 7:15 AM to 8:15 AM for example).
 
+###### Traffic signs coordination
+
+Coordination is the synchronization of several traffic lights along a path to produce a "green wave" for that route, eliminating waiting, while still keeping required/projected capacity for all flows. With proper planning, it is possible to coordinate several routes (including pedestrians and to some extent transit) in the same area by establishing priorities among them. Eventually routes with lower priority end up having more breaks in their green waves and some intersections will need to have irregular green times for the transversal flows (still fixed in a larger cycle measure: one long, one short, one long, one short..). 
+
+![traffic-lights-coordination](img/green-wave.png "Traffic light coordination can provide green waves to several routes by sincronizing the openning of green phases with the flow speed")
+
+
+###### Detection or actuation
+
+Actuation is the form that user has informs its presence to a traffic sign controller, for example:
+- a pedestrian pressing a button to request a crossing (figure \fignum(pedestrian-button));
+- a vehicle passing over a magnetic induction loop buried in the traffic lane(figure \fignum(loop))
+
+Actuation can be used in many ways, isolated or in conjunction:
+- adding a required phase for pedestrians or cross-traffic turns (semi actuated control);
+- determine the length of every phase (full actuated control);
+- activate a pre-established, eventually coordinated plan;
+- establish transit priority (see section \sectionnum(active-priority))
+- input am area central traffic control, that in turn computes several inputs to select a plan of operation
+- input central controllers that adjust traffic signal parameters by evaluating alternative strategies for the requirements in real-time (adaptive control, among which Split Cycle Offset Optimisation Technique or SCOOT model is the most known reference). 
+
 ### Intersection capacity
 
 Considering the definition of intersection as the area where vehicles come into conflict, the capacity of the intersection should be measured as the total number of (equivalent) vehicles that crossed it adding up all the movements.
 
-But in the right perspective for this chapter analysis, intersection capacity refers to the entrance section (the approach or stop line) of a road segment under study. Furthermore, we are particularly interested in signalized intersections, assuming that the corridor where the BRT is placed has preference at smaller unsignalized intersections that don't cause meaningful delay to mixed-traffic or to BRT.
+But in the perspective of this chapter, when not saying "overall" intersection capacity alone refers to the entrance section (the approach or stop line) of a road segment under study. Furthermore, we are particularly interested in signalized intersections, assuming that the corridor where the BRT is placed has preference at smaller unsignalized intersections that don't cause meaningful delay to mixed-traffic or to BRT.
 
 ###### Relative green (K_green)
 
-The proportion of time that the flow to a given approach can cross the intersection.
+The proportion of time that the flow to a given approach can cross the intersection. The following equation applies to fixed cycles.
 
 ![equation-relative-green-definition](img/eq-rel-green.png "K_green = {T_green} over {T_cycle} ")
+
+(When planning coordination, the first steps consider regular times, but to measure relative green of a coordinated traffic light with irregular times, one considers the total green time 
 
 ###### Relative red (K_red)
 
@@ -211,7 +236,7 @@ This is a variant form of expressing demand saturation level at the traffic ligh
 
 ![equation-demand-level-definition](img/eq-xsignal-definition-cap.png "XSignal = {DemandFlow} over {CapacityFlow} ")
 
-![equation-demand-level-definition-to-sat](img/eq-xsignaç-definition-sat.png "XSignal = {DemandFlow} over {SaturationFlow * K_green} ")
+![equation-demand-level-definition-to-sat](img/eq-xsignal-definition-sat.png "XSignal = {DemandFlow} over {SaturationFlow * K_green} ")
 
 Demand to signal capacity level is particularly relevant for the calculation of traffic sign delay bellow in the particular formulation we use and sometimes it is called "signal saturation level" as the following definition is also possible.
 

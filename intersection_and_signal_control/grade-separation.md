@@ -59,7 +59,7 @@ A second possibility is to allow the BRT vehicles to also pass over the flyover 
 
 The third possibility is when the flyover built on the road perpendicular to the BRT corridor.  In this case, the flyover does not introduce any special difficulty in relation to the (same-level) intersection already discussed and if it cannot eliminate the intersection with mixed-traffic, it can certainly alleviate the intensity and the number of conflicts, increasing the BRT green time.
 
-The last possibility ais that the fly-over is let for mixed traffic alone an BRT remain on the street level. As the others have been covered, this fourth possibility will be the only of interest for the reminder of this subsection (all must be considered when evaluating benefits though).
+The last possibility ais that the fly-over is let for mixed traffic alone an BRT remain on the street level. As the others don't create intersection with BRT, this fourth possibility is the only of interest for the reminder of this subsection (all four must be considered when evaluating benefits though).
 
 If a single flyover in the median is built, the BRT vehicles in the median will have to cross the mixed traffic going over the flyover. This scenario creates either the need for a new signalised intersection prior to the flyover, or a merging lane where the BRT buses and mixed traffic can cross, introducing possible delay and confusion for both the BRT system and the mixed traffic.  Figure \fignum(fly-over-conflict) shows the conflict.
 
@@ -69,11 +69,10 @@ If two separate access for the flyover, one for each traffic direction, are cons
 
 ![no-fly-over-conflict](img/fly-over-conflict.png "Alternative design for fly-over that allow BRT vehicles proceed without conflicts to the area bellow the fly-over.")
 
-In this configuration, the BRT will intersect the crossing street under the flyover, so we must consider the alternatives of section \secnum(Restricting mixed-traffic turns) with the introduction of the fly-over to reduce the number of phases.
+In this configuration, the BRT will intersect the crossing street under the flyover, so we must consider the alternatives of section \secnum(Restricting mixed-traffic turns) also with the introduction of the fly-overs to reduce the number of phases.
 
 
 Option “H” shows the limited benefit of using a flyover or underpass if the BRT lanes remain at the surface level and four-phase signal timing is maintained (Figure 9.17).  In this scenario, the overall increase in intersection capacity is quite small with the capacity only rising from 600 pcu/lane/hour to 700 pcu/lane/hour.
-If a single flyover in the median is built for mixed traffic while BRT buses are forced to use surface streets, the buses in the median must cross the mixed traffic going over the flyover.  This problem is being confronted in Delhi.  This scenario creates either the need for a new signalised intersection prior to the flyover, or it requires a merge lane where the BRT buses and mixed traffic can cross, introducing possible delay and confusion for both the BRT system and the mixed traffic.  Figure 9.16 shows the conflict in a planned BRT system in Delhi where it must cross a mixed-traffic only flyover.  Clearly, in this scenario, it would be far better to dedicate the flyover (or at least the middle lanes of the flyover) to the BRT system.
 
 Option “H” is fairly common with conventional bus services in cities such as Bangkok (Figure 9.18).  Mixed traffic vehicles have access to the flyover and thus are given a substantial priority at the intersection.  By contrast, public transport vehicles servicing the intersection area are often mired in heavy congestion.  
 
