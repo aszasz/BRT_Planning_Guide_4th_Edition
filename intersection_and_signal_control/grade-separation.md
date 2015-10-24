@@ -38,17 +38,17 @@ Both the Brisbane and Ottawa BRT systems site stations at the tunnel level.  In 
 
 ![Ottawa-station-inside-tunnel](img/ottawa-station.jpg "A station placed inside the tunnel in Ottawa provide access and weather protection. Photo by Lloyd Wright.")
 
-![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location.jpg "BRT Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth")
+![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location.jpg "BRT Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth.")
 
 Effective pedestrian access as well as visually neutral solutions can be designed. For TransMilenio Phase II’s “Avenida Boyacá” station along the Avenida Suba Corridor, the adopted solution was to locate the station above Avenida Boyacá, level with the flyover. Pedestrians access the platform via an elevator from a small pedestrian plaza where fares are collected. This solution allowed for the strategic location of this station, which will make future transfer points on the projected Av. Boyacá closer from each other. Ultimately, the implementation of solutions of this sort will depend on budgetary constraints.
 
-![TransMil-BoyacaSt-double-deck-view](img/TransMil-BoyacaSt-double-deck.png "TransMilenio's Boyacá Station is uppon the flyover on Suba Corridor, allowing access from Avenida Boyacá bellow it. Image from Google Street View")
+![TransMil-BoyacaSt-double-deck-view](img/TransMil-BoyacaSt-double-deck.png "TransMilenio's Boyacá Station is uppon the flyover on Suba Corridor, allowing access from Avenida Boyacá bellow it. Image from Google Street View.")
 
-![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan.png "Seen from the fly-over on Suba Corridor, TransMilenio's Boyacá Station seems a regular large station with underground access. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan.png "Seen from the fly-over on Suba Corridor, TransMilenio's Boyacá Station seems a regular large station with underground access. Image from Google Street View.")
 
-![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan-flyover.png "TransMilenio's Boyacá Station uppon flyover is an example of addapting BRT to existing grade separation. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-pan-flyover.png "TransMilenio's Boyacá Station uppon flyover is an example of addapting BRT to existing grade separation. Image from Google Street View.")
 
-![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-entrance.png "TransMilenio's Boyacá Station entrance bellow flyover is thru a small pedestrian plaza along Avenida Boyacá. Image from Google Street View")
+![TransMil-BoyacaSt-pan-view](img/TransMil-BoyacaSt-entrance.png "TransMilenio's Boyacá Station entrance bellow flyover is thru a small pedestrian plaza along Avenida Boyacá. Image from Google Street View.")
 
 
 ### Restricting turning movements together with grade-separation
@@ -63,11 +63,11 @@ The last possibility ais that the fly-over is let for mixed traffic alone an BRT
 
 If a single flyover in the median is built, the BRT vehicles in the median will have to cross the mixed traffic going over the flyover. This scenario creates either the need for a new signalised intersection prior to the flyover, or a merging lane where the BRT buses and mixed traffic can cross, introducing possible delay and confusion for both the BRT system and the mixed traffic.  Figure \fignum(fly-over-conflict) shows the conflict.
 
-![fly-over-conflict](img/fly-over-conflict.png "Schematic of Delhi roadway in which BRT vehicles must cross mixed traffic that is attempting to access a flyover.")
+![fly-over-conflict](img/fly-over-conflict.png "Schematic of Delhi roadway in which BRT vehicles must cross mixed traffic that is attempting to access a flyover. Image courtesy of Elebeta.")
 
 If two separate access for the flyover, one for each traffic direction, are constructed, it is possible leave a space between them for the BRT system to continue along the surface as in figure \fignum(no-fly-over-conflict).
 
-![no-fly-over-conflict](img/fly-over-conflict.png "Alternative design for fly-over that allow BRT vehicles proceed without conflicts to the area bellow the fly-over.")
+![no-fly-over-conflict](img/fly-over-conflict.png "Alternative design for fly-over that allow BRT vehicles proceed without conflicts to the area bellow the fly-over. Image courtesy of Elebeta.")
 
 In this configuration, the BRT will intersect the crossing street under the flyover, so we must consider the alternatives of section \secnum(Restricting mixed-traffic turns) also with the introduction of the fly-overs to reduce the number of phases.
 
@@ -107,14 +107,14 @@ Bogotá utilises grade separation both to provide dedicated turning infrastructu
 
 ![construction-superlative-TransM-roundabout.jpg](img/construction-superlative-TransM-roundabout.jpg "Exclusive BRT third-floor roundabout is an unpreceeded work-of-art to guarantee free-flow movements to TransMilenio operation. Photo by courtesy of Instituto de Desarollo Urbano de Bogotá")
 
-![superlative-TransM-roundabout.jpg](img/superlative-TransM-roundabout.jpg "TransMilenio operation superlative interchange was carefully planned from operational and aesthetical point of view. Image by courtesy of Instituto de Desarollo Urbano de Bogotá")
+![superlative-TransM-roundabout.jpg](img/superlative-TransM-roundabout.jpg "TransMilenio operation superlative interchange was carefully planned from operational and aesthetical point of view. Image by courtesy of Instituto de Desarollo Urbano de Bogotá.")
 
 
 ### BRT through roundabouts with grade separated solution
 
 Construct a busway underpass that goes below the roundabout and avoids all conflicts with mixed traffic -- and thus promoting time savings for both BRT and mixed traffic -- is also a possibility, as the examples from Quito with good and bad station locations shows (Figure quito-under-roundabout-bad-station-location and Figure quito-under-roundabout-good-station).
 
-![villa-flora-roundabout](img/villa-flora-quito-top.png "Quito's BRT avoids Vila Flora roundabout traffic with underpasses. Image from Google Earth")
+![villa-flora-roundabout](img/villa-flora-quito-top.png "Quito's BRT avoids Vila Flora roundabout traffic with underpasses. Image from Google Earth.")
 
 A fly-over is also a possibility, but the design of an aesthetically acceptable solution is very challenging. With the exception of the superlative third floor roundabout above mixed-traffic roundabout of Bogotá mentioned in the previous section, there is no other project we have heard of.
 
