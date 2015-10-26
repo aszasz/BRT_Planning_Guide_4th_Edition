@@ -1,7 +1,8 @@
 
  ## Restricting General Traffic Turning Movements
 
-**"Change means movement. Movement means friction. Only in the frictionless vacuum of a non-existent abstract world can movement or change occur without that abrasive friction of conflict."** - Saul Alinsky, political activist, 1909 – 1972
+**"No matter how many times you save the world, it always manages to get back in jeopardy again. Sometimes I just want it to stay saved! You know, for a little bit? I feel like the maid; I just cleaned up this mess! Can we keep it clean for... for ten minutes!"** - Mr. Incredible, animation character from "The Incredibles", 2004
+
 
 The overall capacity of the intersection is given by the sum of the capacity of each approaching lane. By its turn, the capacity of each approaching lane is given by the sum of saturation flow of the lane multiplied by the sum of relative green times of the phases the lane is active.
 
@@ -11,7 +12,7 @@ This is empirically clear for a relatively balanced intersection, a larger numbe
 
 Of course it is not interesting to create capacity for movements without demand, the following subsections will discuss alternatives to divert traffic in order to increase capacity by eliminating phases. We will see that in some cases, intersection capacity still is increased even if the demand for eliminated movements, namely cross-traffic turns are forced to pass over the intersection twice.
 
-Widening the intersection can be of great assistance, but rarely to the point it can achieve the same benefits of reducing phases. If widening is possible, it shall be done in order to permit reducing the number of phases to two.
+Widening the intersection can be of great assistance, but rarely to the point it can achieve the same benefits of reducing phases from four to two. If widening is possible, it shall be done in order to reducing the number of phases to two.
 
 \startbox(narrowing-lanes)
 
@@ -23,7 +24,7 @@ Places where congestion is a serious issue may already have addressed regulation
 
 US Federal Highway Administration suggests that, despite desired lane width of 3.6 metres to maximize flow, right-of-way or pedestrian needs may dictate use of a narrower lane width; lane widths bellow 2.7 metres are not recommended for new design, but in some very constrained retrofit situations on low speed roadways, lane widths as low as 2.4 m should be considered where appropriate (figure \fignum(montgomery-narrow-lane)).
 
-![montgomery-narrow-lane](montgomery-narrow-lane.png "Lanes as narrow as 2.4 metres are an effective way to improve intersection capacity, as in this intersection in Montgomery County, Maryland, US. Image from Google Earth.")
+![montgomery-narrow-lane](img/montgomery-narrow-lane.png "Lanes as narrow as 2.4 metres are an effective way to improve intersection capacity, as in this intersection in Montgomery County, Maryland, US. Image from Google Earth.")
 \endbox
 
 ### Eliminating intersections
@@ -103,7 +104,7 @@ The typical configuration has the advantage of not requiring dedicated queue spa
 
 A composition of the two is also possible, using cross-traffic-turn phase for one direction, and one phase per origin in the other direction (figure \fignum(mix-typical-and-cross-turn)).
 
-![cross-traffic-four-phases](img/cross-traffic-four-phases-3ed9.6.png "Mixed four-phases-diagram. Image courtesy of Elebeta.")
+![mix-typical-and-cross-turn](img/mix-typical-and-cross-turn.png "Mixed four-phases-diagram. Image courtesy of Elebeta.")
 
 #### Movements conflicting with BRT
 
@@ -115,7 +116,10 @@ For the reminder of the section we will assume that the bus way is median-side a
 
 ![conflicting-movements](img/conflicting-movements.png "With the insertion of BRT (red) conflicting movements(in blue) shall be addressed. Image courtesy of Elebeta.")
 
-With a median-side BRT, typical four-phase stage can no longer be applied; once it will conflict for the cross-traffic turn, alternative cross-traffic turn stage has to be present in BRT direction (figures \fignum(four-phases-with-brt-one) and \fignum(four-phases-with-brt2)).
+With a median-side BRT, typical four-phase stage can no longer be applied; once it will conflict for the cross-traffic turn (\fignum(quito-cross-front)), alternative cross-traffic turn stage has to be present in BRT direction (figures \fignum(four-phases-with-brt-one) and \fignum(four-phases-with-brt2)).
+
+![quito-cross-front](img/quito-cross-turn.jpg "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
+
 
 ![four-phases-with-brt-one](img/four-phases-with-brt-one.png "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
 
@@ -123,29 +127,74 @@ With a median-side BRT, typical four-phase stage can no longer be applied; once 
 
 #### Diverting kerb-side-turns
 
+Diverting kerb-side-turns usually do not remove a phase, but it can free space for queueing and increase capacity for the remaining movements.
+
 Moving kerb-side turns away from the intersection is usually simple if parallel streets are available (figure \fignum(detour-kerb-side). Detouring the kerb-side flow from the crossing street is particularly interesting because it can leave the whole approach width available to the conflict movements, reducing the crossing time (red for the corridor) in the same proportion this kerb-side-turn flow is to the total flow, even if four-phases are in use (figure \fignum(shorter-four-phase)).
 
 ![detour-kerb-side](img/detour-kerb-sid.png "Kerb-side-turn detour can leave width in the main intersection available to crossing flows. Image courtesy of Elebeta.")
 
 ![shorter-four-phase](img/shorter-four-phase.png "Without kerb-side-turn, cross street phases will be shorter. Image courtesy of Elebeta.")
 
-#### Diverting cross-side-turns
+#### Diverting cross-traffic-turns
+
+There are several ways of eliminating cross-traffic turns in the main intersection by detouring the flow. These can be applied both to the flows parallel to the corridor or to the flows crossing the corridor (and turning parallel to it). Applying a detour to only one direction (both ways) means eliminating one phase already.
 
 ###### Loop
 
-###### Kerb-side and u-turn
+After crossing the intersection, the willing to cross-traffic-turn flow has to do three kerb-side turns and then cross the intersection again (figure \fignum(loop-detour)) this has the clear disadvantage of crossing the intersection twice. Even other can be better, this alternative is always interesting for the BRT crossing flow, because it necessarily removes red times. For the parallel flow it is interesting while flows are low (bellow 300-450 pcu/hour, i.e. not enough to take one lane width on the crossing BRT phase)
 
-###### U-turn and kerb-side
+![loop-detour](img/loop-detour.png "Three kerb-side-turns after crossing the intersection is a simple alternative to eliminate cross-traffic-turn after, despite crossing intersection twice, it does not create much conclict with existing flows. Image courtesy of Elebeta.")
+ 
+###### Kerb-side-turn and u-turn
 
-###### Previous turn
+Cross-traffic-flow detour is made by means of a right turn at the crossing road, followed by a u-turn in the crossing road at a suitable location approximately one hundred meters from the major route and then cross the intersection a second time. From the main intersection capacity point of view, this alternative has no advantage over the loop as it takes away the same width as the loop in both approaches. It is suitable when the loop is not an option, because the alternative is already congested or too long that would create political problems with drivers; besides there would have to be sufficient width to accommodate the u-turn as well as length for a waiting area.
+
+A variation of this movement can use an auxiliary crossing street before the intersection, detouring the flow by means of a kerb-side turn at the street, followed by two successive cross-traffic-side turns. When comparing with the loop, this variation is certainly more interesting to be applied to the corridor perpendicular to the BRT, as it frees width in the its main approach to straight flow only. Still comparing with the loop for application to the parallel flow to the BRT it might be an advantage to the mixed traffic, that is not likely to benefit th BRT as it may justify reduction of proportional green time in BRT's direction.
+
+![loop-detour](img/loop-detour.png "Three kerb-side-turns after crossing the intersection is a simple alternative to eliminate cross-traffic-turn after, despite crossing intersection twice, it does not create much conclict with existing flows. Image courtesy of Elebeta.")
+
+
+
+
+
+
+###### U-turn and kerb-side-turn
+
+By means of a u-turn at a median break downstream of the crossing road, followed by a right turn at the crossing road. As this movement crosses the bus lanes, undesirable conflicts may be created for the BRT system (Figure 24.8), though this configuration can be very successfully applied to BRT station access
+
+
+U-turn and queue area may me accommodated at the kerb-side instead of in the median side, as shown in figures
+\fignum(guangzhou-dongpu-uturn) and \fignum(gunagzhou-dongpu-layout) where it accommodates cross-side-turn detoured flows both the parallel and perpendicular streets: parallel doing u-turn then kerb-side, the perpendicular doing kerb-side then u-turn.
+
+ 
+ 
+ ###### Previous turn
 
 (displaced left-turn)
 
 
 #### Diverting straight flow
 
-The use of the imediate parallel street in one-way as an auxiliary street is an effective alternative for mixed-traffic. Even a narrow two-way street transformed into one-way street with parking prohibition in one-side can represent a three lane parallel corridor with larger capacity than the main corridor.r
+###### Parallel street
 
+The use of the imediate parallel street in one-way as an auxiliary street is an effective alternative for mixed-traffic. Even a narrow two-way street transformed into one-way street with parking prohibition can be a meaningful alternative for straight traffic. Applied both to BRT corridor and the corridor crossing, it can alleviate intersections.In São Paulo it is common that the "auxiliary" street end up having higher through put than the main corridor (figure \fignum(sp-9-julho+aux)).
 
-It a common situation to main corridors, to  that auxiliary streets para
+![sp-9-julho+aux](img/sp-9-julho-and-auxiliary.png "Auxiliary street (left) has higher mixed-traffic capacity than the main corridor (right) in São Paulo. Image from Google Maps.")
+
+###### Force cross or u-turn away from the intersection
+
+If the station location is seen as imperative, the intersection could be closed in order to avoid problems with the BRT system operation. Mixed traffic can be detoured around it. The examples for kerb-side and u-turn (figures \fignum(guanzhou-dongpu-station), \fignum(guangzhou-dongpu-uturn) and \fignum(gunagzhou-dongpu-layout)) applied this detour to straight movements too, although it its not surrounding the station.
+
+![straight-traffic-diverted](img/rio-straight-traffic-diverted.png "Allthough not a real case of diverting straight traffic and no widening dificults for this project, this TransOeste station in Rio shows a configuration of movements detoured around the station. Image from Google Earth.")
+ 
+### Examples
+
+Deciding which detour alternatives applies to each flow, requires a careful evaluation of the intensity and fluctuations of demand along the day in the intersection and surrounding streets, widths of the approaches and widening possibilities.
+
+An infinity of compositions exists, including roundabouts and hamburger-shaped intersections and other are to be created. **The goal is to increase the proportion of green time given for the corridor direction**, capacity increasing for mixed traffic shall naturally result from this. 
+
+**Alternatives that invert the way, i.e. making a right-handed system in a location where left-hand system is used or vice-versa, should not be proposed**(in our experience, even if the flow is completely channelled and pedestrians and bicycle crossings are grade-separated, there should be safer alternatives). The common situation of a flowing busway amidst congested mixed traffic is enough potential danger to deal with at the intersection. The importance of enforcement policy to BRT drivers slow down in this situation cannot be stressed enough.
+
+Specially for mixed traffic, measuring travel time alone is not the right metric to evaluate the quality of solution, although it is very frustrating see congestion returning after a fine implementation is in place on a major intersection, one must remember the capacity gains. Congestion seems to be the only traffic deterrent, so a good design will enable more people to cross the intersection area by car, that might mean that either travel times or congestion was eliminated somewhere else or that more people are willing to come to that area and benefit from the infrastructure that part of the city has to offer.
+
 

@@ -2,6 +2,8 @@
 
 ## Traffic signal priority
 
+**"Change means movement. Movement means friction. Only in the frictionless vacuum of a non-existent abstract world can movement or change occur without that abrasive friction of conflict."** - Saul Alinsky, political activist, 1909 – 1972
+
 Signal priority for BRT vehicles is the adjustment of traffic signals to give priority to a corridor with a BRT system over a corridor without one, and to give priority to the BRT system over mixed traffic within the same corridor. Once equipment and techniques were developed to do this in a responsive way after the detection of BRT vehicles approaching an intersection, the expression "active signal priority" became the way to indicate this advance. Since then "passive signal priority" is used to let clear that such detection technology is not being applied.
 
 ![bus-only-traffic-light](img/active-priority-signal.jpg "Active signal priority for BRT and restricted turning movements for mixed traffic vehicles can do much to improve public transport travel times. Photo by Lloyd Wright.")
