@@ -2,7 +2,7 @@
 
 ## Station location relative to the intersection
 
-*“The engineer's first problem in any design situation is to discover what the problem really is.”* - Anonymous
+**The engineer's first problem in any design situation is to discover what the problem really is.”** - Anonymous
 
 Intersection and station design should minimize the added travel time of the all the customers. The station location in relation to the intersection will affect BRT system flow and speed  and the right-of-way needed for the BRT system. Pedestrian travel times, which seems to be the more obvious reason for determining station location are far less relevant than it appears at first.
 

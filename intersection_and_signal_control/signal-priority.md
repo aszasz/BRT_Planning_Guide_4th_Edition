@@ -2,7 +2,7 @@
 
 ## Traffic signal priority
 
-**"Change means movement. Movement means friction. Only in the frictionless vacuum of a non-existent abstract world can movement or change occur without that abrasive friction of conflict."** - Saul Alinsky, political activist, 1909 – 1972
+**"On a traffic light green means go and yellow means yield, but on a banana it’s just the opposite.  Green means hold on, yellow means go ahead, and red means where the hell did you get that banana."** - Mitch Hedberg, comedian, 1968 - 2005
 
 Signal priority for BRT vehicles is the adjustment of traffic signals to give priority to a corridor with a BRT system over a corridor without one, and to give priority to the BRT system over mixed traffic within the same corridor. Once equipment and techniques were developed to do this in a responsive way after the detection of BRT vehicles approaching an intersection, the expression "active signal priority" became the way to indicate this advance. Since then "passive signal priority" is used to let clear that such detection technology is not being applied.
 

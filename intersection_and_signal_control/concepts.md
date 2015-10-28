@@ -2,7 +2,7 @@
 
 ## Basic Concepts
 
-**"Saying there appears to be some clotting is like saying there's a traffic jam ahead. Is it a ten-car pile up, or just a really slow bus in the center lane? And if it is a bus, is that bus thrombotic or embolic? I think I pushed the metaphor too far."** - House,MD (fiction TV character)
+**"Change means movement. Movement means friction. Only in the frictionless vacuum of a non-existent abstract world can movement or change occur without that abrasive friction of conflict."** - Saul Alinsky, political activist, 1909 – 1972
 
 ### About intersections
 

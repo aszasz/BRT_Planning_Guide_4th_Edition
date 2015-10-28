@@ -2,7 +2,7 @@
 
 ## Approach to intersection design
 
-*“Without knowing the cause of illness, any treatment must be considered a guess.”* ― Richard Diaz
+**"Idiopathic, from the Latin meaning we're idiots cause we can't figure out what's causing it."** - House MD, fictional character of homonym TV show, 2004 - 2012
 
 BRT systems are generally built on corridors where mixed traffic congestion is already a problem, or where congestion is likely to occur in the near future, otherwise there would be no benefit in building a segregated busway.  The worse the congestion appears, the greater the benefit of the exclusive busway (figure \fignum{congested-intersection.jpg} )  If a BRT system makes public transport services better but mixed traffic worse, it will be less politically successful than if it makes public transport better and also improves mixed traffic flow.  BRT system planners therefore generally try to minimise adverse impacts on mixed traffic.
 
