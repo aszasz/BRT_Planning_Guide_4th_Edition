@@ -1,3 +1,4 @@
+#[Intersections and traffic signals](toc.md#toc)
 
  ## Restricting General Traffic Turning Movements
 
@@ -112,9 +113,9 @@ For the reminder of the section we will assume that the bus way is median-side a
 
 With a median-side BRT, standard-four-phase sign can no longer be applied; once it will conflict for the cross-traffic turn (\fignum(quito-cross-front)), so the javanese or the mixed-four-phases has to be used.
 
-![quito-cross-front](img/quito-cross-turn.jpg "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
+![conflicting-movements](img/brt-conflicting-movements.jpg "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
 
-![conflicting-movements](img/brt-conflicting-movements.jpg "With the insertion of BRT (red) conflicting movements(in blue) shall be addressed, in a four-stage signal, cross-traffic-turn from the same direction need to have its own phase. Image courtesy of Elebeta.")
+![quito-cross-front](img/quito-cross-turn.jpg "Along Quito’s Central Norte corridor, mixed traffic vehicles are given a phase to perform left turns. Photo by Lloyd Wright.") 
 
 #### Diverting kerb-side-turns
 
@@ -138,7 +139,7 @@ This detour follows along with kerb-side detour proposed through auxiliary stree
 
 After straight crossing the intersection, the willing to cross-traffic-turn flow has to do three kerb-side turns and then straight cross the intersection again (figure \fignum(loop-detour) shows an application to the flow initially parallel to the BRT), this has the clear disadvantage of using the intersection twice. Even other can be better, this alternative is always interesting for the BRT crossing flow, because it necessarily reduces red times. For the parallel flow it is interesting while flows are low enough not to take one lane width on the crossing-BRT phase.
 
-![loop-detour](img/loop-detour.png "Three kerb-side-turns after crossing the intersection is a simple alternative to eliminate cross-traffic-turn, despite crossing intersection twice, it does not create much conclict with existing flows. Image courtesy of Elebeta.")
+![loop-detour](img/loop-detour.jpg "Three kerb-side-turns after crossing the intersection is a simple alternative to eliminate cross-traffic-turn, despite crossing intersection twice, it does not create much conclict with existing flows. Image courtesy of Elebeta.")
  
 ###### Previous cross-turn ("previous cross")
 
@@ -173,8 +174,7 @@ U-turn and queue area may be accommodated at the kerb-side instead of in the med
 
 ![guangzhou-dongpu-layout](img/guangzhou-dongpu-layout.jpg "Dongpu BRT station in Guangzhou, provides at-grade station access at both ends, combined with u-turns. Design by courtesy of ITDP with GMEDRI")
 
-![guangzhou-dongpu-u-turn](img/guangzhou-u-turn.jpg "This intersection near Dongpu BRT Station in Guangzhou was previously a major traffic blackspot -- a location where traffic accidents have often occurred -- but now works very smoothly for all modes, with a two-phase signal combined with u-turns and pedestrian crossings. Photo by Karl Fjellstrom.")
-
+![guangzhou-dongpu-u-turn](img/guangzhou-dongpu-u-turn.jpg "This intersection near Dongpu BRT Station in Guangzhou was previously a major traffic blackspot -- a location where traffic accidents have often occurred -- but now works very smoothly for all modes, with a two-phase signal combined with u-turns and pedestrian crossings. Photo by Karl Fjellstrom.")
 
 #### Diverting straight flow
 
