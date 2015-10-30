@@ -88,87 +88,92 @@ In the direction from 1 to 2 it is possible (if 2 is red while 1 is green) that 
 In the direction from 2 to 1 it is possible (if 1 green start the same time the first vehicle from 2 arrives at the intersection) that the last 10 seconds of green in 1 will be useless, since vehicles stop flowing after 30 seconds  in intersection 2.
 
 
-### Eliminating movements
+### Shortening and eliminating phases
+
+In this subsection we propose names for the traffic diversion models and traffic sign phase schemes as we describe them, in order to refer to them in the following text and in the next subsection. This names are not universally known references.
 
 #### Typical 4-phases-intersection
 
-In a typical intersection that allows all movements (figure \fignum(twelve-moves)), four phases are required; usually each origin has its phase (figure \fignum(typical-four-phases)) but an alternative scheme with one phase for each direction (two ways) straight movement and kerbside-turns and one phase for each direction (two ways) cross-traffic turn may be used as well (figure \fignum(cross-traffic-four-phases)).
+In a typical intersection that allows all movements (figure \fignum(twelve-moves)), four phases are required; usually each origin has its phase ("standard-four-phases") but an alternative scheme with one phase for each direction (two ways) straight movement and kerbside-turns and one phase for each direction (two ways) cross-traffic turn may be used as well, which we will refer as "javanese-phases".
 
-![twelve-moves](img/twelve-moves-3ed9.5.png "Possible movements at a typical four-leg intersection. Image courtesy of ITDP.")
+The standard configuration has the advantage of not requiring dedicated queue space (queue box) for cross-traffic turns and also allow sharing one lane for cross-turn and straight movements (it can be the most median-side or the second close to it) and let the intensity of the flows variations along the day balance the use of this lane. The javanese phases are interesting when cross-traffic-turn flows are relatively low and straight movements are intense in both ways (cross-traffic-turn phase will be short and straight will be long). Our practical experience suggests that javanese tends to be better if a clear bi-directional flow exists, but it ultimately requires an assessment of the flows intensity to each application.
 
-![typical-four-phases](img/typical-four-phases-3ed9.7.png "Typical four-phases diagram. Image courtesy of ITDP")
+A composition of the two is also possible, using cross-traffic-turn phase for one direction, and one phase per origin in the other direction ("mixed-four-phases").
 
-![cross-traffic-four-phases](img/cross-traffic-four-phases-3ed9.6.png "Alternative four-phases diagram. Image courtesy of ITDP.")
-
-The typical configuration has the advantage of not requiring dedicated queue space (queue box) for cross-traffic turns and also allow sharing one lane for cross-turn and straight movements (it can be the most median-side or the second close to it). The scheme with phases for cross-traffic-turn only are interesting when its flows are relatively low and straight movements are intense in both ways (cross-traffic-turn phase will be short and straight will be long)
-
-A composition of the two is also possible, using cross-traffic-turn phase for one direction, and one phase per origin in the other direction (figure \fignum(mix-typical-and-cross-turn)).
-
-![mix-typical-and-cross-turn](img/mix-typical-and-cross-turn.png "Mixed four-phases-diagram. Image courtesy of Elebeta.")
+![twelve-moves](img/typical-four-stage.jpg "Possible movements and signal phases at a typical four-leg intersection. Image courtesy of ITDP.")
 
 #### Movements conflicting with BRT
 
 When the BRT has to cross a typical four-staged intersection, the main concern is to increase the green time for the corridor direction. Eliminating phases are likely to be very effective in doing so, but it is important to keep in mind that it is not the primary goal. Eliminate phases in a way that green time is not increased for the BRT approaches will improve only mixed-traffic performance.
 
-To eliminate the phases we must focus in the **movements that conflict with the BRT** (figure \fignum(conflicting-movements))and try to reroute them in a form such that they can cross the corridor in one phase and briefly, i.e., providing width to the crossing movements approaches. Providing width to parallel movements is important to improve general traffic, which is also desirable, but not paramount.
+To eliminate the phases we must focus in the **movements that conflict with the BRT** (figure \fignum(conflicting-movements)) and try to reroute them in a form such that they can cross the corridor all in one phase and briefly, i.e., providing width to the crossing movements approaches. Providing width to parallel movements is important to improve general traffic, which is also desirable, but not paramount.
 
-For the reminder of the section we will assume that the bus way is median-side aligned and that the busway cross the intersection straight; if the busway is kerb-sided and/or it is turning between perpendicular roads, the same reasoning can be followed and the alternatives for detour mixed-traffic movements shall be considered, but in a different and appropriated way.
+For the reminder of the section we will assume that the bus way is median-side aligned and that the busway cross the intersection straight; if the busway is kerb-sided and/or it is turning between perpendicular roads, the same reasoning can be followed and the same alternatives for detour mixed-traffic movements shall be considered, but in a different and appropriated way.
 
-![conflicting-movements](img/conflicting-movements.png "With the insertion of BRT (red) conflicting movements(in blue) shall be addressed. Image courtesy of Elebeta.")
-
-With a median-side BRT, typical four-phase stage can no longer be applied; once it will conflict for the cross-traffic turn (\fignum(quito-cross-front)), alternative cross-traffic turn stage has to be present in BRT direction (figures \fignum(four-phases-with-brt-one) and \fignum(four-phases-with-brt2)).
+With a median-side BRT, standard-four-phase sign can no longer be applied; once it will conflict for the cross-traffic turn (\fignum(quito-cross-front)), so the javanese or the mixed-four-phases has to be used.
 
 ![quito-cross-front](img/quito-cross-turn.jpg "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
 
-
-![four-phases-with-brt-one](img/four-phases-with-brt-one.png "With the insertion of BRT (red) in a four-stage signal, cross-traffic-turn from the same direction need to have own phase. Image courtesy of Elebeta.")
-
-![four-phases-with-brt-two](img/four-phases-with-brt-one.png "With the insertion of BRT (red) the phases from other direction can still be one for each origin leg. Image courtesy of Elebeta.")
+![conflicting-movements](img/brt-conflicting-movements.jpg "With the insertion of BRT (red) conflicting movements(in blue) shall be addressed, in a four-stage signal, cross-traffic-turn from the same direction need to have its own phase. Image courtesy of Elebeta.")
 
 #### Diverting kerb-side-turns
 
-Diverting kerb-side-turns usually do not remove a phase, but it can free space for queueing and increase capacity for the remaining movements.
+Diverting kerb-side-turns do not remove a phase, but it can free space for queueing and increase capacity for the remaining movements.
 
-Moving kerb-side turns away from the intersection is usually simple if parallel streets are available (figure \fignum(detour-kerb-side). Detouring the kerb-side flow from the crossing street is particularly interesting because it can leave the whole approach width available to the conflict movements, reducing the crossing time (red for the corridor) in the same proportion this kerb-side-turn flow is to the total flow, even if four-phases are in use (figure \fignum(shorter-four-phase)).
+Moving kerb-side-turns away from the intersection is usually simple if parallel streets are available (figure \fignum(detour-kerb-side), it will require a cross-traffic turn in the parallel streets corner, which may start to spread the main corridor intersection problems to a broader area.  Detouring the kerb-side flow from the crossing street is particularly interesting because it can leave the whole approach width available to the conflict movements, reducing the crossing time (red for the corridor) in the same proportion this kerb-side-turn flow is to the total flow, even if four-phases are in use (figure \fignum(shorter-four-phase)). From the BRT point of view, there is no interest in divert the parallel kerb-side flow at the intersection, as it is not a conflicting movement.
 
-![detour-kerb-side](img/detour-kerb-sid.png "Kerb-side-turn detour can leave width in the main intersection available to crossing flows. Image courtesy of Elebeta.")
+![detour-kerb-side](img/detour-kerb-side.jpg "Kerb-side-turn detour can leave width in the main intersection available to crossing flows. Image courtesy of Elebeta.")
 
 #### Diverting cross-traffic-turns
 
-There are several ways of eliminating cross-traffic turns in the main intersection by detouring the flow. These can be applied both to the flows parallel to the corridor or to the flows crossing the corridor (and turning parallel to it). Without cross-traffic-turns, the intersection can have only two phases, but applying a detour to only one direction (both ways) means eliminating one phase already.
+There are several ways of eliminating cross-traffic turns in the main intersection by detouring the flow. These can be applied both to the flows parallel to the corridor and to the flows crossing the corridor (and turning parallel to it). Without cross-traffic-turns, the intersection can have only two phases, but applying a detour to only one direction (both ways) means eliminating one phase already.
+
+###### kerb-side-turn, cross-traffic-turn and cross-traffic-turn ("kerb-first")
+
+This detour follows along with kerb-side detour proposed through auxiliary streets, with a kerb-side turn at the parallel  street before the intersection, followed by two successive cross-traffic-side turns (figure \fignum(detour-kerb-first)). This variation is certainly more interesting to be applied to the corridor perpendicular to the BRT, as it frees width in the its main approach to straight flow only. Comparing with other alternatives (discussed bellow) for application to the parallel flow to the BRT it might be an advantage to the mixed traffic that is not likely to benefit th BRT as it may justify reduction of proportional green time in BRT's direction.
+
+![detour-kerb-first](img/cross-by-kerb-first.jpg " By detouring willing to cross-traffic turn to a kerb sided parallel street before reaching the intersection, a phase is eliminated in the main intersection. Image courtesy of Elebeta.") 
 
 ###### Loop
 
-After crossing the intersection, the willing to cross-traffic-turn flow has to do three kerb-side turns and then cross the intersection again (figure \fignum(loop-detour)) this has the clear disadvantage of crossing the intersection twice. Even other can be better, this alternative is always interesting for the BRT crossing flow, because it necessarily removes red times. For the parallel flow it is interesting while flows are low (bellow 300-450 pcu/hour, i.e. not enough to take one lane width on the crossing BRT phase)
+After straight crossing the intersection, the willing to cross-traffic-turn flow has to do three kerb-side turns and then straight cross the intersection again (figure \fignum(loop-detour) shows an application to the flow initially parallel to the BRT), this has the clear disadvantage of using the intersection twice. Even other can be better, this alternative is always interesting for the BRT crossing flow, because it necessarily reduces red times. For the parallel flow it is interesting while flows are low enough not to take one lane width on the crossing-BRT phase.
 
 ![loop-detour](img/loop-detour.png "Three kerb-side-turns after crossing the intersection is a simple alternative to eliminate cross-traffic-turn, despite crossing intersection twice, it does not create much conclict with existing flows. Image courtesy of Elebeta.")
  
-###### Kerb-side-turn and u-turn
+###### Previous cross-turn ("previous cross")
 
-Cross-traffic-flow detour is made by means of a right turn at the crossing road, followed by a u-turn in the crossing road at a suitable location approximately one hundred meters from the major route and then cross the intersection a second time. From the main intersection capacity point of view, this alternative has no advantage over the loop as it takes away the same width as the loop in both approaches. It is suitable when the loop is not an option, because the alternative is already congested or too long that would create political problems with drivers; besides there would have to be sufficient width to accommodate the u-turn as well as length for a waiting area.
+Before reaching the main intersection, the diverted flow is allowed to cross-traffic turn in a location where there is no perpendicular crossing traffic (i.e. where previously no crossing intersection existed), the opposite straight flow has to be detained to allow this move, but it can be stopped synchronously to the main intersection. After the cross, the diverted flow follows perpendicular to the main corridor until a suitable location for a kerb-side-turn is reached; from there it will to go parallel to the original flow in direction to another intersection in the crossing road, downstream the main intersection, where it will join the flow by means of another cross-traffic flow in a two-stage traffic light (where previously no crossing existed or now has to be forbidden) also synchronized with the main intersection (figure \fignum(previous-turn)).
 
+The "previous cross" detour is the best alternative for the parallel flow to the BRT corridor that wants to cross-traffic turn on the main intersection because it definitely moves the conflict away from the most crowded intersection. But it will create serious conflict if, in the perpendicular direction of approach, kerb-side-turn is being diverted or if cross-traffic-turn is diverted by means of "kerb-side-first", so the first flow shall be redirected regular kerb-side turning at the intersection, and the second redirected to a "loop".
 
-![loop-detour](img/loop-detour.png "U-turns after crossing the intersection is an alternative to eliminate cross-traffic-turn after that demands flow to cross the intersection twice and requires width downstream. Image courtesy of Elebeta.")
+This alternative is similar in concept to the called "displaced left-turn" intersection in the US (figure \fignum(displaced-left-turn), which can be applied where width is available.
 
-###### U-turn and kerb-side-turn
+![previous-turn](img/previous-cross.jpg "It is possible to provide a two-phase coordination for detouring cross-side-turns to leave the road upstream and return downstream of the main intersection, additional synchronized traffic lights are required. Image courtesy of Elebeta.")
 
-By means of a u-turn at a median break downstream of the crossing road, followed by a right turn at the crossing road. As this movement crosses the bus lanes, undesirable conflicts may be created for the BRT system (Figure 24.8), though this configuration can be very successfully applied to BRT station access.
+![displace-left-turn](img/dlt.png "In the US, the concept of previous turn is applied in a less dense urban context by the name of 'displaced left turn' intersection. Image courtesy of Elebeta.")
 
-U-turn and queue area may me accommodated at the kerb-side instead of in the median side, as shown in figures
-\fignum(guangzhou-dongpu-uturn) and \fignum(gunagzhou-dongpu-layout) where it accommodates cross-side-turn detoured flows both the parallel and perpendicular streets: parallel doing u-turn then kerb-side, the perpendicular doing kerb-side then u-turn.
+###### Kerb-side-turn and u-turn ("kerb-u")
 
-###### kerb-side-turn, cross-traffic-turn and cross-traffic-turn
+Cross-traffic-flow detour is made by means of a kerb-side turn at the crossing road, followed by a u-turn in the crossing road at a suitable location approximately one hundred meters from the major route and then straight crossing the intersection. From the main intersection capacity point of view, this alternative has no advantage over the loop as it takes away the same width as the loop in both approaches. It is suitable when the loop is not an option, because the alternative is already congested or too long that would create political problems with car-drivers; besides there would have to be sufficient width to accommodate the u-turn as well as length for a waiting area.
 
-This detour follows along with kerb-side detour proposed through the auxiliary streets, with a kerb-side turn at the parallel  street before the intersection, followed by two successive cross-traffic-side turns. When comparing with the loop, this variation is certainly more interesting to be applied to the corridor perpendicular to the BRT, as it frees width in the its main approach to straight flow only. Still comparing with the loop for application to the parallel flow to the BRT it might be an advantage to the mixed traffic, that is not likely to benefit th BRT as it may justify reduction of proportional green time in BRT's direction.
+The u-turn traffic light shall be two-phase only, synchronized with the main intersection.
 
+![kerb-u-detour](img/kerb-u.jpg "Making an u-turn after entering, by means of kerb-side turn, the opposite way of the desiderd direction is another form to perform a cross-traffic-turn without need of a exclusive phase. This alternative requires a queueing area and uses two approaches to the intersection as well. Image courtesy of Elebeta.")
 
-###### Previous turn
+###### U-turn and kerb-side-turn ("u-kerb")
 
-Before reaching the main intersection, the flow is allowed to left turn in a location where there is no crossing traffic, so the straight flow is stopped synchronously to the main intersection. The flow follow parallel to the main corridor and turn kerb-side to go parallel to the original flow in direction to an intersection in the crossing road,downstream the main intersection, where it will join the flow by means of a two-stage traffic light (crossing from the opposite way has to be forbidden), also synchronized with the main intersection.
+Another alternative of detour is possible by means of a u-turn at a median break downstream of the crossing road, followed by a right turn at the crossing road. As this movement crosses the bus lanes, undesirable conflicts may be created for the BRT system (Figure \fignum(u-kerb)), though this configuration can be very successfully applied to BRT station access.
 
-The previous cross-traffic-turn is the best detour alternative to apply to the parallel flow to the BRT corridor that wants to turn left on the main intersection. The idea is similar to the variant of kerb-side-turn and u-turn, but definitely moving the conflict away from the intersection.
+U-turn and queue area may be accommodated at the kerb-side instead of in the median side, as shown in figures
+\fignum(side-u-kerb),\fignum(guangzhou-dongpu-uturn) and \fignum(guangzhou-dongpu-layout) where it accommodates cross-side-turn detoured flows both the parallel and perpendicular streets: parallel doing u-turn then kerb-side, the perpendicular doing kerb-side then u-turn.
 
-This alternative is similar in concept to the called "displaced left-turn" in the US (figure \fignum(displaced-left-turn), which can be applied where width is available.
+![u-kerb](img/u-kerb.jpg "U-turns after crossing the intersection is an alternative to eliminate cross-traffic-turn phase, but makes flow cross the intersection twice and requires width for queueing downstream. Image courtesy of Elebeta.")
+
+![side-u-kerb](img/u-kerb.jpg "Waiting area for u-turn can be placed closer to the kerb, instead of close to the median. Image courtesy of Elebeta.")
+
+![guangzhou-dongpu-layout](img/guangzhou-dongpu-layout.jpg "Dongpu BRT station in Guangzhou, provides at-grade station access at both ends, combined with u-turns. Design by courtesy of ITDP with GMEDRI")
+
+![guangzhou-dongpu-u-turn](img/guangzhou-u-turn.jpg "This intersection near Dongpu BRT Station in Guangzhou was previously a major traffic blackspot -- a location where traffic accidents have often occurred -- but now works very smoothly for all modes, with a two-phase signal combined with u-turns and pedestrian crossings. Photo by Karl Fjellstrom.")
 
 
 #### Diverting straight flow
