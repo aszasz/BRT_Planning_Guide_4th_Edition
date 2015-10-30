@@ -1,6 +1,6 @@
 #[Intersections and traffic signals](toc.md#toc)
 
- ## Restricting General Traffic Turning Movements
+## Restricting General Traffic Turning Movements
 
 **"No matter how many times you save the world, it always manages to get back in jeopardy again. Sometimes I just want it to stay saved! You know, for a little bit? I feel like the maid; I just cleaned up this mess! Can we keep it clean for... for ten minutes!"** - Mr. Incredible, "The Incredibles" animation movie character, 2004
 
@@ -34,7 +34,7 @@ The extreme case of reducing phases would let only one phase, which would be equ
 
 Thus eliminating intersections along the busway seems at first a good idea. For median-side busway this can be provided by simply forbidding cross-traffic, while still allowing flow from transversal street join the mixed-traffic in the corridor to the kerb-side as in figure \fignum(quito-closed-cross) providing access to the corridor.
 
-![quito-closed-cross](quito-closed-crossing.jpg "Prior to Quito’s Ecovía line, mixed-traffic vehicles were allowed to cross through this intersection as well as negotiate cross-traffic and kerb-side turns. To give priority to public transport, crossing straight  and cross-traffic turn movement have been blocked. Photo by Lloyd Wright.")
+![quito-closed-cross](img/quito-closed-crossing.jpg "Prior to Quito’s Ecovía line, mixed-traffic vehicles were allowed to cross through this intersection as well as negotiate cross-traffic and kerb-side turns. To give priority to public transport, crossing straight  and cross-traffic turn movement have been blocked. Photo by Lloyd Wright.")
 
 The flaw in adopting such extreme solution is that eliminating phases is based on diverting traffic demand for the excluded movements, so its movement can be done with other flows. Eliminating the movement (in this case, crossing the corridor) does not eliminates the demand for it; the movement has to happen somewhere else.
 
@@ -209,7 +209,7 @@ When the adjacent land use is primarily residential, there is likely to be consi
 Table \tabnum(compare-intersection-capacity) compares different configurations impacts to the overall mixed-traffic capacity of an intersection, to do so it assumes that flow rate is the same from all origins and that left and right turns each represent 25 percent of traffic movements (therefore straight represents 50 percent) and the treatment given for all approaches is the same. The relative green time for BRT assumes an additional busway in the middle lane, pedestrian only phase of 6 seconds and lost times of 4 seconds per phase
 
 | option | phases | cross-traffic location | kerb-side turns    c | capacity per lane (pcu/hour per lane) |BRT relative green time 
-|-----------|-----|----------------|-----------------|------------
+|-----------|-----|----------------|-----------------|--------|-----
 | A | 4 | at intersection | at intersection | 450 | 20%
 | B | 4 | at intersection | at intersection | 600 | 20%
 | C | 2 | u-turn and kerb-side turn | at intersection | 760 | 40%
