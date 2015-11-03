@@ -52,11 +52,11 @@ Effective pedestrian access as well as visually neutral solutions can be designe
 
 ### Restricting turning movements together with grade-separation
 
-As said in introduction to this section, unless all vehicle-intersections are eliminated from the BRT lane by the separated-grade solution, the first option is to consider grade separation infrastructure to be used by the BRT. In such cases, concern is determine if cost of separated-grade station are justified by the users of that station time-savings and can be afforded. This cost is the infrastructure and/or the time losses generated to private vehicle users that will loose a second or a third lane on the separated-grade infrastructure (and if it can be politically afforded by the project too).
+As said in introduction to this section, unless all vehicle-intersections are eliminated from the BRT lane by the separated-grade solution, the first option is to consider grade separation infrastructure to be used by the BRT. In such cases, concern is to determinate if cost of separated-grade station are justified by the users of that station time-savings and can be afforded. This cost is the infrastructure and/or the time losses generated to private vehicle users that will loose a second or a third lane on the separated-grade infrastructure (and if it can be politically afforded by the project too).
 
-A second possibility is to allow the BRT vehicles to also pass over the flyover in mixed traffic (see \secnum(Merging with mixed traffic), that will result in stations being far from the intersections. Additionally, this configuration can be particularly problematic if there is a connecting BRT corridor running on the perpendicular street below the flyover or above the underpass.  
+A second possibility is to allow the BRT vehicles to also pass over the flyover in mixed traffic (see \secnum(merging-with-mixed-traffic), that will result in stations being far from the intersections. Additionally, this configuration can be particularly problematic if there is a connecting BRT corridor running on the perpendicular street below the flyover or above the underpass.  
 
-The third possibility is when the flyover built on the road perpendicular to the BRT corridor.  In this case, the flyover does not introduce any special difficulty in relation to the (same-level) intersection already discussed and if it cannot eliminate the intersection with mixed-traffic, it can certainly alleviate the intensity and the number of conflicts, increasing the BRT green time.
+The third possibility is when the flyover is built on the road perpendicular to the BRT corridor.  In this case, the flyover does not introduce any special difficulty in relation to the (same-level) intersection already discussed and if it cannot eliminate the intersection with mixed-traffic, it can certainly alleviate the intensity and the number of conflicts, increasing the BRT green time.
 
 The last possibility is that the fly-over is let for mixed traffic alone an BRT remain on the street level. As the others don't create intersection with BRT, this fourth possibility is the only of interest for the reminder of this subsection (all four must be considered when evaluating benefits though).
 
@@ -64,14 +64,14 @@ If a single flyover in the median is built, the BRT vehicles in the median will 
 
 ![fly-over-conflict](img/fly-over-conflict.png "Schematic of Delhi roadway in which BRT vehicles must cross mixed traffic that is attempting to access a flyover. Image courtesy of Elebeta.")
 
-![fly-over-access](img/jakarta-access-flyover.png "In Senen street, TransJakarta interlaces with mixed traffic to avoid fly-over and reach station near intersection.The re-start of the bus lane is on the ground level, close to the fly-over. The flyover has two lanes and only two more are available to reach the intersection bellow it. The covered pedestrian flyover seen at the  left is a link between the inside area of stations in BRT Korridor 2 and Korridor 6 as the user cannot leave system's 'paid-areas'. Image from Google Maps.")
+![fly-over-access](img/jakarta-senen-access-flyover.png "In Senen street, TransJakarta interlaces with mixed traffic to avoid fly-over and reach station near intersection.The re-start of the bus lane is on the ground level, close to the fly-over. The flyover has two lanes and only two more are available to reach the intersection bellow it. The covered pedestrian flyover seen at the  left is a link between the inside area of stations in BRT Korridor 2 and Korridor 6 as the user cannot leave system's 'paid-areas'. Image from Google Maps.")
 
 
 If two separate access for the flyover, one for each traffic direction, are constructed, it is possible leave a space between them for the BRT system to continue along the surface as in figure \fignum(no-fly-over-conflict).
 
 ![no-fly-over-conflict](img/no-fly-over-conflict.png "Alternative design for fly-over that allow BRT vehicles proceed without conflicts to the area bellow the fly-over. Image courtesy of Elebeta.")
 
-In this configuration, the BRT will intersect the crossing street under the flyover, so we must consider the alternatives of section \secnum(Restricting mixed-traffic turns) also with the introduction of the fly-over to reduce the number of phases. We present results to BRT green times with the insertion of a grade separation infrastructure of two lanes per way (figure \fignum (fly-over-the-intersection) maintaining the assumptions in section \secnum(comparison-examples)): volumes are equal in all approaches, right and left turns each represents 25% of the demand and no u-turns (therefore 50% of traffic is straight), no pedestrian-only phases required (it is possible to cross the intersection with the given phases) and 90 seconds is still the cycle time for reference.
+In this configuration, the BRT will intersect the crossing street under the flyover, so we must consider the alternatives of section \secnum(restricting-mixed-traffic-turns) also with the introduction of the fly-over to reduce the number of phases. We present results to BRT green times with the insertion of a grade separation infrastructure of two lanes per way (figure \fignum (fly-over-the-intersection) maintaining the assumptions in section \secnum(comparison-examples)): volumes are equal in all approaches, right and left turns each represents 25% of the demand and no u-turns (therefore 50% of traffic is straight), no pedestrian-only phases required (it is possible to cross the intersection with the given phases) and 90 seconds is still the cycle time for reference.
 
 Although the flyover can cause the impression that four new lanes are created, no mid-block extra width is created (figures \fignum(fly-over-conflict)fly-over-conflict), \fignum(fly-over-access) and fignum(no-fly-over-conflict)  Eventually the intersection under the flyover can have some extra width, but usually two lanes near the median are used to place the supporting structure of the flyover, so there is in fact only two extra lanes in the intersection as a whole. The non-interrupted flow in these four lanes is the benefit that will be evaluated bellow.
 
@@ -108,10 +108,9 @@ Options where the detours are bellow the fly-over assumes that the height cleara
 
 Option A1 is fairly common with conventional bus services (as in Bangkok, figure \fignum(bangkok-flyover)) and BRTs (as in Jakarta,figure \fignum(jakarta-senen-intersection) .  Mixed traffic vehicles have access to the flyover and thus are given a substantial priority at the intersection.  By contrast, public transport vehicles servicing the intersection area are often mired in heavy congestion. There is limited benefit of using a flyover or underpass if a four-phase signal timing is maintained.  In our established scenario, the overall increase in the whole intersection capacity is quite small with the capacity only rising from 395 pcu/lane/hour to 439 pcu/lane/hour.
  
+![bangkok-flyover](img/bangkok-flyover.jpg "While mixed traffic vehicles can bypass a congested intersection in Bangkok, public transport vehicles are often consigned to serving stations near the intersection.  The result can be slow average speeds for public transport.  Photo by Lloyd Wright.")
 
-![bangkok-flyover](img/bangkok-flyover.jpg "While mixed traffic vehicles can bypass a congested intersection in Bangkok, public transport vehicles are often consigned to serving stations near the intersection.  The result can be slow average speeds for public transport.  Photo by Lloyd Wright.)
-
-![jakarta-senen-under-flyover](img/jakarta-senen-under-flyover.png "This five-leg intersection under the Senen Street flyover in Jakarta has several forbidden turns, the intersection of two BRT corridors and a four phase-signal that causes delays in both corridors and even worst to mixed traffic. Image from Google Maps.)
+![jakarta-senen-under-flyover](img/jakarta-senen-under-flyover.png "This five-leg intersection under the Senen Street flyover in Jakarta has several forbidden turns, the intersection of two BRT corridors and a four phase-signal that causes delays in both corridors and even worst to mixed traffic. Image from Google Maps.")
 
 With three phases, moving from option E to option E1  curiously adds no benefit with the use of the flyover. Even 50% of the traffic being diverted to the flyover, with the reduction of the approach parallel to the BRT from 3 to 2 lanes while 1 lane is used to cross-traffic turn, let only 1 lane to process both kerb-side turns and cross-traffic turn from the perpendicular direction results in the same relative green distribution with or without the flyover. But mixed-traffic using only 1 lane for such long phase (the same as BRT phase) reduces intersection itself overall capacity materially (71.5%). Adding the flow on the flyover (60%), results coincidentally exactly in the same overall conjunct capacity to intersection + fly over.
 
@@ -133,9 +132,9 @@ As mentioned before, any intersection, though, cannot be analysed in isolation. 
 
 ![kerb-side-detour-under-flyover](img/kerb-side-under-flyover.png "Kerb-side detour for perpendicular flows under the flyover. Image courtesy of Elebeta.")
 
-![real-kerb](img/real-kerb.png "Kerb-side detour for perpendicular flows above the flyover. Image courtesy of Elebeta.")
+![real-kerb](img/real-kerb.jpg "Kerb-side detour for perpendicular flows above the flyover. Image courtesy of Elebeta.")
 
-![real-clove](img/real-clove.png "Clove-like flyover. Image courtesy of Elebeta.")
+![real-clove](img/real-clove.jpg "Clove-like flyover. Image courtesy of Elebeta.")
 
 
 ### BRT turning with grade separated solutions
