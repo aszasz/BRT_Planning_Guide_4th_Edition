@@ -142,7 +142,7 @@ Lost time is the period between the end of the effective green of a phase and th
 
 We refer to lost time as the total lost time per cycle, but lost time can be further split in start-up and clearance to each phase, each of them being nearly 2 seconds. One can generally consider that a four-phase signalized intersection has lost time of 16 seconds, meaning that total lost time each cycle is 16 seconds.
 
-![traffic-lights-diagram](img/traffic-light-stages.png "For each approach, during effective green, flow starts at saturation until queue dissolves, off-effective-green time, or red time, there is queue formation, lost time happens when neither approach has flow." Image courtesy of Elebeta)
+![traffic-lights-diagram](img/traffic-light-stages.png "For each approach, during effective green, flow starts at saturation until queue dissolves, off-effective-green time, or red time, there is queue formation, lost time happens when neither approach has flow. Image courtesy of Elebeta.")
 
 ##### Traffic light plans
 
@@ -166,7 +166,7 @@ We look at infrastructure layouts associated with traffic-signal plan to the pea
 
 Coordination is the synchronization of several traffic lights along a path to produce a "green wave" for that route, eliminating waiting, while still keeping required/projected capacity for all flows. With proper planning, it is possible to coordinate several routes (including pedestrians and to some extent, public transport) in the same area by establishing priorities among them. Eventually routes with lower priority end up having more breaks in their green waves and some intersections will need to have irregular green times for the transversal flows (still fixed in a larger cycle measure: one long, one short, one long, one short..). 
 
-![traffic-lights-coordination](img/green-wave.png "Traffic light coordination can provide green waves to several routes by sincronizing the openning of green phases with the flow speed. Image courtesy of Elebeta")
+![traffic-lights-coordination](img/greenwave.png "Traffic light coordination can provide green waves to several routes by sincronizing the openning of green phases with the flow speed. Image courtesy of Elebeta.")
 
 ###### Detection or actuation
 
@@ -182,7 +182,7 @@ Actuation can be used in many ways, isolated or in conjunction to control traffi
 - input a central traffic control, that in turn computes several inputs to select a plan of operation;
 - input central controllers that adjust traffic signal parameters by evaluating alternative strategies for the requirements in real-time (adaptive control, among which "Split Cycle Offset Optimisation Technique" or "SCOOT model" is  a common reference). 
 
-![pedestrian-button](img/actuation-button-sao-paulo.jpg "As an example of actuation, pedestrians may 'call the controler for a service' by pressing a button as in this crossing in São Paulo. Photo by Jonas Malaco.")
+![pedestrian-button](img/actuation-button-sao-paulo.png "As an example of actuation, pedestrians may 'call the controler for a service' by pressing a button as in this crossing in São Paulo. Photo by Jonas Malaco.")
 
 ![inductance-loop](img/actuation-loop-sao-paulo.jpg " To feed São Paulo's central traffic control, vehicles metalic surfaces are detected when approaching an intersection. Photo by Arthur Szász.")
 
