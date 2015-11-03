@@ -46,7 +46,7 @@ As highlighted above and as discussed in the remainder of this section, there sh
 - prevents that bus queues at the intersection from hindering the station
 - leave width at the intersection for increase mixed-traffic capacity and turns (figure \fignum(guangzhou-single-to-double)).
 
-![guangzhou-double-to-single](img/guangzhou-single-to-double.jpg "Double to single  BRT lane transition before intersection, in Guangzhou, China. Photo by Karl Fjellstrom.")
+![guangzhou-single-single-to-double](img/guangzhou-single-to-double.jpg "Double to single  BRT lane transition before intersection, in Guangzhou, China. Photo by Karl Fjellstrom.")
 
 
 We further divide the possibility of location in relation to the intersection in "near it" and "far from it" (or "mid-block"). The aspect to be taken into consideration for this dichotomy is the passenger access to the station.
