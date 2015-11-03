@@ -1,6 +1,6 @@
 #[Intersections and traffic signals](toc.md#toc)
 
-## BRTT lanes at roundabouts
+## BRT lanes at roundabouts
 
 “So many roads. So many detours. So many choices. So many mistakes.”
 
