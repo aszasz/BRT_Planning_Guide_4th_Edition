@@ -109,5 +109,5 @@ Thus, if there are 200 articulated buses per hour in a single lane and there is 
 
 In summary, intersection delay is largely a function of red time as a share of total signal time.  If demand-to-signal-capacity level is greater than 0.65, random delay becomes significant, and the project design should be changed to give a higher proportion of green time, and/or a second BRT lane on the approach to the intersection should be considered (figure \fignum(bogota-single-to-double)).
 
-![guangzhou-double-to-single](img/guangzhou-single-to-double.jpg "Single to double lanes just before the intersection in Bogotá to assure proper capacity. Photo by Oscar Edmundo Diaz, GSD+).")
+![bogota-single-to-double](img/bogota-single-to-double-lane.jpg "Single to double lanes just before the intersection in Bogotá to assure proper capacity. Photo by Oscar Edmundo Diaz, GSD+).")
 
