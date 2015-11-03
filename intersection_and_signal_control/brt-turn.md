@@ -66,7 +66,8 @@ Signal system can be utilized to give BRT vehicles a head start on turning movem
 
 ![queue-jump](img/queue-jump.jpg "While mixed-traffic vehicles are held for an extra ten seconds at the first traffic-signal stop, BRT vehicles are given a queue-jumping head start. Technically this are eight-phases. Image adapted from TCRP.")
 
-![cape-town-queue-jump](img/queue-jump.jpg "Pre-signals for buses and normal vehicles in Cape Town, South Africa. Photo by Bruce Sutherland.")
+![cape-town-queue-jump](img/queue-jump-straight-cape-town.jpg "Pre-signals for buses, holding normal vehicles in Cape Town, South Africa, works like a queue-jump to a straight movement in a mixed traffic section. Photo by Bruce Sutherland.")
+
 
 ### BRT Turning Movements Prior to the Intersection
 
