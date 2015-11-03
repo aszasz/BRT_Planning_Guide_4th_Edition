@@ -2,7 +2,7 @@
 
 ## Integrating pedestrian and cyclist movements
 
-*"The way I see it, I can either cross the street, or I can keep waiting for another few years of green lights to go by.”*-	Camryn Manheim, actress, 1961 -
+**"The way I see it, I can either cross the street, or I can keep waiting for another few years of green lights to go by.”** - Camryn Manheim, actress, 1961 -
 
 A highly efficient intersection for mixed traffic and BRT vehicles may not be user-friendly to other street users, especially vulnerable users such as pedestrians and cyclists.  Further, the entire viability of the BRT system can be undermined if the surrounding pedestrian environment is not amenable to attracting customers to the BRT station.  This section examines design options that not only are conducive to effective vehicle movements at intersections but also options that successfully accommodate pedestrian and cyclist movements.
 
@@ -20,8 +20,8 @@ For cyclists, intersection risks often emanate from turning vehicles that threat
 
 There, are at least two mechanisms for permitting cyclists to safely navigate intersections:
 
-Infrastructure giving physical priority to cyclists and allowing them to cross prior to private vehicles; and/or,
-Dedicated signalisation for cyclists.
+- Infrastructure giving physical priority to cyclists and allowing them to cross prior to private vehicles; and/or,
+- Dedicated signalisation for cyclists.
 
 In several countries, dedicated areas located in front of the stopping line for motorised vehicles have been an effective option (figures \fignum(xian-cyclists) and \fignum(uk-bike)). The idea is to give cyclists a head start over motorised vehicles in crossing the intersection.  The cyclists are given a designated box to wait for the green signal phase. In some cases, this physical priority can be combined with a advanced green signal phase as well.
 
