@@ -28,7 +28,7 @@ In this situation, a standard intersection is converted to a roundabout with sig
 
 In cases where BRT and mixed-traffic volumes dictate that some priority must be retained for the BRT vehicles, then making the inside lanes of the roundabout exclusive to BRT can be an effective option (figure \fignum(transjakarta-roundbout)). In this case, the BRT vehicles can access the exclusive roundabout lanes either by crossing mixed-traffic lanes or by being given priority signalization. Likewise, to exit the roundabout and re-enter the principal busway, the BRT vehicle must cross mixed-traffic lanes. As with the entry to the roundabout, the BRT vehicle can either maneuver across mixed traffic to exit the roundabout, or another set of traffic signals can be used to facilitate the exit.
 
-![transjakarta-roundbout](img/transjakarta_roundabout.png "TransJakarta first corridor passes along inside of several roundabouts. Image from Google Earth.")
+![transjakarta-roundbout](img/transjakarta-roundabout.png "TransJakarta first corridor passes along inside of several roundabouts. Image from Google Earth.")
 
 ###### Exclusive busway through the middle of a roundabout:
 
