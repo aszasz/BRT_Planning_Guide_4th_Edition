@@ -8,16 +8,17 @@ While service plan simplification and organization may to an extent minimize tur
 
 The costs of not allowing turning movements by BRT vehicles are quite evident, especially in terms of customer convenience. Quito’s three BRT corridors (Trolé, Ecovía, Metrobus-Q) all operate as independent corridors, despite each intersecting one another at several points in the city. At one of the critical intersections between two intersecting BRT corridors in Bogotá (Caracas and Jimenez), customers must transfer by negotiating passages through stairs and an underground tunnel (Figures \fignum(bogota-walking-tunnel) and \fignum(bogota-stairs)). In both these examples, allowing turning movements by the BRT vehicles could have permitted simpler and more convenient platform transfers for the customer. Furthermore, constructing connecting pedestrian tunnels can add much to the overall infrastructure costs of the system. This is copying the bad parts of rail systems. In the Bogotá situation, customer convenience has been significantly increased by allowing turn movements and direct transfers between the Caracas and Jimenez corridors. 
 
-[bogota-walking-tunnel](img/bogota-walking-tunnel "A tunnel is used to connect two intersecting corridors in Bogotá. Even connection is good, walking times could be prevented if routes shift from one corridor to another.Photo by Lloyd Wright.")
+[bogota-walking-tunnel](img/bogota-walking-tunnel.jpg "A tunnel is used to connect two intersecting corridors in Bogotá. Even connection is good, walking times could be prevented if routes shift from one corridor to another.Photo by Lloyd Wright.")
 
 [bogota-stairs](img/bogota-stairs.jpg "Separated-grade walking connections provide safety and limited convenience. Walking transfers provide physical hardship". Photo by Lloyd Wright;")
 
 There are several solutions to allow BRT vehicles turning that avoid consuming much of intersection capacity – mostly needed for cars in that intersection – and the appropriate solutions will depend on the budget available, right-of-way available, the number of vehicles in the BRT system and their turning volumes, and the level of mixed traffic and its turning volumes. The optimal solution will be location specific and it is recommended that each intersection be evaluated and optimized separately. We present common options for busway turning movements:
+
 1. Dedicated turning lanes and additional signal phases for BRT vehicles;
 2. BRT vehicles operating in mixed traffic turning lanes;
 3. BRT turning movements prior to the intersection;
-4. Transform the crossing in a roundabout.
-5. Grade separation 
+4. Transform the crossing in a roundabout;
+5. Grade separation (discussed at section \sectionnum(grade-separation)).
 
 ### Dedicated Turning Lanes and Additional Signal Phases for BRT vehicles
 
@@ -37,8 +38,6 @@ In this scenario, one could technically also allow cross-traffic-turn movements 
 
 If the turning BRT vehicle frequencies are low enough, the BRT only short phase can accommodate both right and left turns from one direction as BRT vehicle's drivers can negotiate entrance in the other corridor. That would avoid the need of two waiting lanes for turns.
 
-![brt-turning-three-signal-phases-negotiated](img/brt-turning-four-signal-phases.3ed9.32-negotiated.png "To have only one waiting-to-turn BRT lane and allow all movements, drivers need to negotiate in a four stage-traffic signal. Diagram courtesy of ITDP.")
-
 The complexity of dedicated turning lanes obviously increases as turning options for both BRT vehicles and mixed-traffic vehicles increase. In the extreme of permitting all BRT turning options and all mixed-traffic turning options, then a total of six traffic-signal phases would be required (figure \fignum(brt-turn-six-phases-negotiated)).This number of phases clearly holds disadvantages in terms of waiting times for both BRT and mixed traffic-movements and reduces capacity of the intersection so drastically -- besides requiring 4 lanes 4 BRT and likely 6 to mixed traffic -- that is very likely to be unfeasible in a location where two important corridors cross each other.
 
 ![brt-turn-six-phases-negotiated](img/brt-turn-six-phases-3ed9.33.png " To permit a full range of both BRT and mixed-traffic turning movements, a total of six signal phases would be required. Diagram courtesy of ITDP.")
@@ -54,7 +53,7 @@ In this scenario, all turning BRT vehicles must leave the dedicated busway and e
 
 This technique is the most common solution that has been used in many of the “open” BRT systems like in Kunming, China, and is being planned on several “direct services” BRT systems (figure \fignum(kunming-turn). If there is no physical separation of the busway, the merge with the mixed traffic can happen anywhere in the proceeding block.  If there is physical separation, it must occur at the previous intersection, or a slip lane must be provided. 
 
-![kunming-turn](img/kunming-turn.png "In Kunming, turning BRT vehicles leave the busway and enter a mixed-traffic lane to finalise the turning movement.  Photo courtesy of ITDP.")
+![kunming-turn](img/kunming-turn.jpg "In Kunming, turning BRT vehicles leave the busway and enter a mixed-traffic lane to finalise the turning movement.  Photo courtesy of ITDP.")
 
 From a signal phase standpoint, this option is the easiest to implement, as it does not require changing the signal phase, and does not require any major new infrastructure. However, this option does present serious disadvantages in terms of congestion delay for the turning BRT vehicles, not to mention the assumed inefficiency of four-stages to mixed traffic. Further, if the mixed-traffic congestion is heavy, the BRT vehicles attempting to turn may not be able to readily leave the busway, and thus can cause delays to all BRT vehicles, even those vehicles continuing in a straight routing.  The BRT vehicle turning right has particular challenges since it must essentially cross all mixed-traffic lanes both before and after the intersection.  Attempting these lane changes is particularly difficult if the system is using 18.5-metre articulated vehicles or 24-metre bi-articulated vehicles.
 
