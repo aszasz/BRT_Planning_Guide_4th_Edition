@@ -2,9 +2,7 @@
 
 ## BRT lanes at roundabouts
 
-“So many roads. So many detours. So many choices. So many mistakes.”
-
-	- 	Sarah Jessica Parker, actress, 1965 -
+**"So many roads. So many detours. So many choices. So many mistakes."** - Sarah Jessica Parker, actress, 1965 -
 
 Intersections with roundabouts can create considerable uncertainty for the busway system. If the BRT vehicle must cross several lanes of mixed traffic within a heavily congested roundabout, the BRT vehicle may be hindered from proceeding.
 
