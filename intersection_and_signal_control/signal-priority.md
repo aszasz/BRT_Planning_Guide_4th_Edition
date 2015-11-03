@@ -6,7 +6,7 @@
 
 Signal priority for BRT vehicles is the adjustment of traffic signals to give priority to a corridor with a BRT system over a corridor without one, and to give priority to the BRT system over mixed traffic within the same corridor. Once equipment and techniques were developed to do this in a responsive way after the detection of BRT vehicles approaching an intersection, the expression "active signal priority" became the way to indicate this advance. Since then "passive signal priority" is used to let clear that such detection technology is not being applied.
 
-![bus-only-traffic-light](img/active-priority-signal.jpg "Active signal priority for BRT and restricted turning movements for mixed traffic vehicles can do much to improve public transport travel times. Photo by Lloyd Wright.")
+![bus-only-traffic-light](img/active-priority-bus-signal.jpg "Active signal priority for BRT and restricted turning movements for mixed traffic vehicles can do much to improve public transport travel times. Photo by Lloyd Wright.")
 
 ### Passive signal priority
 
@@ -47,6 +47,7 @@ At an even higher level of sophistication, the priority phasing can be based on 
 The application of signal priority, both passive and active can be seen at sections
 
 [Queue jumping](BRT-turning.md)
+
 [Merging with mixed traffic](merge.md)
 
 
