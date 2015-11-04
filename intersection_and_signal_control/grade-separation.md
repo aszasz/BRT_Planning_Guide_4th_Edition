@@ -132,9 +132,9 @@ As mentioned before, an intersection cannot be analysed in isolation.  Optimum r
 
 ![kerb-side-detour-under-flyover](img/kerb-side-under-flyover.png "Kerb-side detour for perpendicular flows under the flyover. Image courtesy of Elebeta.")
 
-![real-kerb](img/real-kerb.jpg "Kerb-side detour for perpendicular flows above the flyover. Image courtesy of Elebeta.")
+![real-kerb](img/real-kerb.png "Kerb-side detour for perpendicular flows above the flyover. Image courtesy of Elebeta.")
 
-![real-clove](img/real-clove.jpg "Clove-like flyover. Image courtesy of Elebeta.")
+![real-clove](img/real-clove.png "Clove-like flyover. Image courtesy of Elebeta.")
 
 
 ### BRT turning with grade separated solutions
