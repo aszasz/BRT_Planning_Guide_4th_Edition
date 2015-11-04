@@ -37,7 +37,7 @@ Both the Brisbane and Ottawa BRT systems site stations at the tunnel level.  In 
 
 ![Ottawa-station-inside-tunnel](img/ottawa-station.jpg "A station placed inside the tunnel in Ottawa provide access and weather protection. Photo by Lloyd Wright.")
 
-![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location.jpg "BRT Quito's Vila Flora roundabout traffic with underpasses. Image from Google Earth.")
+![quito-under-roundabout-good-station-location](img/quito-under-roundabout-good-station-location.jpg "BRT Quito's Villa Flora roundabout traffic with underpasses. Image from Google Earth.")
 
 Effective pedestrian access as well as visually neutral solutions can be designed. For TransMilenio Phase II’s “Avenida Boyacá” station along the Avenida Suba Corridor, the adopted solution was to locate the station above Avenida Boyacá, level with the flyover. Pedestrians access the platform via an elevator from a small pedestrian plaza where fares are collected. This solution allowed for the strategic location of this station, which will make future transfer points on the projected Av. Boyacá closer from each other. Ultimately, the implementation of solutions of this sort will depend on budgetary constraints.
 
@@ -156,7 +156,7 @@ Bogotá utilises grade separation both to provide dedicated turning infrastructu
 
 Construct a busway underpass that goes below the roundabout and avoids all conflicts with mixed traffic -- and thus promoting time savings for both BRT and mixed traffic -- is also a possibility, as the examples from Quito with good and bad station locations shows (Figure quito-under-roundabout-bad-station-location and Figure quito-under-roundabout-good-station).
 
-![villa-flora-roundabout](img/villa-flora-quito-top.png "Quito's BRT avoids Vila Flora roundabout traffic with underpasses. Image from Google Earth.")
+![villa-flora-roundabout](img/villa-flora-quito-top.png "Quito's BRT avoids Villa Flora roundabout traffic with underpasses. Image from Google Earth.")
 
 A fly-over is also a possibility, but the design of an aesthetically acceptable solution is very challenging. With the exception of the superlative third floor roundabout above mixed-traffic roundabout of Bogotá mentioned in the previous section, there is no other project we have heard of.
 
