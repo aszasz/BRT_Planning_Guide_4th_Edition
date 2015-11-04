@@ -31,5 +31,5 @@ In several countries, dedicated areas located in front of the stopping line for 
 
 A schematic of the bicycle priority measures utilised in Xi’an is given in figure \fignum(xian-bike-movements) for each of the two signal phases.
 
-![xian-bike-movements](img/xian-bike-move-3ed9.25.png "Schematic of the dedicated waiting area utilised for bicycles wishing to make cross-traffic turns in Xi’an.")
+![xian-bike-movements](img/xian-bike-move-3ed9.25-edit.png "Schematic of the dedicated waiting area utilised for bicycles wishing to make cross-traffic turns in Xi’an.")
 
