@@ -7,16 +7,16 @@
 
 The overall capacity of the intersection is given by the sum of the capacity of each approaching lane. By its turn, the capacity of each approaching lane is given by the sum of saturation flow of the lane multiplied by the sum of relative green times of the phases the lane is active.
 
-No matter how many phases there is on the traffic light, the sum of relative green for all vehicular phases with relative lost time is constant (if there was no pedestrian phases, it would be equal 1). The initial step to programming traffic lights is divide this fixed amount among the phases. With the general assumptions that a movement not allowed during a given phase will block a lane and that the saturation flow per lane is the same (for turning it can be lower): for any given signalized intersection, if a phase is removed (therefore the movements of that phase) and the green time and approaches for the movements of the removed phase are incorporated into another phase the overall capacity of the intersection will necessarily increase.
+No matter how many phases there is on the traffic light, the sum of relative green for all vehicular phases with relative lost time is constant (if there was no pedestrian phases, it would be equal 1). The initial step to programming traffic lights is to divide this fixed amount among the phases. With the general assumptions that a movement not allowed during a given phase will block a lane and that the saturation flow per lane is the same (for turning it can be lower): for any given signalized intersection, if a phase is removed (therefore the movements of that phase) and the green time and approaches for the movements of the removed phase are included into another phase (both in the same phase), the overall capacity of the intersection will necessarily increase.
 
-This is empirically clear for a relatively balanced intersection, a larger number of phases in a traffic light means waiting longer and having a lower share of green time.
+This is empirically clear for a user arriving in a balanced intersection, a larger number of phases in a traffic light means waiting longer and having a lower share of green time.
 
-Of course it is not interesting to create capacity for movements without demand, the following subsections will discuss alternatives to divert traffic in order to increase capacity by eliminating phases. We will see that in some cases, intersection capacity still is increased even if the demand for eliminated movements, namely cross-traffic turns are forced to pass over the intersection twice.
+Of course it is not interesting to create capacity for movements without demand, the following subsections will discuss alternatives to divert traffic in order to increase capacity by eliminating phases. We will see that in some cases, intersection capacity still is increased even if the demand for some eliminated movements, namely cross-traffic turns, are forced to pass over the intersection twice.
 
-Widening the intersection can be of great assistance, it alone rarely can achieve the same benefits of reducing phases from four to two. If widening is possible, it shall be done in order to help reducing the number of phases to two or together with it. In a relatively normal situation where turning volumes are large enough to the point that after the intersection the straight flow can fit in one lane less than before the intersection (as the idea discussed in section \sectionnumnamem(minimum-mixed-traffic-number-of-lanes away-from-the-intersection-that-does-not-affect-segment-capacity), it is possible to narrow the exiting section, allowing the entrance section of the opposite way to be broader (figures \fignum(narrow-downstream) and \fignum(narrow-downstream-cape-town)); the extra width can be useful for mixed-traffic enhancing mixed-traffic capacity or to allow BRT turning movements where required (see section sectionnum(allowing-brt-turns)).
+Widening the intersection can be of great assistance, it alone rarely can achieve the same benefits of reducing phases from four to two. If widening is possible, it shall be done in order to help reducing the number of phases to two or together with it. In a relatively normal situation where turning volumes are large enough to the point that after the intersection the straight flow can fit in one lane less than before the intersection (as the idea discussed in section \sectionnumnamem(minimum-mixed-traffic-number-of-lanes away-from-the-intersection-that-does-not-affect-segment-capacity), it is possible to narrow the exiting section, allowing the entrance section of the opposite way to be broader (figures \fignum(narrow-downstream) and \fignum(narrow-downstream-cape-town)); the extra width can be useful for mixed-traffic enhancing mixed-traffic capacity or to allow BRT turning movements where required (see section \sectionnum(allowing-brt-turns)).
 
 ![narrow-downstream](img/narrow-downstream.png " Exchanging width between entrance and exit sections where turning volumes are high enough to allow it can improve capacity meaningfully. Image courtesy of Elebeta")
-![narrow-downstream-cape-town](img/cape-town-four-stage-narrow-exit.jpg " Cape town standard four-phased intersection with cross-traffic-turn waiting area using width of the opposite way narrowed. Photo by Bruce Sutherland")
+![narrow-downstream-cape-town](img/cape-town-four-stage-narrow-exit.jpg " Cape town's standard four-phased intersection with cross-traffic-turn waiting area using width of the opposite way narrowed. Photo by Bruce Sutherland")
 
 \startbox(narrowing-lanes)
 
@@ -41,7 +41,7 @@ Thus eliminating intersections along the busway seems at first a good idea. For 
 
 The flaw in adopting such extreme solution is that eliminating phases is based on diverting traffic demand for the excluded movements, so its movement can be done with other flows. Eliminating the movement (in this case, crossing the corridor) does not eliminates the demand for it; the movement has to happen somewhere else.
 
-This measure indistinctly applied will reduce accessibility and concentrate demand in few locations (figure \fignum(permeability)). Before eliminating an intersection, it is necessary to understand which alternatives paths the demand will use to cross the corridor and compare the impacts of both situations: if the volumes are low or if the alternatives will not cause more delay to the BRT then it is really a good idea eliminate the intersection.
+This measure indistinctly applied will reduce accessibility and concentrate crossing demand in few locations (figure \fignum(permeability)). Before eliminating an intersection, it is necessary to understand which alternatives paths the demand will use to cross the corridor and compare the impacts of both situations: if the volumes are low or if the alternatives will not cause more delay to the BRT then it is really a good idea eliminate the intersection.
 
 Eventually, creating new intersections, to split conflicting volume of one intersection into several is the needed strategy to increase green times for the BRT.
 
@@ -49,9 +49,9 @@ Eventually, creating new intersections, to split conflicting volume of one inter
 
 If there are no stations in the surrounding, then BRT vehicles can pass through several intersections at once if a synchronised signal system is used (see sections \sectionnumname(coordination) and \sectionnumname(passive-signal-priority)), however, when there is stations between intersections, the BRT vehicle will pass through the green phase at the first intersection and then stop at the station for passenger boarding and alighting. By the time the vehicle resumes movement towards the second intersection the signal phase may have changed to red (figure \fignum(BRT-fail-synchro)).
 
-![BRT-fail-synchro](img/BRT-fail-synchro.png "Coordination for mixed-traffic does not sot applies to BRT corridor when there is station between intersections. If the green time of green wave has the same magnitude of total dwell time at stations, the effect can be particularly harmfull, as it increases the chances that BRT arrival at intersection be during the red time.")
+![BRT-fail-synchro](img/BRT-fail-synchro.png "Coordination for mixed-traffic does not help BRT corridor when there is station between intersections. If the green time of the green wave has the same magnitude of total dwell time at stations, the effect can be particularly harmfull, as it increases the chances that BRT arrival at an intersection after a station will be during the red time.")
 
-But when intersections are too close together in order to optimise the station location relative to them, an assessment has to be made in terms of how important the station location is for boarding and alighting passengers against the detour forced to mixed traffic to close the station and hindering the whole BRT system due to interference between the station and the intersection. There are three options:
+But when intersections are too close together, in order to optimise the station location relative to them, an assessment has to be made in terms of how important the station location is for boarding and alighting passengers against the detour forced to mixed traffic to close the station and against hindering the whole BRT system due to interference between the station and the intersection. There are three options:
 
 1. Close one of the intersections: generating mixed-traffic detour time and higher cross volumes in other points that may impact the BRT corridor as well;
 2. Transfer or remove the station: generating walking time for BRT users of that station;
@@ -266,7 +266,7 @@ To compare the effects of alternative schemes for phase reduction, we will consi
 |E| 90| 3| -| -| detour| kerb-first| \fignum(detour-kerb-first)| 43| 496| 496| 567
 |F| 90| 2| -| loop| detour| kerb-first| \fignum(loop-detour)| 51| 819| 716| 819
 |G| 90| 2| -| Previous-turn| detour| loop| \fignum(previous-turn)| 47| 819| 702| 936
-|H| 90| 2| -| -| -| loop| | 41| 819| 716| 819
+|H| 90| 2| -| Previous-turn| -| loop| | 41| 819| 716| 819
 |I| 90| 2| detour| kerb-first| detour| kerb-first| | 41| 819| 819| 1092
 |J| 90| 2| -| loop| -| loop| | 41| 819| 655| 655
 |K| 90| 2| detour| loop| detour| loop| “clove like”| 41| 819| 614| 819
